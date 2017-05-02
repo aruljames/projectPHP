@@ -1,7 +1,23 @@
 <?php
 
-/** Check if environment is development and display errors **/
+/* Toget the action url */
+function get_action_path(){
+	$script_name = explode('/',$_SERVER['SCRIPT_NAME']);
+	$index_index = count($script_name);
+	$index_name = $script_name[$index_index-1];
+	unset($script_name[$index_index-1]);
+	$script_name = implode('/',$script_name);
+	$request_url = ltrim($_SERVER['REQUEST_URI'],$script_name);
+	$request_url = implode('/',array_filter(explode('/',ltrim($request_url,$index_name))));
+	$rejecct_list=array('?','&');
+	if(in_array(substr(trim($request_url),0,1),$rejecct_list) || trim($request_url)==''){
+		return array('index','index');
+	}else{
+		return explode('/',$request_url);
+	}
+}
 
+/** Check if environment is development and display errors **/
 function setReporting() {
 if (DEVELOPMENT_ENVIRONMENT == true) {
 	error_reporting(E_ALL);
@@ -47,8 +63,8 @@ function unregisterGlobals() {
 /** Main Call Function **/
 
 function callHook() {
-	global $url;
-
+	$url = get_action_path();
+	print_r($url);exit;
 	$urlArray = array();
 	$urlArray = explode("/",$url);
 
