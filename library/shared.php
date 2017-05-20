@@ -13,7 +13,11 @@ function get_action_path(){
 	if(in_array(substr(trim($request_url),0,1),$rejecct_list) || trim($request_url)==''){
 		return array('index','index');
 	}else{
-		return explode('/',$request_url);
+		$request_url = explode('/',$request_url);
+		if(sizeof($request_url) < 2){
+			$request_url[]='index';
+		}
+		return $request_url;
 	}
 }
 
