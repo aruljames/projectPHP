@@ -8,12 +8,14 @@ function get_action_path(){
 	unset($script_name[$index_index-1]);
 	$script_name = implode('/',$script_name);
 	$request_url = ltrim($_SERVER['REQUEST_URI'],$script_name);
-	$request_url = implode('/',array_filter(explode('/',ltrim($request_url,$index_name))));
+	if (substr($request_url, 0, strlen($index_name)) == $index_name) {
+		$request_url = substr($request_url, strlen($index_name));
+	}
 	$rejecct_list=array('?','&');
 	if(in_array(substr(trim($request_url),0,1),$rejecct_list) || trim($request_url)==''){
 		return array('index','index');
 	}else{
-		$request_url = explode('/',$request_url);
+		$request_url = array_filter(explode('/',$request_url));
 		if(sizeof($request_url) < 2){
 			$request_url[]='index';
 		}
