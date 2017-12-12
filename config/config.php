@@ -1,11 +1,6 @@
 <?php
+/** Environment Setup **/
 
-/** Configuration Variables **/
-
-define ('DEVELOPMENT_ENVIRONMENT',true);
-
-define('DB_NAME', 'yourdatabasename');
-define('DB_USER', 'yourusername');
-define('DB_PASSWORD', 'yourpassword');
-define('DB_HOST', 'localhost');
+define ('ENV','local');
 $protocol = stripos($_SERVER['SERVER_PROTOCOL'],'https') === true ? 'https://' : 'http://';
+define ('HTTP_PROTOCOL',$protocol);

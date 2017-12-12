@@ -1,8 +1,8 @@
 <?php
-namespace front\model\home;
+namespace front\model\index;
 use system\front\Model;
 class Home extends Model {
 	function sample(){
-		return "<br> Data From home home Model";
+		//return "<br> Data From index home Model";
 	}
 }

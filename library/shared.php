@@ -1,58 +1,43 @@
 <?php
 
+function setEnvoronment($environment){
+    $filePath = ROOT . DS . 'config' . DS . 'env' . DS . $environment . '.php';
+    require_once($filePath);return;
+}
+
+
 /* Toget the action url */
 function get_action_path(){
-	$path_info="";
+	$pathInfo="";
 	if(isset($_SERVER['PATH_INFO'])){
-		$path_info=$_SERVER['PATH_INFO'];
+		$pathInfo=$_SERVER['PATH_INFO'];
 	}else if(isset($_SERVER['REDIRECT_URL'])){
-		$project_path = substr($_SERVER['SCRIPT_NAME'],0,0-(strlen("index.php")));
-		$path_info = substr($_SERVER['REDIRECT_URL'], strlen($project_path));
+		$projectPath = substr($_SERVER['SCRIPT_NAME'],0,0-(strlen("index.php")));
+		$pathInfo = substr($_SERVER['REDIRECT_URL'], strlen($projectPath));
 	}else{
-		$path_info = "index/index/index";
+		$pathInfo = "index/index/index";
 	}
-	$path_info = array_filter(explode('/',strtolower($path_info)));
-	if(sizeof($path_info) < 3){
-		$path_info[]='index';
-		$path_info[]='index';
-	}else if(sizeof($path_info) < 2){
-		$path_info[]='index';
+	$pathInfo = array_filter(explode('/',strtolower($pathInfo)));
+	if(sizeof($pathInfo) < 3){
+		$pathInfo[]='index';
+		$pathInfo[]='index';
+	}else if(sizeof($pathInfo) < 2){
+		$pathInfo[]='index';
 	}
-	return array_values($path_info);
-	
-	
-	/*$script_name = explode('/',$_SERVER['SCRIPT_NAME']);
-	$index_index = count($script_name);
-	$index_name = $script_name[$index_index-1];
-	unset($script_name[$index_index-1]);
-	$script_name = implode('/',$script_name);
-	$request_url = ltrim($_SERVER['REQUEST_URI'],$script_name);
-	if (substr($request_url, 0, strlen($index_name)) == $index_name) {
-		$request_url = substr($request_url, strlen($index_name));
-	}
-	$rejecct_list=array('?','&');
-	if(in_array(substr(trim($request_url),0,1),$rejecct_list) || trim($request_url)==''){
-		return array('index','index');
-	}else{
-		$request_url = array_filter(explode('/',$request_url));
-		if(sizeof($request_url) < 2){
-			$request_url[]='index';
-		}
-		return $request_url;
-	}*/
+	return array_values($pathInfo);
 }
 
 /** Check if environment is development and display errors **/
 function setReporting() {
-if (DEVELOPMENT_ENVIRONMENT == true) {
-	error_reporting(E_ALL);
-	ini_set('display_errors','On');
-} else {
-	error_reporting(E_ALL);
-	ini_set('display_errors','Off');
-	ini_set('log_errors', 'On');
-	ini_set('error_log', ROOT.DS.'tmp'.DS.'logs'.DS.'error.log');
-}
+    if (ENABLE_LOG == true) {
+    	error_reporting(E_ALL);
+    	ini_set('display_errors','On');
+    } else {
+    	error_reporting(E_ALL);
+    	ini_set('display_errors','Off');
+    }
+    ini_set('log_errors', 'On');
+    ini_set('error_log', ROOT . DS . 'var' . DS . 'logs' . DS . 'system.log');
 }
 
 /** Check for Magic Quotes and remove them **/
@@ -88,19 +73,28 @@ function unregisterGlobals() {
 /** Main Call Function **/
 
 function callHook() {
+	$codeBase = 'front';
 	$urlArray = get_action_path();
 	$page = $urlArray[0];
 	array_shift($urlArray);
-	$controller_name = $urlArray[0];
+	if($page == strtolower(ADMIN_URL_PATH)){
+		$codeBase = 'admin';
+		$page = $urlArray[0];
+		array_shift($urlArray);
+		if(sizeof($urlArray) < 2){
+			$urlArray[]='index';
+		}
+	}
+	$controllerName = $urlArray[0];
 	array_shift($urlArray);
-	$action_name = $urlArray[0];
+	$actionName = $urlArray[0];
 	array_shift($urlArray);
 	$queryString[] = $urlArray;
 
-	$controller = ucwords($controller_name).'Controller';
-	$action = $action_name.'Action';
-	$_className = 'front\\controller\\'.$page.'\\'.$controller;
-	$dispatch = new $_className($page,$controller_name,$action_name);
+	$controller = ucwords($controllerName).'Controller';
+	$action = $actionName.'Action';
+	$_className = $codeBase.'\\controller\\'.$page.'\\'.$controller;
+	$dispatch = new $_className($page,$controllerName,$actionName);
 
 	if ((int)method_exists($_className, $action)) {
 		call_user_func_array(array($dispatch,$action),$queryString);
@@ -113,26 +107,28 @@ function callHook() {
 
 function __autoload($className) {
 	$nSpaceSplit = explode("\\",$className);
-	$code_root = $nSpaceSplit[0];
-	if($code_root != "system"){
+	$codeRoot = $nSpaceSplit[0];
+	if($codeRoot != "system"){
 		array_shift($nSpaceSplit);
 		$className = implode(DS,$nSpaceSplit);
 		$codePools = array('default');
 		foreach($codePools as $codePool){
-			$file_path = ROOT . DS . 'app' . DS . 'code' . DS . $code_root . DS . $codePool . DS . $className . '.php';
-			//echo $file_path."<br>";
-			if (file_exists($file_path)) {
-				require_once($file_path);return;
+			$filePath = ROOT . DS . 'app' . DS . 'code' . DS . $codeRoot . DS . $codePool . DS . $className . '.php';
+			//echo $filePath."<br>";
+			if (file_exists($filePath)) {
+				require_once($filePath);return;
 			}
 		}
 	}else{
-		$file_path = ROOT . DS . 'library' . DS . $className . '.php';
-		if (file_exists($file_path)) {
-			require_once($file_path);return;
+	    $className = implode(DS,$nSpaceSplit);
+		$filePath = ROOT . DS . 'library' . DS . $className . '.php';
+		if (file_exists($filePath)) {
+			require_once($filePath);return;
 		}
 	}
 }
 
+setEnvoronment(ENV);
 setReporting();
 removeMagicQuotes();
 unregisterGlobals();
