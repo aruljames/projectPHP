@@ -99,11 +99,16 @@ class Template {
 			}
 		}
     }
-    
+    function printPage($pathInfo = null,$data = array()){
+        if($pathInfo){
+            callHook(getActionPath($pathInfo),$data);
+        }else{
+            echo "";
+        }
+    }
     function __get($name){
         if (array_key_exists($name, $this->variables)) {
             return $this->variables[$name];
         }
     }
-
 }

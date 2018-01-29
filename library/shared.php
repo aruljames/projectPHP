@@ -1,22 +1,22 @@
 <?php
 
-function setEnvoronment($environment){
-    $filePath = ROOT . DS . 'config' . DS . 'env' . DS . $environment . '.php';
-    require_once($filePath);return;
-}
+$filePath = ROOT . DS . 'config' . DS . 'env' . DS . ENV . '.php';
+require_once($filePath);
+PPHP::system();
 
 
 /* Toget the action url */
-function get_action_path(){
-	$pathInfo="";
-	if(isset($_SERVER['PATH_INFO'])){
-		$pathInfo=$_SERVER['PATH_INFO'];
-	}else if(isset($_SERVER['REDIRECT_URL'])){
-		$projectPath = substr($_SERVER['SCRIPT_NAME'],0,0-(strlen("index.php")));
-		$pathInfo = substr($_SERVER['REDIRECT_URL'], strlen($projectPath));
-	}else{
-		$pathInfo = "index/index/index";
-	}
+function getActionPath($pathInfo = null){
+    if($pathInfo == null){
+    	if(isset($_SERVER['PATH_INFO'])){
+    		$pathInfo=$_SERVER['PATH_INFO'];
+    	}else if(isset($_SERVER['REDIRECT_URL'])){
+    		$projectPath = substr($_SERVER['SCRIPT_NAME'],0,0-(strlen("index.php")));
+    		$pathInfo = substr($_SERVER['REDIRECT_URL'], strlen($projectPath));
+    	}else{
+    		$pathInfo = "index/index/index";
+    	}
+    }
 	$pathInfo = array_filter(explode('/',strtolower($pathInfo)));
 	if(sizeof($pathInfo) < 3){
 		$pathInfo[]='index';
@@ -72,9 +72,10 @@ function unregisterGlobals() {
 
 /** Main Call Function **/
 
-function callHook() {
+function callHook($urlArray = null,$data=array()) {
 	$codeBase = 'front';
-	$urlArray = get_action_path();
+	if($urlArray == null)
+	   $urlArray = getActionPath();
 	$page = $urlArray[0];
 	array_shift($urlArray);
 	if($page == strtolower(ADMIN_URL_PATH)){
@@ -89,15 +90,14 @@ function callHook() {
 	array_shift($urlArray);
 	$actionName = $urlArray[0];
 	array_shift($urlArray);
-	$queryString[] = $urlArray;
-
+	$queryString[] = array_merge($urlArray,$data);
 	$controller = ucwords($controllerName).'Controller';
 	$action = $actionName.'Action';
 	$_className = $codeBase.'\\controller\\'.$page.'\\'.$controller;
 	$dispatch = new $_className($page,$controllerName,$actionName);
 
 	if ((int)method_exists($_className, $action)) {
-		call_user_func_array(array($dispatch,$action),$queryString);
+	    call_user_func_array(array($dispatch,$action),$queryString);
 	} else {
 		/* Error Generation Code Here */
 	}
@@ -108,7 +108,12 @@ function callHook() {
 function __autoload($className) {
 	$nSpaceSplit = explode("\\",$className);
 	$codeRoot = $nSpaceSplit[0];
-	if($codeRoot != "system"){
+	if($codeRoot == "PPHP"){
+	    $filePath = ROOT . DS . 'library' . DS . 'system' . DS . $className . '.php';
+	    if (file_exists($filePath)) {
+	        require_once($filePath);return;
+	    }
+	}else if($codeRoot != "system"){
 		array_shift($nSpaceSplit);
 		$className = implode(DS,$nSpaceSplit);
 		$codePools = array('default');
@@ -128,7 +133,6 @@ function __autoload($className) {
 	}
 }
 
-setEnvoronment(ENV);
 setReporting();
 removeMagicQuotes();
 unregisterGlobals();

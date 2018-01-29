@@ -36,21 +36,37 @@ class Controller {
 		$this ->_controller = $_controller;
 		$this ->_action = $_action;
 	}
-
+// Functions to set data in memory start///
 	function set($name,$value) {
+	    if(!is_object($this ->_template)){
+	        $this->createTemplate();
+	    }
 		$this->_template->set($name,$value);
 	}
-	function loadModel($model_name = null){
-		if(!$model_name = trim($model_name)){
-			$model_name = $this ->_controller;
+	function setData($name,$value) {
+	    if(!is_object($this ->_template)){
+	        $this->createTemplate();
+	    }
+	    $this->_template->set($name,$value);
+	}
+	function __set($name, $value) {
+	    if(!is_object($this ->_template)){
+	        $this->createTemplate();
+	    }
+	    $this->_template->set($name,$value);
+	}
+	// Functions to set data in memory end///
+	function loadModel($modelName = null){
+		if(!$modelName = trim($modelName)){
+			$modelName = $this ->_controller;
 		}
-		$model_array = explode("\\",$model_name);
-		if(sizeof($model_array)==1){
-			$model_class = 'front\\model\\'.$this ->_page.'\\'.$model_name;
+		$modelArray = explode("\\",$modelName);
+		if(sizeof($modelArray)==1){
+			$modelClass = 'front\\model\\'.$this ->_page.'\\'.$modelName;
 		}else{
-			$model_class = 'front\\model\\'.$model_name;
+			$modelClass = 'front\\model\\'.$modelName;
 		}
-		$model = new $model_class;
+		$model = new $modelClass;
 		return $model;
 	}
 	
@@ -58,29 +74,29 @@ class Controller {
 	    $this ->_template = new \system\front\Template($this ->_page,$this ->_controller,$this ->_action);
 	}
 	
-	function renderPage($full_page=true){
-		$controller_info["page"] = $this ->_page;
-		$controller_info["controller"] = $this ->_controller;
-		$controller_info["action"] = $this ->_action;
-		$controller_info["data"] = $this ->_variables;
-		$controller_infos[]=$controller_info;
+	function renderPage($fullPage=true){
+		$controllerInfo["page"] = $this ->_page;
+		$controllerInfo["controller"] = $this ->_controller;
+		$controllerInfo["action"] = $this ->_action;
+		$controllerInfo["data"] = $this ->_variables;
+		$controllerInfos[]=$controllerInfo;
 		$template = "";
-		if($full_page && $this ->_head_flag){
-		    $template .= $this->getPageHtml($this ->_head,'html','head',$this ->_head_action,$controller_infos);
+		if($fullPage && $this ->_headFlag){
+		    $template .= $this->getPageHtml($this ->_head,'html','head',$this ->_headAction,$controllerInfos);
 		}
-		if($full_page && $this ->_header_flag){
-		    $template .= $this->getPageHtml($this ->_header,'html','header',$this ->_header_action,$controller_infos);
+		if($fullPage && $this ->_headerFlag){
+		    $template .= $this->getPageHtml($this ->_header,'html','header',$this ->_headerAction,$controllerInfos);
 		}
 		ob_start();
 		$this->renderPageOnly();
 		$body = ob_get_contents();
 		ob_end_clean();
 		$template .= $body;
-		if($full_page && $this ->_head_flag){
-		    $template .= $this->getPageHtml($this ->_foot,'html','foot',$this ->_foot_action,$controller_infos);
+		if($fullPage && $this ->_headFlag){
+		    $template .= $this->getPageHtml($this ->_foot,'html','foot',$this ->_footAction,$controllerInfos);
 		}
-		if($full_page && $this ->_header_flag){
-		    $template .= $this->getPageHtml($this ->_footer,'html','footer',$this ->_footer_action,$controller_infos);
+		if($fullPage && $this ->_headerFlag){
+		    $template .= $this->getPageHtml($this ->_footer,'html','footer',$this ->_footerAction,$controllerInfos);
 		}
 		print $template;
 	}
@@ -92,21 +108,15 @@ class Controller {
 		$this->_template->render();
 	}
 	
-	function getPageHtml($controller_name,$page='index',$class='index',$action='index',$data=array()){
+	function getPageHtml($controllerName,$page='index',$class='index',$action='index',$data=array()){
 	    ob_start();
-	    $_className = 'front\\controller\\'.$controller_name;
+	    $_className = 'front\\controller\\'.$controllerName;
 	    $dispatch = new $_className($page,$class,$action);
 	    call_user_func_array(array($dispatch,$action),$data);
 	    $contents = ob_get_contents();
 	    ob_end_clean();
 	    return $contents;
 	}
-	
-	function renderLayout($layoutName=null){
-	    
-	    
-	}
-
 	function __destruct() {
 			
 	}

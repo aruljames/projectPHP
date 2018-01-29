@@ -2,6 +2,6 @@
 namespace front\controller\index;
 class Home{
 	function indexAction(){
-		//echo "<br> Home Class";
+		echo "<br> Home Class";
 	}
 }

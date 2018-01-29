@@ -1,0 +1,10 @@
+[16-Dec-2017 19:39:28 Europe/Berlin] PHP Fatal error:  Uncaught Error: Function name must be a string in C:\xampp\htdocs\Projects\PHP\projectPHP\app\design\front\default\index\index\Index.php:10
+Stack trace:
+#0 C:\xampp\htdocs\Projects\PHP\projectPHP\library\system\front\Template.php(98): include()
+#1 C:\xampp\htdocs\Projects\PHP\projectPHP\library\system\front\Controller.php(108): system\front\Template->render()
+#2 C:\xampp\htdocs\Projects\PHP\projectPHP\library\system\front\Controller.php(91): system\front\Controller->renderPageOnly()
+#3 C:\xampp\htdocs\Projects\PHP\projectPHP\app\code\front\default\controller\index\IndexController.php(13): system\front\Controller->renderPage()
+#4 C:\xampp\htdocs\Projects\PHP\projectPHP\library\shared.php(102): front\controller\index\IndexController->indexAction(Array)
+#5 C:\xampp\htdocs\Projects\PHP\projectPHP\library\shared.php(137): callHook()
+#6 C:\xampp\htdocs\Projects\PHP\projectPHP\library\bootstrap.php(4): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\Projects\PHP\projectPHP\index.php(4): require_once('C:\\xam in C:\xampp\htdocs\Projects\PHP\projectPHP\app\design\front\default\index\index\Index.php on line 10

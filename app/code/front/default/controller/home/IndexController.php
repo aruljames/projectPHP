@@ -1,8 +1,9 @@
 <?php
-namespace front\index;
-use system\front as system;
-class HomeController extends system\Controller{ //extends Controller
-	function indexAction(){
-		echo "<br> Index Controller";
+namespace front\controller\home;
+use system\front\Controller;
+class indexController extends Controller{ //extends Controller
+	function indexAction($data){
+		print_r($data);
+		echo "<br> Home Index Controller";
 	}
 }
