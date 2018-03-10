@@ -1,10 +1,182 @@
-[16-Dec-2017 19:39:28 Europe/Berlin] PHP Fatal error:  Uncaught Error: Function name must be a string in C:\xampp\htdocs\Projects\PHP\projectPHP\app\design\front\default\index\index\Index.php:10
+[23-Feb-2018 06:54:20 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class 'system\front\PPHP' not found in C:\xampp\htdocs\Projects\PHP\projectPHP\library\system\front\Controller.php:35
 Stack trace:
-#0 C:\xampp\htdocs\Projects\PHP\projectPHP\library\system\front\Template.php(98): include()
-#1 C:\xampp\htdocs\Projects\PHP\projectPHP\library\system\front\Controller.php(108): system\front\Template->render()
-#2 C:\xampp\htdocs\Projects\PHP\projectPHP\library\system\front\Controller.php(91): system\front\Controller->renderPageOnly()
-#3 C:\xampp\htdocs\Projects\PHP\projectPHP\app\code\front\default\controller\index\IndexController.php(13): system\front\Controller->renderPage()
-#4 C:\xampp\htdocs\Projects\PHP\projectPHP\library\shared.php(102): front\controller\index\IndexController->indexAction(Array)
-#5 C:\xampp\htdocs\Projects\PHP\projectPHP\library\shared.php(137): callHook()
-#6 C:\xampp\htdocs\Projects\PHP\projectPHP\library\bootstrap.php(4): require_once('C:\\xampp\\htdocs...')
-#7 C:\xampp\htdocs\Projects\PHP\projectPHP\index.php(4): require_once('C:\\xam in C:\xampp\htdocs\Projects\PHP\projectPHP\app\design\front\default\index\index\Index.php on line 10
+#0 C:\xampp\htdocs\Projects\PHP\projectPHP\library\shared.php(100): system\front\Controller->__construct('index', 'index', 'index')
+#1 C:\xampp\htdocs\Projects\PHP\projectPHP\library\shared.php(142): callHook()
+#2 C:\xampp\htdocs\Projects\PHP\projectPHP\library\bootstrap.php(4): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Projects\PHP\projectPHP\index.php(4): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\Projects\PHP\projectPHP\library\system\front\Controller.php on line 35
+[23-Feb-2018 06:54:21 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class 'system\front\PPHP' not found in C:\xampp\htdocs\Projects\PHP\projectPHP\library\system\front\Controller.php:35
+Stack trace:
+#0 C:\xampp\htdocs\Projects\PHP\projectPHP\library\shared.php(100): system\front\Controller->__construct('index', 'index', 'index')
+#1 C:\xampp\htdocs\Projects\PHP\projectPHP\library\shared.php(142): callHook()
+#2 C:\xampp\htdocs\Projects\PHP\projectPHP\library\bootstrap.php(4): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Projects\PHP\projectPHP\index.php(4): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\Projects\PHP\projectPHP\library\system\front\Controller.php on line 35
+[23-Feb-2018 06:54:21 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class 'system\front\PPHP' not found in C:\xampp\htdocs\Projects\PHP\projectPHP\library\system\front\Controller.php:35
+Stack trace:
+#0 C:\xampp\htdocs\Projects\PHP\projectPHP\library\shared.php(100): system\front\Controller->__construct('index', 'index', 'index')
+#1 C:\xampp\htdocs\Projects\PHP\projectPHP\library\shared.php(142): callHook()
+#2 C:\xampp\htdocs\Projects\PHP\projectPHP\library\bootstrap.php(4): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Projects\PHP\projectPHP\index.php(4): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\Projects\PHP\projectPHP\library\system\front\Controller.php on line 35
+[23-Feb-2018 07:05:33 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class 'system\front\PPHP' not found in C:\xampp\htdocs\Projects\PHP\projectPHP\library\system\front\Controller.php:35
+Stack trace:
+#0 C:\xampp\htdocs\Projects\PHP\projectPHP\library\shared.php(100): system\front\Controller->__construct('index', 'index', 'index')
+#1 C:\xampp\htdocs\Projects\PHP\projectPHP\library\shared.php(142): callHook()
+#2 C:\xampp\htdocs\Projects\PHP\projectPHP\library\bootstrap.php(4): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Projects\PHP\projectPHP\index.php(4): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\Projects\PHP\projectPHP\library\system\front\Controller.php on line 35
+[23-Feb-2018 07:06:42 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class 'system\front\PPHP' not found in C:\xampp\htdocs\Projects\PHP\projectPHP\library\system\front\Controller.php:35
+Stack trace:
+#0 C:\xampp\htdocs\Projects\PHP\projectPHP\library\shared.php(100): system\front\Controller->__construct('index', 'index', 'index')
+#1 C:\xampp\htdocs\Projects\PHP\projectPHP\library\shared.php(143): callHook()
+#2 C:\xampp\htdocs\Projects\PHP\projectPHP\library\bootstrap.php(4): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Projects\PHP\projectPHP\index.php(4): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\Projects\PHP\projectPHP\library\system\front\Controller.php on line 35
+[23-Feb-2018 07:07:13 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class 'system\front\PPHP' not found in C:\xampp\htdocs\Projects\PHP\projectPHP\library\system\front\Controller.php:35
+Stack trace:
+#0 C:\xampp\htdocs\Projects\PHP\projectPHP\library\shared.php(100): system\front\Controller->__construct('index', 'index', 'index')
+#1 C:\xampp\htdocs\Projects\PHP\projectPHP\library\shared.php(143): callHook()
+#2 C:\xampp\htdocs\Projects\PHP\projectPHP\library\bootstrap.php(4): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Projects\PHP\projectPHP\index.php(4): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\Projects\PHP\projectPHP\library\system\front\Controller.php on line 35
+[23-Feb-2018 07:07:23 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class 'system\front\PPHP' not found in C:\xampp\htdocs\Projects\PHP\projectPHP\library\system\front\Controller.php:35
+Stack trace:
+#0 C:\xampp\htdocs\Projects\PHP\projectPHP\library\shared.php(100): system\front\Controller->__construct('index', 'index', 'index')
+#1 C:\xampp\htdocs\Projects\PHP\projectPHP\library\shared.php(144): callHook()
+#2 C:\xampp\htdocs\Projects\PHP\projectPHP\library\bootstrap.php(4): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Projects\PHP\projectPHP\index.php(4): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\Projects\PHP\projectPHP\library\system\front\Controller.php on line 35
+[23-Feb-2018 07:07:48 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class 'system\front\PPHP' not found in C:\xampp\htdocs\Projects\PHP\projectPHP\library\system\front\Controller.php:35
+Stack trace:
+#0 C:\xampp\htdocs\Projects\PHP\projectPHP\library\shared.php(100): system\front\Controller->__construct('index', 'index', 'index')
+#1 C:\xampp\htdocs\Projects\PHP\projectPHP\library\shared.php(144): callHook()
+#2 C:\xampp\htdocs\Projects\PHP\projectPHP\library\bootstrap.php(4): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Projects\PHP\projectPHP\index.php(4): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\Projects\PHP\projectPHP\library\system\front\Controller.php on line 35
+[23-Feb-2018 07:08:59 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class 'system\front\PPHP' not found in C:\xampp\htdocs\Projects\PHP\projectPHP\library\system\front\Controller.php:35
+Stack trace:
+#0 C:\xampp\htdocs\Projects\PHP\projectPHP\library\shared.php(100): system\front\Controller->__construct('index', 'index', 'index')
+#1 C:\xampp\htdocs\Projects\PHP\projectPHP\library\shared.php(142): callHook()
+#2 C:\xampp\htdocs\Projects\PHP\projectPHP\library\bootstrap.php(4): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Projects\PHP\projectPHP\index.php(4): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\Projects\PHP\projectPHP\library\system\front\Controller.php on line 35
+[23-Feb-2018 07:09:09 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class 'system\front\PPHP' not found in C:\xampp\htdocs\Projects\PHP\projectPHP\library\system\front\Controller.php:35
+Stack trace:
+#0 C:\xampp\htdocs\Projects\PHP\projectPHP\library\shared.php(100): system\front\Controller->__construct('index', 'index', 'index')
+#1 C:\xampp\htdocs\Projects\PHP\projectPHP\library\shared.php(142): callHook()
+#2 C:\xampp\htdocs\Projects\PHP\projectPHP\library\bootstrap.php(4): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Projects\PHP\projectPHP\index.php(4): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\Projects\PHP\projectPHP\library\system\front\Controller.php on line 35
+[23-Feb-2018 07:09:54 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class 'system\front\PPHP' not found in C:\xampp\htdocs\Projects\PHP\projectPHP\library\system\front\Controller.php:35
+Stack trace:
+#0 C:\xampp\htdocs\Projects\PHP\projectPHP\library\shared.php(100): system\front\Controller->__construct('index', 'index', 'index')
+#1 C:\xampp\htdocs\Projects\PHP\projectPHP\library\shared.php(142): callHook()
+#2 C:\xampp\htdocs\Projects\PHP\projectPHP\library\bootstrap.php(4): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Projects\PHP\projectPHP\index.php(4): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\Projects\PHP\projectPHP\library\system\front\Controller.php on line 35
+[23-Feb-2018 07:10:11 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class 'system\front\PPHP' not found in C:\xampp\htdocs\Projects\PHP\projectPHP\library\system\front\Controller.php:35
+Stack trace:
+#0 C:\xampp\htdocs\Projects\PHP\projectPHP\library\shared.php(100): system\front\Controller->__construct('index', 'index', 'index')
+#1 C:\xampp\htdocs\Projects\PHP\projectPHP\library\shared.php(142): callHook()
+#2 C:\xampp\htdocs\Projects\PHP\projectPHP\library\bootstrap.php(4): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Projects\PHP\projectPHP\index.php(4): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\Projects\PHP\projectPHP\library\system\front\Controller.php on line 35
+[23-Feb-2018 07:20:09 Europe/Berlin] PHP Parse error:  syntax error, unexpected '\' (T_NS_SEPARATOR) in C:\xampp\htdocs\Projects\PHP\projectPHP\library\system\front\Controller.php on line 36
+[23-Feb-2018 07:27:42 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method front\controller\index\IndexController::layout() in C:\xampp\htdocs\Projects\PHP\projectPHP\app\code\front\default\controller\index\IndexController.php:6
+Stack trace:
+#0 C:\xampp\htdocs\Projects\PHP\projectPHP\library\shared.php(98): front\controller\index\IndexController->indexAction(Array)
+#1 C:\xampp\htdocs\Projects\PHP\projectPHP\library\shared.php(137): callHook()
+#2 C:\xampp\htdocs\Projects\PHP\projectPHP\library\bootstrap.php(4): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Projects\PHP\projectPHP\index.php(4): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\Projects\PHP\projectPHP\app\code\front\default\controller\index\IndexController.php on line 6
+[23-Feb-2018 07:43:38 Europe/Berlin] PHP Notice:  Undefined variable: _page in C:\xampp\htdocs\Projects\PHP\projectPHP\library\system\front\Template.php on line 16
+[23-Feb-2018 07:43:38 Europe/Berlin] PHP Notice:  Undefined variable: _controller in C:\xampp\htdocs\Projects\PHP\projectPHP\library\system\front\Template.php on line 16
+[23-Feb-2018 07:43:38 Europe/Berlin] PHP Notice:  Undefined variable: _action in C:\xampp\htdocs\Projects\PHP\projectPHP\library\system\front\Template.php on line 16
+[23-Feb-2018 07:43:38 Europe/Berlin] PHP Notice:  Undefined variable: _page in C:\xampp\htdocs\Projects\PHP\projectPHP\library\system\front\Template.php on line 16
+[23-Feb-2018 07:43:38 Europe/Berlin] PHP Notice:  Undefined variable: _controller in C:\xampp\htdocs\Projects\PHP\projectPHP\library\system\front\Template.php on line 16
+[23-Feb-2018 07:43:38 Europe/Berlin] PHP Notice:  Undefined variable: _action in C:\xampp\htdocs\Projects\PHP\projectPHP\library\system\front\Template.php on line 16
+[23-Feb-2018 08:11:07 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\Projects\PHP\projectPHP\library\system\front\Template.php on line 155
+[23-Feb-2018 08:11:07 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\Projects\PHP\projectPHP\library\system\front\Template.php on line 155
+[23-Feb-2018 08:11:07 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\Projects\PHP\projectPHP\library\system\front\Template.php on line 155
+[23-Feb-2018 08:12:17 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\Projects\PHP\projectPHP\library\system\front\Template.php on line 156
+[23-Feb-2018 08:12:17 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\Projects\PHP\projectPHP\library\system\front\Template.php on line 156
+[23-Feb-2018 08:12:17 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\Projects\PHP\projectPHP\library\system\front\Template.php on line 156
+[23-Feb-2018 10:13:26 Europe/Berlin] PHP Parse error:  syntax error, unexpected 'getBlock' (T_STRING), expecting variable (T_VARIABLE) or '$' in C:\xampp\htdocs\Projects\PHP\projectPHP\library\system\front\Template.php on line 150
+[23-Feb-2018 10:20:39 Europe/Berlin] PHP Notice:  Trying to get property of non-object in C:\xampp\htdocs\Projects\PHP\projectPHP\app\design\front\default\layout\default.php on line 3
+[23-Feb-2018 10:20:52 Europe/Berlin] PHP Notice:  Undefined property: system\admin\Core::$toHtml in C:\xampp\htdocs\Projects\PHP\projectPHP\app\design\front\default\layout\default.php on line 3
+[23-Feb-2018 10:21:08 Europe/Berlin] PHP Notice:  Undefined property: system\admin\Block::$toHtml in C:\xampp\htdocs\Projects\PHP\projectPHP\app\design\front\default\layout\default.php on line 3
+[23-Feb-2018 10:22:17 Europe/Berlin] PHP Notice:  Undefined property: system\admin\Block::$toHtml in C:\xampp\htdocs\Projects\PHP\projectPHP\app\design\front\default\layout\default.php on line 3
+[23-Feb-2018 10:22:17 Europe/Berlin] PHP Notice:  Undefined property: system\admin\Block::$toHtml in C:\xampp\htdocs\Projects\PHP\projectPHP\app\design\front\default\layout\default.php on line 3
+[23-Feb-2018 10:22:18 Europe/Berlin] PHP Notice:  Undefined property: system\admin\Block::$toHtml in C:\xampp\htdocs\Projects\PHP\projectPHP\app\design\front\default\layout\default.php on line 3
+[23-Feb-2018 10:22:53 Europe/Berlin] PHP Notice:  Undefined property: system\admin\Block::$toHtml in C:\xampp\htdocs\Projects\PHP\projectPHP\app\design\front\default\layout\default.php on line 3
+[23-Feb-2018 10:23:49 Europe/Berlin] PHP Notice:  Undefined property: system\admin\Block::$toHtml in C:\xampp\htdocs\Projects\PHP\projectPHP\app\design\front\default\layout\default.php on line 3
+[23-Feb-2018 10:30:37 Europe/Berlin] PHP Notice:  Undefined index: class in C:\xampp\htdocs\Projects\PHP\projectPHP\library\system\admin\Block.php on line 10
+[23-Feb-2018 10:30:45 Europe/Berlin] PHP Notice:  Undefined index: class in C:\xampp\htdocs\Projects\PHP\projectPHP\library\system\admin\Block.php on line 10
+[23-Feb-2018 11:10:56 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function renderLayout() on array in C:\xampp\htdocs\Projects\PHP\projectPHP\app\code\front\default\controller\index\IndexController.php:9
+Stack trace:
+#0 C:\xampp\htdocs\Projects\PHP\projectPHP\library\shared.php(98): front\controller\index\IndexController->indexAction(Array)
+#1 C:\xampp\htdocs\Projects\PHP\projectPHP\library\shared.php(137): callHook()
+#2 C:\xampp\htdocs\Projects\PHP\projectPHP\library\bootstrap.php(4): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Projects\PHP\projectPHP\index.php(4): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\Projects\PHP\projectPHP\app\code\front\default\controller\index\IndexController.php on line 9
+[23-Feb-2018 11:13:29 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method system\admin\Block::printTemplate() in C:\xampp\htdocs\Projects\PHP\projectPHP\app\design\front\default\template\index\index\Index.php:3
+Stack trace:
+#0 C:\xampp\htdocs\Projects\PHP\projectPHP\library\system\admin\Block.php(30): include()
+#1 C:\xampp\htdocs\Projects\PHP\projectPHP\library\system\front\Template.php(150): system\admin\Block->__construct(Array)
+#2 C:\xampp\htdocs\Projects\PHP\projectPHP\app\design\front\default\layout\default.php(3): system\front\Template->__call('header', Array)
+#3 C:\xampp\htdocs\Projects\PHP\projectPHP\library\system\front\Template.php(129): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\Projects\PHP\projectPHP\app\code\front\default\controller\index\IndexController.php(9): system\front\Template->renderLayout()
+#5 C:\xampp\htdocs\Projects\PHP\projectPHP\library\shared.php(98): front\controller\index\IndexController->indexAction(Array)
+#6 C:\xampp\htdocs\Projects\PHP\projectPHP\library\shared.php(137): callHook()
+#7 C:\xampp\htdocs\ in C:\xampp\htdocs\Projects\PHP\projectPHP\app\design\front\default\template\index\index\Index.php on line 3
+[23-Feb-2018 11:14:33 Europe/Berlin] PHP Notice:  Undefined property: system\admin\Block::$name in C:\xampp\htdocs\Projects\PHP\projectPHP\app\design\front\default\template\index\index\Index.php on line 5
+[23-Feb-2018 11:14:33 Europe/Berlin] PHP Notice:  Undefined property: system\admin\Block::$age in C:\xampp\htdocs\Projects\PHP\projectPHP\app\design\front\default\template\index\index\Index.php on line 7
+[23-Feb-2018 11:14:33 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method system\admin\Block::printPage() in C:\xampp\htdocs\Projects\PHP\projectPHP\app\design\front\default\template\index\index\Index.php:10
+Stack trace:
+#0 C:\xampp\htdocs\Projects\PHP\projectPHP\library\system\admin\Block.php(30): include()
+#1 C:\xampp\htdocs\Projects\PHP\projectPHP\library\system\front\Template.php(150): system\admin\Block->__construct(Array)
+#2 C:\xampp\htdocs\Projects\PHP\projectPHP\app\design\front\default\layout\default.php(3): system\front\Template->__call('header', Array)
+#3 C:\xampp\htdocs\Projects\PHP\projectPHP\library\system\front\Template.php(129): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\Projects\PHP\projectPHP\app\code\front\default\controller\index\IndexController.php(9): system\front\Template->renderLayout()
+#5 C:\xampp\htdocs\Projects\PHP\projectPHP\library\shared.php(98): front\controller\index\IndexController->indexAction(Array)
+#6 C:\xampp\htdocs\Projects\PHP\projectPHP\library\shared.php(137): callHook()
+#7 C:\xampp\htdocs\Pro in C:\xampp\htdocs\Projects\PHP\projectPHP\app\design\front\default\template\index\index\Index.php on line 10
+[23-Feb-2018 11:14:34 Europe/Berlin] PHP Notice:  Undefined property: system\admin\Block::$name in C:\xampp\htdocs\Projects\PHP\projectPHP\app\design\front\default\template\index\index\Index.php on line 5
+[23-Feb-2018 11:14:34 Europe/Berlin] PHP Notice:  Undefined property: system\admin\Block::$age in C:\xampp\htdocs\Projects\PHP\projectPHP\app\design\front\default\template\index\index\Index.php on line 7
+[23-Feb-2018 11:14:34 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method system\admin\Block::printPage() in C:\xampp\htdocs\Projects\PHP\projectPHP\app\design\front\default\template\index\index\Index.php:10
+Stack trace:
+#0 C:\xampp\htdocs\Projects\PHP\projectPHP\library\system\admin\Block.php(30): include()
+#1 C:\xampp\htdocs\Projects\PHP\projectPHP\library\system\front\Template.php(150): system\admin\Block->__construct(Array)
+#2 C:\xampp\htdocs\Projects\PHP\projectPHP\app\design\front\default\layout\default.php(3): system\front\Template->__call('header', Array)
+#3 C:\xampp\htdocs\Projects\PHP\projectPHP\library\system\front\Template.php(129): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\Projects\PHP\projectPHP\app\code\front\default\controller\index\IndexController.php(9): system\front\Template->renderLayout()
+#5 C:\xampp\htdocs\Projects\PHP\projectPHP\library\shared.php(98): front\controller\index\IndexController->indexAction(Array)
+#6 C:\xampp\htdocs\Projects\PHP\projectPHP\library\shared.php(137): callHook()
+#7 C:\xampp\htdocs\Pro in C:\xampp\htdocs\Projects\PHP\projectPHP\app\design\front\default\template\index\index\Index.php on line 10
+[23-Feb-2018 11:14:34 Europe/Berlin] PHP Notice:  Undefined property: system\admin\Block::$name in C:\xampp\htdocs\Projects\PHP\projectPHP\app\design\front\default\template\index\index\Index.php on line 5
+[23-Feb-2018 11:14:34 Europe/Berlin] PHP Notice:  Undefined property: system\admin\Block::$age in C:\xampp\htdocs\Projects\PHP\projectPHP\app\design\front\default\template\index\index\Index.php on line 7
+[23-Feb-2018 11:14:34 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method system\admin\Block::printPage() in C:\xampp\htdocs\Projects\PHP\projectPHP\app\design\front\default\template\index\index\Index.php:10
+Stack trace:
+#0 C:\xampp\htdocs\Projects\PHP\projectPHP\library\system\admin\Block.php(30): include()
+#1 C:\xampp\htdocs\Projects\PHP\projectPHP\library\system\front\Template.php(150): system\admin\Block->__construct(Array)
+#2 C:\xampp\htdocs\Projects\PHP\projectPHP\app\design\front\default\layout\default.php(3): system\front\Template->__call('header', Array)
+#3 C:\xampp\htdocs\Projects\PHP\projectPHP\library\system\front\Template.php(129): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\Projects\PHP\projectPHP\app\code\front\default\controller\index\IndexController.php(9): system\front\Template->renderLayout()
+#5 C:\xampp\htdocs\Projects\PHP\projectPHP\library\shared.php(98): front\controller\index\IndexController->indexAction(Array)
+#6 C:\xampp\htdocs\Projects\PHP\projectPHP\library\shared.php(137): callHook()
+#7 C:\xampp\htdocs\Pro in C:\xampp\htdocs\Projects\PHP\projectPHP\app\design\front\default\template\index\index\Index.php on line 10

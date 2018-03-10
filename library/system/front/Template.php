@@ -3,18 +3,17 @@ namespace system\front;
 class Template {
 
 	protected $variables = array();
+	protected $blocks = array();
 	protected $_page;
 	protected $_controller;
 	protected $_action;
 	protected $_template_path;
 
-	function __construct($_page,$_controller,$_action) {
-		$this->_page = $_page;
-		$this->_controller = $_controller;
-		$this->_action = $_action;
-		$this->_template_path = $_page.'\\'.$_controller.'\\'.$_action;
-		
-		//echo "<br>".$this->_page. " " . $_controller ." Template";
+	function __construct($layout = 'default') {
+	    $this->_page = \PPHP::session('core')->page;
+	    $this->_controller = \PPHP::session('core')->controller;
+	    $this->_action = \PPHP::session('core')->action;
+	    $this->_template_path = $this->_page.'\\'.$this->_controller.'\\'.$this->_action;
 	}
 
 	/** Set Variables **/
@@ -61,14 +60,18 @@ class Template {
 	        $template_path_array = array_filter($input_template_array);
 	    }
 	    $template_path = implode("\\", $template_path_array);
-	    if($this->_template_path != $template_path){
+	    /*if($this->_template_path != $template_path){
             ob_start();
             $this->render($template_path,$data);
             $template = ob_get_contents();
             ob_end_clean();
 	    }else{
 	        $template = "";
-	    }
+	    }*/
+	    ob_start();
+	    $this->render($template_path,$data);
+	    $template = ob_get_contents();
+	    ob_end_clean();
         return $template;
 	}
 	
@@ -85,14 +88,14 @@ class Template {
 		//extract($this->variables);
 		$codePools = array('default');
 		foreach($codePools as $codePool){
-		    $file_path = ROOT . DS . 'app' . DS . 'code' . DS . 'front' . DS . $codePool . DS . 'view' . DS . $template_path . '.php';
+		    $file_path = ROOT . DS . 'app' . DS . 'code' . DS . 'front' . DS . $codePool . DS . 'view' . DS . 'template' . DS . $template_path . '.php';
 			//echo $file_path."<br>";
 			if (file_exists($file_path)) {
 				include($file_path);return;
 			}
 		}
 		foreach($codePools as $codePool){
-		    $file_path = ROOT . DS . 'app' . DS . 'design' . DS . 'front' . DS . $codePool . DS . $template_path . '.php';
+		    $file_path = ROOT . DS . 'app' . DS . 'design' . DS . 'front' . DS . $codePool . DS . 'template' . DS . $template_path . '.php';
 			//echo $file_path."<br>";
 			if (file_exists($file_path)) {
 				include($file_path);return;
@@ -106,9 +109,46 @@ class Template {
             echo "";
         }
     }
+    
+    function renderLayout($layout='default'){
+        if(!isset($this->blocks['pageBody'])){
+            //$this->blocks['pageBody'] = $this->getTemplate();
+        }
+        $codePools = array('default');
+        foreach($codePools as $codePool){
+            $file_path = ROOT . DS . 'app' . DS . 'code' . DS . 'front' . DS . $codePool . DS . 'view' . DS . 'layout' . DS . $layout . '.php';
+            //echo $file_path."<br>";
+            if (file_exists($file_path)) {
+                include($file_path);return;
+            }
+        }
+        foreach($codePools as $codePool){
+            $file_path = ROOT . DS . 'app' . DS . 'design' . DS . 'front' . DS . $codePool . DS . 'layout' . DS . $layout . '.php';
+            //echo $file_path."<br>";
+            if (file_exists($file_path)) {
+                include($file_path);return;
+            }
+        }
+    }
+    
+    function setBlock($block = 'default',$data = ''){
+        $this->blocks[$block] = $data;
+    }
+    
     function __get($name){
         if (array_key_exists($name, $this->variables)) {
             return $this->variables[$name];
         }
+    }
+    function __set($name,$value) {
+        $this->variables[$name] = $value;
+    }
+    function __call($method,$data=null){
+        if(is_array($data) && isset($data[0])){
+            $this->blocks[$method] = $data[0];
+        }else if (array_key_exists($method, $this->blocks)){
+            return new \system\admin\Block($this->blocks[$method]);
+        }
+        return $this;
     }
 }

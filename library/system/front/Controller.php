@@ -32,9 +32,22 @@ class Controller {
 	    if(!$_action){
 	        $_action = "index";
 	    }
+	    \PPHP::session('core')->page= $_page;
+	    \PPHP::session('core')->controller= $_controller;
+	    \PPHP::session('core')->action= $_action;
 		$this ->_page = $_page;
 		$this ->_controller = $_controller;
 		$this ->_action = $_action;
+		$this->createTemplate();
+	}
+	public function createTemplate($layout = 'default'){
+	    $this ->_template = new \system\front\Template($layout);
+	}
+	public function layout($layout = 'default'){
+	    if(!is_object($this ->_template)){
+	        $this->createTemplate($layout);
+	    }
+	    return $this->_template;
 	}
 // Functions to set data in memory start///
 	function set($name,$value) {
@@ -68,10 +81,6 @@ class Controller {
 		}
 		$model = new $modelClass;
 		return $model;
-	}
-	
-	function createTemplate(){
-	    $this ->_template = new \system\front\Template($this ->_page,$this ->_controller,$this ->_action);
 	}
 	
 	function renderPage($fullPage=true){
@@ -117,6 +126,18 @@ class Controller {
 	    ob_end_clean();
 	    return $contents;
 	}
+	
+	function renderLayout($layout='default'){
+	    if(!is_object($this ->_template)){
+	        $this->createTemplate();
+	    }
+	    $this->_template->renderLayout($layout);
+	}
+	
+	function setBlock($block = 'default',$data = ''){
+	    $this->_template->setBlock($block,$data);
+	}
+	
 	function __destruct() {
 			
 	}

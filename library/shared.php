@@ -2,8 +2,6 @@
 
 $filePath = ROOT . DS . 'config' . DS . 'env' . DS . ENV . '.php';
 require_once($filePath);
-PPHP::system();
-
 
 /* Toget the action url */
 function getActionPath($pathInfo = null){
@@ -108,7 +106,7 @@ function callHook($urlArray = null,$data=array()) {
 function __autoload($className) {
 	$nSpaceSplit = explode("\\",$className);
 	$codeRoot = $nSpaceSplit[0];
-	if($codeRoot == "PPHP"){
+	if(in_array('PPHP', $nSpaceSplit)){
 	    $filePath = ROOT . DS . 'library' . DS . 'system' . DS . $className . '.php';
 	    if (file_exists($filePath)) {
 	        require_once($filePath);return;
