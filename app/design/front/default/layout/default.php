@@ -1,5 +1,6 @@
 <html>
 <head>
+<?php $this->getBlock('head')->toHtml(); ?>
 <?php $this->header()->toHtml(); ?>
 </head>
 <body>

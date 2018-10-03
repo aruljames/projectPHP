@@ -1,0 +1,11 @@
+{
+    "name": "aruljames/projectphp",
+    "description": "This is my test project",
+    "authors": [
+        {
+            "name": "ArulJames",
+            "email": "jamesjadme@gmail.com"
+        }
+    ],
+    "require": {}
+}

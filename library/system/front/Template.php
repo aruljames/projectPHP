@@ -8,12 +8,29 @@ class Template {
 	protected $_controller;
 	protected $_action;
 	protected $_template_path;
+	protected $_headInformation;
+	protected $_headerInformation;
+	protected $_footInformation;
+	protected $_footerInformation;
+
 
 	function __construct($layout = 'default') {
 	    $this->_page = \PPHP::session('core')->page;
 	    $this->_controller = \PPHP::session('core')->controller;
 	    $this->_action = \PPHP::session('core')->action;
-	    $this->_template_path = $this->_page.'\\'.$this->_controller.'\\'.$this->_action;
+		$this->_template_path = $this->_page.'\\'.$this->_controller.'\\'.$this->_action;
+		$_headInformation['model'] =  'html/head';
+		$_headInformation['template'] =  'html/head';
+		$this->_headInformation = $_headInformation;
+		$_headerInformation['model'] =  'html/header';
+		$_headerInformation['template'] =  'html/header';
+		$this->_headerInformation = $_headerInformation;
+		$_footInformation['model'] =  'html/foot';
+		$_footInformation['template'] =  'html/foot';
+		$this->_footInformation = $_footInformation;
+		$_footerInformation['model'] =  'html/footer';
+		$_footerInformation['template'] =  'html/footer';
+		$this->_footerInformation = $_footerInformation;
 	}
 
 	/** Set Variables **/
