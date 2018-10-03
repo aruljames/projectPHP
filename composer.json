@@ -7,5 +7,6 @@
             "email": "jamesjadme@gmail.com"
         }
     ],
+    "minimum-stability": "dev",
     "require": {}
 }
