@@ -1,5 +1,5 @@
 <?php
-namespace system\admin;
+namespace system\front;
 class Block {
     protected $_blockData;
     protected $_blockname;
@@ -9,13 +9,13 @@ class Block {
     protected $_template_path;
     protected $_model = null;
     protected $_template = null;
+    protected $_modelData = null;
     
     function __construct($block='content') {
         $this->_page = \PPHP::session('core')->page;
         $this->_controller = \PPHP::session('core')->controller;
         $this->_action = \PPHP::session('core')->action;
         $this->_blockname = $block;
-        $this->_template_path = $this->_page.'\\'.$this->_controller.'\\'.$this->_action;
 	    if(is_array($block) && !empty($block)){
 	        if(isset($block['class'])){
 	            
@@ -48,6 +48,11 @@ class Block {
 	
 	public function setTemplate($template){
 		$this->_template = $template;
+		$template = array_filter(explode('/',$template));
+		foreach($template as $template){
+			$templatePathArray[] = $template;
+		}
+		$this->_template_path = implode(DS,$templatePathArray);
 		return $this;
 	}
 	
@@ -57,14 +62,33 @@ class Block {
 	
 	public function getHtml(){
 		if($this->_model == null || !trim($this->_model)){
-			
-		}else{
-			$model = str_replace('/','\\',$this->_model);
-			$className = '\front\model\\'.$model;
-			$obj = new $className;
-			return $obj->sample();
-			//return $this->_model;
+			$this->_model = $this->_controller.'/'.$this->_action;
 		}
+		if($this->_template_path == null || !trim($this->_template_path)){
+			$this->_template_path = $this->_page.'/'.$this->_controller.'/'.$this->_action;
+		}
+		$model = str_replace('/','\\',$this->_model);
+		$className = '\front\model\\'.$model;
+		$obj = new $className;
+		$this->_modelData = $obj;
+		
+		$includePath = '';
+		$codePools = array('default');
+		$template_path = $this->_template_path;
+		foreach($codePools as $codePool){
+			$file_path = ROOT . DS . 'app' . DS . 'code' . DS . 'front' . DS . $codePool . DS . 'view' . DS . 'template' . DS . $template_path . '.php';
+			if (file_exists($file_path)) {
+				$includePath = $file_path;break;
+			}
+		}
+		foreach($codePools as $codePool){
+			$file_path = ROOT . DS . 'app' . DS . 'design' . DS . 'front' . DS . $codePool . DS . 'template' . DS . $template_path . '.php';
+			if (file_exists($file_path)) {
+				$includePath = $file_path;break;
+			}
+		}
+		if($includePath)
+			return $obj->renderTemplate($includePath);
 	}
 	
 	function __destruct() {

@@ -1,12 +1,30 @@
 <?php
 namespace system\front;
 class Model {
+	
+	protected $variables = array();
+	
 	function __construct() {
-
-		//$this->connect(DB_HOST,DB_USER,DB_PASSWORD,DB_NAME);
-		//$this->_model = get_class($this);
-		//$this->_table = strtolower($this->_model)."s";
+		
 	}
+	
+	public function renderTemplate($includePath){
+		ob_start();
+	    include($includePath);
+	    $template = ob_get_contents();
+	    ob_end_clean();
+		return $template;
+	}
+	
+	function __get($name){
+        if (array_key_exists($name, $this->variables)) {
+            return $this->variables[$name];
+        }
+    }
+    
+    function __set($name,$value) {
+        $this->variables[$name] = $value;
+    }
 
 	function __destruct() {
 	}

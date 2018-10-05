@@ -8,10 +8,6 @@ class Template {
 	protected $_controller;
 	protected $_action;
 	protected $_template_path;
-	protected $_headInformation;
-	protected $_headerInformation;
-	protected $_footInformation;
-	protected $_footerInformation;
 
 
 	function __construct($layout = 'default') {
@@ -19,18 +15,10 @@ class Template {
 	    $this->_controller = \PPHP::session('core')->controller;
 	    $this->_action = \PPHP::session('core')->action;
 		$this->_template_path = $this->_page.'\\'.$this->_controller.'\\'.$this->_action;
-		$_headInformation['model'] =  'html/head';
-		$_headInformation['template'] =  'html/head';
-		$this->_headInformation = $_headInformation;
-		$_headerInformation['model'] =  'html/header';
-		$_headerInformation['template'] =  'html/header';
-		$this->_headerInformation = $_headerInformation;
-		$_footInformation['model'] =  'html/foot';
-		$_footInformation['template'] =  'html/foot';
-		$this->_footInformation = $_footInformation;
-		$_footerInformation['model'] =  'html/footer';
-		$_footerInformation['template'] =  'html/footer';
-		$this->_footerInformation = $_footerInformation;
+		$this->blocks['head'] = $this->getBlock('head')->setModel('html/head')->setTemplate('html/head');
+		$this->blocks['header'] = $this->getBlock('header')->setModel('html/header')->setTemplate('html/header');
+		$this->blocks['foot'] = $this->getBlock('foot')->setModel('html/foot')->setTemplate('html/foot');
+		$this->blocks['footer'] = $this->getBlock('footer')->setModel('html/footer')->setTemplate('html/footer');
 	}
 
 	/** Set Variables **/
@@ -128,9 +116,6 @@ class Template {
     }
     
     function renderLayout($layout='default'){
-        if(!isset($this->blocks['pageBody'])){
-            //$this->blocks['pageBody'] = $this->getTemplate();
-        }
         $codePools = array('default');
         foreach($codePools as $codePool){
             $file_path = ROOT . DS . 'app' . DS . 'code' . DS . 'front' . DS . $codePool . DS . 'view' . DS . 'layout' . DS . $layout . '.php';
@@ -150,7 +135,17 @@ class Template {
     
     function setBlock($block = 'default',$data = ''){
         $this->blocks[$block] = $data;
-    }
+	}
+	
+	function getBlock($block = 'content'){
+		if (array_key_exists($block, $this->blocks)){
+            return $this->blocks[$block];
+        }else{
+			$blockObject = new \system\front\Block($block);
+			$this->blocks[$block] = $blockObject;
+			return $blockObject;
+		}
+	}
     
     function __get($name){
         if (array_key_exists($name, $this->variables)) {
@@ -161,11 +156,6 @@ class Template {
         $this->variables[$name] = $value;
     }
     function __call($method,$data=null){
-        if(is_array($data) && isset($data[0])){
-            $this->blocks[$method] = $data[0];
-        }else if (array_key_exists($method, $this->blocks)){
-            return new \system\admin\Block($this->blocks[$method]);
-        }
         return $this;
     }
 }

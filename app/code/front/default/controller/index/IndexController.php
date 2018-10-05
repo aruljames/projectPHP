@@ -3,10 +3,10 @@ namespace front\controller\index;
 use system\front\Controller;
 class IndexController extends Controller{ //extends Controller
 	function indexAction($data=array()){
-	    $layout = $this->layout();
-	    $layout->header(array(
-	        'template' => ''
-	    ))->renderLayout();
+		$layout = $this->layout();
+		//$header = $this->getBlock('header');
+		//$header = setTemplate();
+	    $layout->renderLayout();
 		//echo "Index Controller";
 		$this->set("name","Arul");
 		$this->age = "27";
