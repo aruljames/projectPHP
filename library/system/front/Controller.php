@@ -6,7 +6,7 @@ class Controller {
 	protected $_page;
 	protected $_controller;
 	protected $_action;
-	protected $_template;
+	protected $_layout;
 	protected $_head = 'html\\head\\indexController';
 	protected $_header = 'html\\header\\indexController';
 	protected $_foot = 'html\\foot\\indexController';
@@ -38,35 +38,35 @@ class Controller {
 		$this ->_page = $_page;
 		$this ->_controller = $_controller;
 		$this ->_action = $_action;
-		$this->createTemplate();
+		$this->createLayout();
 	}
-	public function createTemplate($layout = 'default'){
-	    $this ->_template = new \system\front\Template($layout);
+	public function createLayout($layout = 'default'){
+	    $this ->_layout = new \system\front\Layout($layout);
 	}
 	public function layout($layout = 'default'){
-	    if(!is_object($this ->_template)){
-	        $this->createTemplate($layout);
+	    if(!is_object($this ->_layout)){
+	        $this->createLayout($layout);
 	    }
-	    return $this->_template;
+	    return $this->_layout;
 	}
 // Functions to set data in memory start///
 	function set($name,$value) {
-	    if(!is_object($this ->_template)){
-	        $this->createTemplate();
+	    if(!is_object($this ->_layout)){
+	        $this->createLayout();
 	    }
-		$this->_template->set($name,$value);
+		$this->_layout->set($name,$value);
 	}
 	function setData($name,$value) {
-	    if(!is_object($this ->_template)){
-	        $this->createTemplate();
+	    if(!is_object($this ->_layout)){
+	        $this->createLayout();
 	    }
-	    $this->_template->set($name,$value);
+	    $this->_layout->set($name,$value);
 	}
 	function __set($name, $value) {
-	    if(!is_object($this ->_template)){
-	        $this->createTemplate();
+	    if(!is_object($this ->_layout)){
+	        $this->createLayout();
 	    }
-	    $this->_template->set($name,$value);
+	    $this->_layout->set($name,$value);
 	}
 	// Functions to set data in memory end///
 	function loadModel($modelName = null){
@@ -111,10 +111,10 @@ class Controller {
 	}
 	
 	function renderPageOnly(){
-		if(!is_object($this ->_template)){
-			$this->createTemplate();
+		if(!is_object($this ->_layout)){
+			$this->createLayout();
 		}
-		$this->_template->render();
+		$this->_layout->render();
 	}
 	
 	function getPageHtml($controllerName,$page='index',$class='index',$action='index',$data=array()){
@@ -128,14 +128,14 @@ class Controller {
 	}
 	
 	function renderLayout($layout='default'){
-	    if(!is_object($this ->_template)){
-	        $this->createTemplate();
+	    if(!is_object($this ->_layout)){
+	        $this->createLayout();
 	    }
-	    $this->_template->renderLayout($layout);
+	    $this->_layout->renderLayout($layout);
 	}
 	
 	function setBlock($block = 'default',$data = ''){
-	    $this->_template->setBlock($block,$data);
+	    $this->_layout->setBlock($block,$data);
 	}
 	
 	function __destruct() {

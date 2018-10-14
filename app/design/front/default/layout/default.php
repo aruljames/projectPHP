@@ -1,12 +1,6 @@
-<html>
-<head>
-<?php $this->getBlock('head')->toHtml(); ?>
-</head>
-<body>
-<?php $this->getBlock('header')->toHtml(); ?>
-<?php $this->getBlock()->toHtml(); ?>
-<?php $this->pageBody()->toHtml(); ?>
-<?php $this->getBlock('footer')->toHtml(); ?>
-<?php $this->getBlock('foot')->toHtml(); ?>
-</body>
-</html>
+<?php 
+//$this->getBlock()->setLayout('new/alternative');
+$layout = $this->getBlock()->getLayout('new/alternative');
+//$layout->getBlock()->setModel('html/header')->setTemplate('html/header');
+$this->renderLayout('html/page');
+?>
