@@ -1,9 +1,9 @@
 <?php
 
-$configFilePath = ROOT . DS . 'config' . DS . 'env' . DS . ENV . '.php';
-require_once($configFilePath);
-$protocol = stripos($_SERVER['SERVER_PROTOCOL'],'https') === true ? 'https://' : 'http://';
-define ('HTTP_PROTOCOL',$protocol);
+$filePath = ROOT . DS . 'config' . DS . 'env' . DS . ENV . '.php';
+require_once($filePath);
+$filePath = ROOT . DS . 'library' . DS . 'dataconnection' . DS . DB_SORCE . '.php';
+require_once($filePath);
 /* Toget the action url */
 function getActionPath($pathInfo = null){
     if($pathInfo == null){

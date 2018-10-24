@@ -139,7 +139,8 @@ class Controller {
 	}
 	
 	function __destruct() {
-			
+            global $DBCONNECTION;
+            $DBCONNECTION->close();
 	}
 
 }

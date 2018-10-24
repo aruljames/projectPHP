@@ -7,3 +7,5 @@ define('DB_NAME', 'pphp');
 define('DB_USER', 'root');
 define('DB_PASSWORD', '');
 define('DB_HOST', 'localhost');
+define('DB_SERVER', 'mysql');
+define('DB_SORCE', 'mysqli');

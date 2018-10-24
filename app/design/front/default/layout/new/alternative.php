@@ -13,5 +13,5 @@ $this->getBlock('td2')->setLayout($layout2);
 	</tr>
 </table>
 <br>Alternative start
-<?php $this->getBlock()->toHtml(); ?>
+<?php //$this->getBlock()->toHtml(); ?>
 <br>Alternative end

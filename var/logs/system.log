@@ -180,3 +180,123 @@ Stack trace:
 #5 C:\xampp\htdocs\Projects\PHP\projectPHP\library\shared.php(98): front\controller\index\IndexController->indexAction(Array)
 #6 C:\xampp\htdocs\Projects\PHP\projectPHP\library\shared.php(137): callHook()
 #7 C:\xampp\htdocs\Pro in C:\xampp\htdocs\Projects\PHP\projectPHP\app\design\front\default\template\index\index\Index.php on line 10
+[14-Oct-2018 10:05:42 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class 'system\front\Layout' not found in F:\xampp\htdocs\projectPHP\library\system\front\Controller.php:44
+Stack trace:
+#0 F:\xampp\htdocs\projectPHP\library\system\front\Controller.php(41): system\front\Controller->createLayout()
+#1 F:\xampp\htdocs\projectPHP\library\shared.php(95): system\front\Controller->__construct('index', 'index', 'index')
+#2 F:\xampp\htdocs\projectPHP\library\shared.php(137): callHook()
+#3 F:\xampp\htdocs\projectPHP\library\bootstrap.php(4): require_once('F:\\xampp\\htdocs...')
+#4 F:\xampp\htdocs\projectPHP\index.php(4): require_once('F:\\xampp\\htdocs...')
+#5 {main}
+  thrown in F:\xampp\htdocs\projectPHP\library\system\front\Controller.php on line 44
+[14-Oct-2018 12:37:56 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method system\front\Block::renderLayout() in F:\xampp\htdocs\projectPHP\library\system\front\Block.php:110
+Stack trace:
+#0 F:\xampp\htdocs\projectPHP\library\system\front\Block.php(76): system\front\Block->getHtml()
+#1 F:\xampp\htdocs\projectPHP\app\design\front\default\layout\new\alternative.php(9): system\front\Block->toHtml()
+#2 F:\xampp\htdocs\projectPHP\library\system\front\Layout.php(62): include('F:\\xampp\\htdocs...')
+#3 F:\xampp\htdocs\projectPHP\library\system\front\Block.php(110): system\front\Layout->renderLayout()
+#4 F:\xampp\htdocs\projectPHP\library\system\front\Block.php(76): system\front\Block->getHtml()
+#5 F:\xampp\htdocs\projectPHP\app\design\front\default\layout\html\page.php(7): system\front\Block->toHtml()
+#6 F:\xampp\htdocs\projectPHP\library\system\front\Layout.php(62): include('F:\\xampp\\htdocs...')
+#7 F:\xampp\htdocs\projectPHP\app\design\front\default\layout\default.php(5): system\front\Layout->renderLayout('html\\page')
+#8 F:\xampp\htdocs\projectP in F:\xampp\htdocs\projectPHP\library\system\front\Block.php on line 110
+[14-Oct-2018 12:52:37 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method system\front\Block::renderLayout() in F:\xampp\htdocs\projectPHP\library\system\front\Block.php:110
+Stack trace:
+#0 F:\xampp\htdocs\projectPHP\library\system\front\Block.php(76): system\front\Block->getHtml()
+#1 F:\xampp\htdocs\projectPHP\app\design\front\default\layout\new\alternative.php(9): system\front\Block->toHtml()
+#2 F:\xampp\htdocs\projectPHP\library\system\front\Layout.php(62): include('F:\\xampp\\htdocs...')
+#3 F:\xampp\htdocs\projectPHP\library\system\front\Block.php(110): system\front\Layout->renderLayout()
+#4 F:\xampp\htdocs\projectPHP\library\system\front\Block.php(76): system\front\Block->getHtml()
+#5 F:\xampp\htdocs\projectPHP\app\design\front\default\layout\html\page.php(7): system\front\Block->toHtml()
+#6 F:\xampp\htdocs\projectPHP\library\system\front\Layout.php(62): include('F:\\xampp\\htdocs...')
+#7 F:\xampp\htdocs\projectPHP\app\design\front\default\layout\default.php(5): system\front\Layout->renderLayout('html\\page')
+#8 F:\xampp\htdocs\projectP in F:\xampp\htdocs\projectPHP\library\system\front\Block.php on line 110
+[14-Oct-2018 12:52:49 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method system\front\Block::renderLayout() in F:\xampp\htdocs\projectPHP\library\system\front\Block.php:110
+Stack trace:
+#0 F:\xampp\htdocs\projectPHP\library\system\front\Block.php(76): system\front\Block->getHtml()
+#1 F:\xampp\htdocs\projectPHP\app\design\front\default\layout\new\alternative.php(9): system\front\Block->toHtml()
+#2 F:\xampp\htdocs\projectPHP\library\system\front\Layout.php(62): include('F:\\xampp\\htdocs...')
+#3 F:\xampp\htdocs\projectPHP\library\system\front\Block.php(110): system\front\Layout->renderLayout()
+#4 F:\xampp\htdocs\projectPHP\library\system\front\Block.php(76): system\front\Block->getHtml()
+#5 F:\xampp\htdocs\projectPHP\app\design\front\default\layout\html\page.php(7): system\front\Block->toHtml()
+#6 F:\xampp\htdocs\projectPHP\library\system\front\Layout.php(62): include('F:\\xampp\\htdocs...')
+#7 F:\xampp\htdocs\projectPHP\app\design\front\default\layout\default.php(5): system\front\Layout->renderLayout('html\\page')
+#8 F:\xampp\htdocs\projectP in F:\xampp\htdocs\projectPHP\library\system\front\Block.php on line 110
+[14-Oct-2018 13:08:09 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method system\front\Block::renderLayout() in F:\xampp\htdocs\projectPHP\library\system\front\Block.php:110
+Stack trace:
+#0 F:\xampp\htdocs\projectPHP\library\system\front\Block.php(76): system\front\Block->getHtml()
+#1 F:\xampp\htdocs\projectPHP\app\design\front\default\layout\new\alternative.php(9): system\front\Block->toHtml()
+#2 F:\xampp\htdocs\projectPHP\library\system\front\Layout.php(62): include('F:\\xampp\\htdocs...')
+#3 F:\xampp\htdocs\projectPHP\library\system\front\Block.php(110): system\front\Layout->renderLayout()
+#4 F:\xampp\htdocs\projectPHP\library\system\front\Block.php(76): system\front\Block->getHtml()
+#5 F:\xampp\htdocs\projectPHP\app\design\front\default\layout\html\page.php(7): system\front\Block->toHtml()
+#6 F:\xampp\htdocs\projectPHP\library\system\front\Layout.php(62): include('F:\\xampp\\htdocs...')
+#7 F:\xampp\htdocs\projectPHP\app\design\front\default\layout\default.php(5): system\front\Layout->renderLayout('html\\page')
+#8 F:\xampp\htdocs\projectP in F:\xampp\htdocs\projectPHP\library\system\front\Block.php on line 110
+[14-Oct-2018 13:08:10 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method system\front\Block::renderLayout() in F:\xampp\htdocs\projectPHP\library\system\front\Block.php:110
+Stack trace:
+#0 F:\xampp\htdocs\projectPHP\library\system\front\Block.php(76): system\front\Block->getHtml()
+#1 F:\xampp\htdocs\projectPHP\app\design\front\default\layout\new\alternative.php(9): system\front\Block->toHtml()
+#2 F:\xampp\htdocs\projectPHP\library\system\front\Layout.php(62): include('F:\\xampp\\htdocs...')
+#3 F:\xampp\htdocs\projectPHP\library\system\front\Block.php(110): system\front\Layout->renderLayout()
+#4 F:\xampp\htdocs\projectPHP\library\system\front\Block.php(76): system\front\Block->getHtml()
+#5 F:\xampp\htdocs\projectPHP\app\design\front\default\layout\html\page.php(7): system\front\Block->toHtml()
+#6 F:\xampp\htdocs\projectPHP\library\system\front\Layout.php(62): include('F:\\xampp\\htdocs...')
+#7 F:\xampp\htdocs\projectPHP\app\design\front\default\layout\default.php(5): system\front\Layout->renderLayout('html\\page')
+#8 F:\xampp\htdocs\projectP in F:\xampp\htdocs\projectPHP\library\system\front\Block.php on line 110
+[14-Oct-2018 13:08:10 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method system\front\Block::renderLayout() in F:\xampp\htdocs\projectPHP\library\system\front\Block.php:110
+Stack trace:
+#0 F:\xampp\htdocs\projectPHP\library\system\front\Block.php(76): system\front\Block->getHtml()
+#1 F:\xampp\htdocs\projectPHP\app\design\front\default\layout\new\alternative.php(9): system\front\Block->toHtml()
+#2 F:\xampp\htdocs\projectPHP\library\system\front\Layout.php(62): include('F:\\xampp\\htdocs...')
+#3 F:\xampp\htdocs\projectPHP\library\system\front\Block.php(110): system\front\Layout->renderLayout()
+#4 F:\xampp\htdocs\projectPHP\library\system\front\Block.php(76): system\front\Block->getHtml()
+#5 F:\xampp\htdocs\projectPHP\app\design\front\default\layout\html\page.php(7): system\front\Block->toHtml()
+#6 F:\xampp\htdocs\projectPHP\library\system\front\Layout.php(62): include('F:\\xampp\\htdocs...')
+#7 F:\xampp\htdocs\projectPHP\app\design\front\default\layout\default.php(5): system\front\Layout->renderLayout('html\\page')
+#8 F:\xampp\htdocs\projectP in F:\xampp\htdocs\projectPHP\library\system\front\Block.php on line 110
+[14-Oct-2018 13:47:19 Europe/Berlin] PHP Warning:  require_once(F:\xampp\htdocs\projectPHP\library\dbconnect.php): failed to open stream: No such file or directory in F:\xampp\htdocs\projectPHP\library\bootstrap.php on line 6
+[14-Oct-2018 13:47:19 Europe/Berlin] PHP Fatal error:  require_once(): Failed opening required 'F:\xampp\htdocs\projectPHP\library\dbconnect.php' (include_path='F:\xampp\php\PEAR') in F:\xampp\htdocs\projectPHP\library\bootstrap.php on line 6
+[14-Oct-2018 13:47:19 Europe/Berlin] PHP Warning:  require_once(F:\xampp\htdocs\projectPHP\library\dbconnect.php): failed to open stream: No such file or directory in F:\xampp\htdocs\projectPHP\library\bootstrap.php on line 6
+[14-Oct-2018 13:47:19 Europe/Berlin] PHP Fatal error:  require_once(): Failed opening required 'F:\xampp\htdocs\projectPHP\library\dbconnect.php' (include_path='F:\xampp\php\PEAR') in F:\xampp\htdocs\projectPHP\library\bootstrap.php on line 6
+[14-Oct-2018 13:47:19 Europe/Berlin] PHP Warning:  require_once(F:\xampp\htdocs\projectPHP\library\dbconnect.php): failed to open stream: No such file or directory in F:\xampp\htdocs\projectPHP\library\bootstrap.php on line 6
+[14-Oct-2018 13:47:19 Europe/Berlin] PHP Fatal error:  require_once(): Failed opening required 'F:\xampp\htdocs\projectPHP\library\dbconnect.php' (include_path='F:\xampp\php\PEAR') in F:\xampp\htdocs\projectPHP\library\bootstrap.php on line 6
+[14-Oct-2018 13:47:20 Europe/Berlin] PHP Warning:  require_once(F:\xampp\htdocs\projectPHP\library\dbconnect.php): failed to open stream: No such file or directory in F:\xampp\htdocs\projectPHP\library\bootstrap.php on line 6
+[14-Oct-2018 13:47:20 Europe/Berlin] PHP Fatal error:  require_once(): Failed opening required 'F:\xampp\htdocs\projectPHP\library\dbconnect.php' (include_path='F:\xampp\php\PEAR') in F:\xampp\htdocs\projectPHP\library\bootstrap.php on line 6
+[14-Oct-2018 13:53:13 Europe/Berlin] PHP Notice:  Undefined variable: DBCONNECTION in F:\xampp\htdocs\projectPHP\library\system\front\Controller.php on line 142
+[14-Oct-2018 13:53:13 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function close() on null in F:\xampp\htdocs\projectPHP\library\system\front\Controller.php:142
+Stack trace:
+#0 F:\xampp\htdocs\projectPHP\library\main.php(103): system\front\Controller->__destruct()
+#1 F:\xampp\htdocs\projectPHP\library\main.php(108): callHook()
+#2 F:\xampp\htdocs\projectPHP\library\bootstrap.php(5): require_once('F:\\xampp\\htdocs...')
+#3 F:\xampp\htdocs\projectPHP\index.php(4): require_once('F:\\xampp\\htdocs...')
+#4 {main}
+  thrown in F:\xampp\htdocs\projectPHP\library\system\front\Controller.php on line 142
+[14-Oct-2018 13:53:13 Europe/Berlin] PHP Notice:  Undefined variable: DBCONNECTION in F:\xampp\htdocs\projectPHP\library\system\front\Controller.php on line 142
+[14-Oct-2018 13:53:13 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function close() on null in F:\xampp\htdocs\projectPHP\library\system\front\Controller.php:142
+Stack trace:
+#0 F:\xampp\htdocs\projectPHP\library\main.php(103): system\front\Controller->__destruct()
+#1 F:\xampp\htdocs\projectPHP\library\main.php(108): callHook()
+#2 F:\xampp\htdocs\projectPHP\library\bootstrap.php(5): require_once('F:\\xampp\\htdocs...')
+#3 F:\xampp\htdocs\projectPHP\index.php(4): require_once('F:\\xampp\\htdocs...')
+#4 {main}
+  thrown in F:\xampp\htdocs\projectPHP\library\system\front\Controller.php on line 142
+[14-Oct-2018 13:53:14 Europe/Berlin] PHP Notice:  Undefined variable: DBCONNECTION in F:\xampp\htdocs\projectPHP\library\system\front\Controller.php on line 142
+[14-Oct-2018 13:53:14 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function close() on null in F:\xampp\htdocs\projectPHP\library\system\front\Controller.php:142
+Stack trace:
+#0 F:\xampp\htdocs\projectPHP\library\main.php(103): system\front\Controller->__destruct()
+#1 F:\xampp\htdocs\projectPHP\library\main.php(108): callHook()
+#2 F:\xampp\htdocs\projectPHP\library\bootstrap.php(5): require_once('F:\\xampp\\htdocs...')
+#3 F:\xampp\htdocs\projectPHP\index.php(4): require_once('F:\\xampp\\htdocs...')
+#4 {main}
+  thrown in F:\xampp\htdocs\projectPHP\library\system\front\Controller.php on line 142
+[14-Oct-2018 13:53:14 Europe/Berlin] PHP Notice:  Undefined variable: DBCONNECTION in F:\xampp\htdocs\projectPHP\library\system\front\Controller.php on line 142
+[14-Oct-2018 13:53:14 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function close() on null in F:\xampp\htdocs\projectPHP\library\system\front\Controller.php:142
+Stack trace:
+#0 F:\xampp\htdocs\projectPHP\library\main.php(103): system\front\Controller->__destruct()
+#1 F:\xampp\htdocs\projectPHP\library\main.php(108): callHook()
+#2 F:\xampp\htdocs\projectPHP\library\bootstrap.php(5): require_once('F:\\xampp\\htdocs...')
+#3 F:\xampp\htdocs\projectPHP\index.php(4): require_once('F:\\xampp\\htdocs...')
+#4 {main}
+  thrown in F:\xampp\htdocs\projectPHP\library\system\front\Controller.php on line 142
+[14-Oct-2018 13:53:34 Europe/Berlin] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting ',' or ';' in F:\xampp\htdocs\projectPHP\library\system\front\Controller.php on line 142
