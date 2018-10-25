@@ -101,8 +101,19 @@ function callHook($urlArray = null,$data=array()) {
 		/* Error Generation Code Here */
 	}
 }
-
 setReporting();
+PPHP::DB();
 removeMagicQuotes();
 unregisterGlobals();
 callHook();
+echo "<pre>";
+$Connection = PPHP::DB()->get();
+$sql="SELECT * FROM users";
+$result = mysqli_query($Connection,$sql);
+$data = mysqli_fetch_all($result,MYSQLI_ASSOC);
+print_r($data);
+mysqli_free_result($result);
+$userTable = PPHP::tableModel('users');
+$usersList = $userTable->getAll();
+print_r($usersList);
+PPHP::DB()->close();

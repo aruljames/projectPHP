@@ -2,7 +2,7 @@
 namespace system\front;
 class Session {
     protected  $__group;
-    function __construct($group = 'default') {
+    function __construct($group = '_default') {
         $this->__group = $group;
     }
 	public function set($key,$value=null){
