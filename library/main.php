@@ -116,4 +116,27 @@ mysqli_free_result($result);
 $userTable = PPHP::tableModel('users');
 $usersList = $userTable->getAll();
 print_r($usersList);
+//$filters = array("name"=>array("eq"=>"arul","neq"=>"arul","IN"=>array("James","Jadme")));
+$filters = array(
+    "name"=>array(
+        array(
+            "eq"=>"arul"
+            ),
+        array(
+            "eq"=>"James"
+            ),
+        array(
+            "IN"=>array("James","Jadme")
+            )
+        )
+    );
+//$filters = array("name"=>array("arul"));
+$filters = array("name"=>array("Arul","James"),"age"=>array("20","30"),
+    "dob" => "27-08-1990",
+    "color" => array("NIN" => "red")
+    );
+$userTable->addFilters($filters);
+$userTable->addFilter("name","eq","Arul");
+$userTable->addFilter("name","eq","Arul");
+print_r($userTable->getFilterQuery());
 PPHP::DB()->close();
