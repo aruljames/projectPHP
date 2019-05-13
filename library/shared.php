@@ -1,6 +1,6 @@
 <?php
 
-$filePath = ROOT . DS . 'config' . DS . 'env' . DS . ENV . '.php';
+$filePath = _ROOT . DS . 'config' . DS . 'env' . DS . ENV . '.php';
 require_once($filePath);
 
 /* Toget the action url */
@@ -35,7 +35,7 @@ function setReporting() {
     	ini_set('display_errors','Off');
     }
     ini_set('log_errors', 'On');
-    ini_set('error_log', ROOT . DS . 'var' . DS . 'logs' . DS . 'system.log');
+    ini_set('error_log', _ROOT . DS . 'var' . DS . 'logs' . DS . 'system.log');
 }
 
 /** Check for Magic Quotes and remove them **/
@@ -107,7 +107,7 @@ function __autoload($className) {
 	$nSpaceSplit = explode("\\",$className);
 	$codeRoot = $nSpaceSplit[0];
 	if(in_array('PPHP', $nSpaceSplit)){
-	    $filePath = ROOT . DS . 'library' . DS . 'system' . DS . $className . '.php';
+	    $filePath = _ROOT . DS . 'library' . DS . 'system' . DS . $className . '.php';
 	    if (file_exists($filePath)) {
 	        require_once($filePath);return;
 	    }
@@ -116,7 +116,7 @@ function __autoload($className) {
 		$className = implode(DS,$nSpaceSplit);
 		$codePools = array('default');
 		foreach($codePools as $codePool){
-			$filePath = ROOT . DS . 'app' . DS . 'code' . DS . $codeRoot . DS . $codePool . DS . $className . '.php';
+			$filePath = _ROOT . DS . 'app' . DS . 'code' . DS . $codeRoot . DS . $codePool . DS . $className . '.php';
 			//echo $filePath."<br>";
 			if (file_exists($filePath)) {
 				require_once($filePath);return;
@@ -124,7 +124,7 @@ function __autoload($className) {
 		}
 	}else{
 	    $className = implode(DS,$nSpaceSplit);
-		$filePath = ROOT . DS . 'library' . DS . $className . '.php';
+		$filePath = _ROOT . DS . 'library' . DS . $className . '.php';
 		if (file_exists($filePath)) {
 			require_once($filePath);return;
 		}

@@ -2,23 +2,6 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group>
-            <file>file:/F:/xampp/htdocs/projectPHP/library/autoloader.php</file>
-            <file>file:/F:/xampp/htdocs/projectPHP/library/system/front/Layout.php</file>
-            <file>file:/F:/xampp/htdocs/projectPHP/library/main.php</file>
-            <file>file:/F:/xampp/htdocs/projectPHP/app/design/front/default/layout/default.php</file>
-            <file>file:/F:/xampp/htdocs/projectPHP/app/design/front/default/template/new/alternative2.php</file>
-            <file>file:/F:/xampp/htdocs/projectPHP/app/design/front/default/template/new/alternative1.php</file>
-            <file>file:/F:/xampp/htdocs/projectPHP/app/design/front/default/layout/html/page.php</file>
-            <file>file:/F:/xampp/htdocs/projectPHP/library/bootstrap.php</file>
-            <file>file:/F:/xampp/htdocs/projectPHP/app/design/front/default/layout/new/alternative2.php</file>
-            <file>file:/F:/xampp/htdocs/projectPHP/app/design/front/default/layout/new/alternative1.php</file>
-            <file>file:/F:/xampp/htdocs/projectPHP/library/dataconnection/mysqli.php</file>
-            <file>file:/F:/xampp/htdocs/projectPHP/config/env/local.php</file>
-            <file>file:/F:/xampp/htdocs/projectPHP/library/system/front/Controller.php</file>
-            <file>file:/F:/xampp/htdocs/projectPHP/app/design/front/default/layout/new/alternative.php</file>
-            <file>file:/F:/xampp/htdocs/projectPHP/library/system/front/Block.php</file>
-            <file>file:/F:/xampp/htdocs/projectPHP/library/shared.php</file>
-        </group>
+        <group/>
     </open-files>
 </project-private>

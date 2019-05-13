@@ -49,14 +49,14 @@ class Layout {
 		$layout = implode(DS,$layoutarray);
         $codePools = array('default');
         foreach($codePools as $codePool){
-            $file_path = ROOT . DS . 'app' . DS . 'code' . DS . 'front' . DS . $codePool . DS . 'view' . DS . 'layout' . DS . $layout . '.php';
+            $file_path = _ROOT . DS . 'app' . DS . 'code' . DS . 'front' . DS . $codePool . DS . 'view' . DS . 'layout' . DS . $layout . '.php';
             //echo $file_path."<br>";
             if (file_exists($file_path)) {
                 include($file_path);return;
             }
         }
         foreach($codePools as $codePool){
-            $file_path = ROOT . DS . 'app' . DS . 'design' . DS . 'front' . DS . $codePool . DS . 'layout' . DS . $layout . '.php';
+            $file_path = _ROOT . DS . 'app' . DS . 'design' . DS . 'front' . DS . $codePool . DS . 'layout' . DS . $layout . '.php';
             //echo $file_path."<br>";
             if (file_exists($file_path)) {
                 include($file_path);return;

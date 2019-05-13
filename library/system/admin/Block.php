@@ -23,13 +23,13 @@ class Block {
 	            $codePools = array('default');
 	            $template_path = $this->_template_path;
 	            foreach($codePools as $codePool){
-	                $file_path = ROOT . DS . 'app' . DS . 'code' . DS . 'front' . DS . $codePool . DS . 'view' . DS . 'template' . DS . $template_path . '.php';
+	                $file_path = _ROOT . DS . 'app' . DS . 'code' . DS . 'front' . DS . $codePool . DS . 'view' . DS . 'template' . DS . $template_path . '.php';
 	                if (file_exists($file_path)) {
 	                    include($file_path);return;
 	                }
 	            }
 	            foreach($codePools as $codePool){
-	                $file_path = ROOT . DS . 'app' . DS . 'design' . DS . 'front' . DS . $codePool . DS . 'template' . DS . $template_path . '.php';
+	                $file_path = _ROOT . DS . 'app' . DS . 'design' . DS . 'front' . DS . $codePool . DS . 'template' . DS . $template_path . '.php';
 	                if (file_exists($file_path)) {
 	                    include($file_path);return;
 	                }

@@ -1,9 +1,9 @@
 <?php
 
-$filePath = ROOT . DS . 'config' . DS . 'env' . DS . ENV . '.php';
-require_once($filePath);
-$filePath = ROOT . DS . 'library' . DS . 'dataconnection' . DS . DB_SORCE . '.php';
-require_once($filePath);
+$ENV_FILEPATH = _ROOT . DS . 'config' . DS . 'env' . DS . ENV . '.php';
+require_once($ENV_FILEPATH);
+$DATABASE_CONNECTION_FILEPATH = _ROOT . DS . 'library' . DS . 'dataconnection' . DS . DB_SORCE . '.php';
+require_once($DATABASE_CONNECTION_FILEPATH);
 /* Toget the action url */
 function getActionPath($pathInfo = null){
     if($pathInfo == null){
@@ -16,14 +16,14 @@ function getActionPath($pathInfo = null){
     		$pathInfo = "index/index/index";
     	}
     }
-	$pathInfo = array_filter(explode('/',strtolower($pathInfo)));
-	if(sizeof($pathInfo) < 3){
-		$pathInfo[]='index';
-		$pathInfo[]='index';
-	}else if(sizeof($pathInfo) < 2){
-		$pathInfo[]='index';
-	}
-	return array_values($pathInfo);
+    $pathInfo = array_filter(explode('/',strtolower($pathInfo)));
+    if(sizeof($pathInfo) < 2){
+            $pathInfo[]='index';
+            $pathInfo[]='index';
+    }else if(sizeof($pathInfo) < 3){
+            $pathInfo[]='index';
+    }
+    return array_values($pathInfo);
 }
 
 /** Check if environment is development and display errors **/
@@ -36,7 +36,7 @@ function setReporting() {
     	ini_set('display_errors','Off');
     }
     ini_set('log_errors', 'On');
-    ini_set('error_log', ROOT . DS . 'var' . DS . 'logs' . DS . 'system.log');
+    ini_set('error_log', _ROOT . DS . 'var' . DS . 'logs' . DS . 'system.log');
 }
 
 /** Check for Magic Quotes and remove them **/
