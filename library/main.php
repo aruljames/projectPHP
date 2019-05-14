@@ -23,6 +23,7 @@ function getActionPath($pathInfo = null){
     }else if(sizeof($pathInfo) < 3){
             $pathInfo[]='index';
     }
+    
     return array_values($pathInfo);
 }
 
@@ -72,40 +73,41 @@ function unregisterGlobals() {
 /** Main Call Function **/
 
 function callHook($urlArray = null,$data=array()) {
-	$codeBase = 'front';
-	if($urlArray == null)
-	   $urlArray = getActionPath();
-	$page = $urlArray[0];
-	array_shift($urlArray);
-	if($page == strtolower(ADMIN_URL_PATH)){
-		$codeBase = 'admin';
-		$page = $urlArray[0];
-		array_shift($urlArray);
-		if(sizeof($urlArray) < 2){
-			$urlArray[]='index';
-		}
-	}
-	$controllerName = $urlArray[0];
-	array_shift($urlArray);
-	$actionName = $urlArray[0];
-	array_shift($urlArray);
-	$queryString[] = array_merge($urlArray,$data);
-	$controller = ucwords($controllerName).'Controller';
-	$action = $actionName.'Action';
-	$_className = $codeBase.'\\controller\\'.$page.'\\'.$controller;
-	$dispatch = new $_className($page,$controllerName,$actionName);
+    $codeRoot = 'front';
+    if($urlArray == null)
+       $urlArray = getActionPath();
+    $page = $urlArray[0];
+    array_shift($urlArray);
+    if($page == strtolower(ADMIN_URL_PATH)){
+        $codeRoot = 'admin';
+        $page = $urlArray[0];
+        array_shift($urlArray);
+        if(sizeof($urlArray) < 2){
+            $urlArray[]='index';
+        }
+    }
+    $controllerName = $urlArray[0];
+    array_shift($urlArray);
+    $actionName = $urlArray[0];
+    array_shift($urlArray);
+    $queryString[] = array_merge($urlArray,$data);
+    $controller = ucwords($controllerName).'Controller';
+    $action = $actionName.'Action';
+    $_className = $codeRoot.'\\controller\\'.$page.'\\'.$controller;
+    $dispatch = new $_className($page,$controllerName,$actionName);
 
-	if ((int)method_exists($_className, $action)) {
-	    call_user_func_array(array($dispatch,$action),$queryString);
-	} else {
-		/* Error Generation Code Here */
-	}
+    if ((int)method_exists($_className, $action)) {
+        call_user_func_array(array($dispatch,$action),$queryString);
+    } else {
+        /* Error Generation Code Here */
+    }
 }
 setReporting();
 PPHP::DB();
 removeMagicQuotes();
 unregisterGlobals();
 callHook();
+
 echo "<pre>";
 $Connection = PPHP::DB()->get();
 $sql="SELECT * FROM users";
@@ -137,6 +139,7 @@ $filters = array("name"=>array("Arul","James"),"age"=>array("20","30"),
     );
 $userTable->addFilters($filters);
 $userTable->addFilter("name","eq","Arul");
-$userTable->addFilter("name","eq","Arul");
+$userTable->addFilter("name","nin",array("Arul","asd"));
 print_r($userTable->getFilterQuery());
+
 PPHP::DB()->close();

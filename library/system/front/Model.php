@@ -9,11 +9,11 @@ class Model {
 	}
 	
 	public function renderTemplate($includePath){
-		ob_start();
-	    include($includePath);
-	    $template = ob_get_contents();
-	    ob_end_clean();
-		return $template;
+            ob_start();
+                include($includePath);
+                $template = ob_get_contents();
+            ob_end_clean();
+            return $template;
 	}
 	
 	function __get($name){
