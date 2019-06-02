@@ -108,7 +108,7 @@ removeMagicQuotes();
 unregisterGlobals();
 callHook();
 
-echo "<pre>";
+/*echo "<pre>";
 $Connection = PPHP::DB()->get();
 $sql="SELECT * FROM users";
 $result = mysqli_query($Connection,$sql);
@@ -137,9 +137,10 @@ $filters = array("name"=>array("Arul","James"),"age"=>array("20","30"),
     "dob" => "27-08-1990",
     "color" => array("NIN" => "red")
     );
-$userTable->addFilters($filters);
+//$userTable->addFilters($filters);
 $userTable->addFilter("name","eq","Arul");
-$userTable->addFilter("name","nin",array("Arul","asd"));
+//$userTable->addFilter("name","nin",array("Arul","asd"));
 print_r($userTable->getFilterQuery());
-
+$usersList = $userTable->getAll();
+print_r($usersList);*/
 PPHP::DB()->close();

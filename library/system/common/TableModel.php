@@ -123,7 +123,7 @@ class TableModel {
     }
 
     public function getAll(){
-        $sql="SELECT * FROM `".$this->_tableName."`";
+        $sql="SELECT * FROM `".$this->_tableName."` ".$this->getFilterQuery();
         $result = mysqli_query(\PPHP::DB()->get(),$sql);
         return mysqli_fetch_all($result,MYSQLI_ASSOC);
     }
