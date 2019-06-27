@@ -1,1 +1,1 @@
-<br>This is footer
+<div class="row text-center">Footer </div>

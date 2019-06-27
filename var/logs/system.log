@@ -1,932 +1,193 @@
-[23-Feb-2018 06:54:20 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class 'system\front\PPHP' not found in C:\xampp\htdocs\Projects\PHP\projectPHP\library\system\front\Controller.php:35
+[09-Jun-2019 09:04:13 Europe/Berlin] PHP Parse error:  syntax error, unexpected ';', expecting ')' in F:\xampp\htdocs\projects\projectphp\app\design\admin\default\layout\html\page.php on line 5
+[09-Jun-2019 09:13:09 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class 'front\controller\app\AssetsController' not found in F:\xampp\htdocs\projects\projectphp\library\main.php:97
 Stack trace:
-#0 C:\xampp\htdocs\Projects\PHP\projectPHP\library\shared.php(100): system\front\Controller->__construct('index', 'index', 'index')
-#1 C:\xampp\htdocs\Projects\PHP\projectPHP\library\shared.php(142): callHook()
-#2 C:\xampp\htdocs\Projects\PHP\projectPHP\library\bootstrap.php(4): require_once('C:\\xampp\\htdocs...')
-#3 C:\xampp\htdocs\Projects\PHP\projectPHP\index.php(4): require_once('C:\\xampp\\htdocs...')
-#4 {main}
-  thrown in C:\xampp\htdocs\Projects\PHP\projectPHP\library\system\front\Controller.php on line 35
-[23-Feb-2018 06:54:21 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class 'system\front\PPHP' not found in C:\xampp\htdocs\Projects\PHP\projectPHP\library\system\front\Controller.php:35
+#0 F:\xampp\htdocs\projects\projectphp\library\main.php(109): callHook()
+#1 F:\xampp\htdocs\projects\projectphp\library\bootstrap.php(5): require_once('F:\\xampp\\htdocs...')
+#2 F:\xampp\htdocs\projects\projectphp\index.php(4): require_once('F:\\xampp\\htdocs...')
+#3 {main}
+  thrown in F:\xampp\htdocs\projects\projectphp\library\main.php on line 97
+[09-Jun-2019 09:13:09 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class 'front\controller\app\AssetsController' not found in F:\xampp\htdocs\projects\projectphp\library\main.php:97
 Stack trace:
-#0 C:\xampp\htdocs\Projects\PHP\projectPHP\library\shared.php(100): system\front\Controller->__construct('index', 'index', 'index')
-#1 C:\xampp\htdocs\Projects\PHP\projectPHP\library\shared.php(142): callHook()
-#2 C:\xampp\htdocs\Projects\PHP\projectPHP\library\bootstrap.php(4): require_once('C:\\xampp\\htdocs...')
-#3 C:\xampp\htdocs\Projects\PHP\projectPHP\index.php(4): require_once('C:\\xampp\\htdocs...')
-#4 {main}
-  thrown in C:\xampp\htdocs\Projects\PHP\projectPHP\library\system\front\Controller.php on line 35
-[23-Feb-2018 06:54:21 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class 'system\front\PPHP' not found in C:\xampp\htdocs\Projects\PHP\projectPHP\library\system\front\Controller.php:35
+#0 F:\xampp\htdocs\projects\projectphp\library\main.php(109): callHook()
+#1 F:\xampp\htdocs\projects\projectphp\library\bootstrap.php(5): require_once('F:\\xampp\\htdocs...')
+#2 F:\xampp\htdocs\projects\projectphp\index.php(4): require_once('F:\\xampp\\htdocs...')
+#3 {main}
+  thrown in F:\xampp\htdocs\projects\projectphp\library\main.php on line 97
+[09-Jun-2019 09:13:09 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class 'front\controller\app\AssetsController' not found in F:\xampp\htdocs\projects\projectphp\library\main.php:97
 Stack trace:
-#0 C:\xampp\htdocs\Projects\PHP\projectPHP\library\shared.php(100): system\front\Controller->__construct('index', 'index', 'index')
-#1 C:\xampp\htdocs\Projects\PHP\projectPHP\library\shared.php(142): callHook()
-#2 C:\xampp\htdocs\Projects\PHP\projectPHP\library\bootstrap.php(4): require_once('C:\\xampp\\htdocs...')
-#3 C:\xampp\htdocs\Projects\PHP\projectPHP\index.php(4): require_once('C:\\xampp\\htdocs...')
-#4 {main}
-  thrown in C:\xampp\htdocs\Projects\PHP\projectPHP\library\system\front\Controller.php on line 35
-[23-Feb-2018 07:05:33 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class 'system\front\PPHP' not found in C:\xampp\htdocs\Projects\PHP\projectPHP\library\system\front\Controller.php:35
+#0 F:\xampp\htdocs\projects\projectphp\library\main.php(109): callHook()
+#1 F:\xampp\htdocs\projects\projectphp\library\bootstrap.php(5): require_once('F:\\xampp\\htdocs...')
+#2 F:\xampp\htdocs\projects\projectphp\index.php(4): require_once('F:\\xampp\\htdocs...')
+#3 {main}
+  thrown in F:\xampp\htdocs\projects\projectphp\library\main.php on line 97
+[09-Jun-2019 09:13:09 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class 'front\controller\app\AssetsController' not found in F:\xampp\htdocs\projects\projectphp\library\main.php:97
 Stack trace:
-#0 C:\xampp\htdocs\Projects\PHP\projectPHP\library\shared.php(100): system\front\Controller->__construct('index', 'index', 'index')
-#1 C:\xampp\htdocs\Projects\PHP\projectPHP\library\shared.php(142): callHook()
-#2 C:\xampp\htdocs\Projects\PHP\projectPHP\library\bootstrap.php(4): require_once('C:\\xampp\\htdocs...')
-#3 C:\xampp\htdocs\Projects\PHP\projectPHP\index.php(4): require_once('C:\\xampp\\htdocs...')
-#4 {main}
-  thrown in C:\xampp\htdocs\Projects\PHP\projectPHP\library\system\front\Controller.php on line 35
-[23-Feb-2018 07:06:42 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class 'system\front\PPHP' not found in C:\xampp\htdocs\Projects\PHP\projectPHP\library\system\front\Controller.php:35
+#0 F:\xampp\htdocs\projects\projectphp\library\main.php(109): callHook()
+#1 F:\xampp\htdocs\projects\projectphp\library\bootstrap.php(5): require_once('F:\\xampp\\htdocs...')
+#2 F:\xampp\htdocs\projects\projectphp\index.php(4): require_once('F:\\xampp\\htdocs...')
+#3 {main}
+  thrown in F:\xampp\htdocs\projects\projectphp\library\main.php on line 97
+[09-Jun-2019 09:13:09 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class 'front\controller\app\AssetsController' not found in F:\xampp\htdocs\projects\projectphp\library\main.php:97
 Stack trace:
-#0 C:\xampp\htdocs\Projects\PHP\projectPHP\library\shared.php(100): system\front\Controller->__construct('index', 'index', 'index')
-#1 C:\xampp\htdocs\Projects\PHP\projectPHP\library\shared.php(143): callHook()
-#2 C:\xampp\htdocs\Projects\PHP\projectPHP\library\bootstrap.php(4): require_once('C:\\xampp\\htdocs...')
-#3 C:\xampp\htdocs\Projects\PHP\projectPHP\index.php(4): require_once('C:\\xampp\\htdocs...')
-#4 {main}
-  thrown in C:\xampp\htdocs\Projects\PHP\projectPHP\library\system\front\Controller.php on line 35
-[23-Feb-2018 07:07:13 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class 'system\front\PPHP' not found in C:\xampp\htdocs\Projects\PHP\projectPHP\library\system\front\Controller.php:35
+#0 F:\xampp\htdocs\projects\projectphp\library\main.php(109): callHook()
+#1 F:\xampp\htdocs\projects\projectphp\library\bootstrap.php(5): require_once('F:\\xampp\\htdocs...')
+#2 F:\xampp\htdocs\projects\projectphp\index.php(4): require_once('F:\\xampp\\htdocs...')
+#3 {main}
+  thrown in F:\xampp\htdocs\projects\projectphp\library\main.php on line 97
+[09-Jun-2019 09:13:23 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class 'front\controller\app\AssetsController' not found in F:\xampp\htdocs\projects\projectphp\library\main.php:97
 Stack trace:
-#0 C:\xampp\htdocs\Projects\PHP\projectPHP\library\shared.php(100): system\front\Controller->__construct('index', 'index', 'index')
-#1 C:\xampp\htdocs\Projects\PHP\projectPHP\library\shared.php(143): callHook()
-#2 C:\xampp\htdocs\Projects\PHP\projectPHP\library\bootstrap.php(4): require_once('C:\\xampp\\htdocs...')
-#3 C:\xampp\htdocs\Projects\PHP\projectPHP\index.php(4): require_once('C:\\xampp\\htdocs...')
-#4 {main}
-  thrown in C:\xampp\htdocs\Projects\PHP\projectPHP\library\system\front\Controller.php on line 35
-[23-Feb-2018 07:07:23 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class 'system\front\PPHP' not found in C:\xampp\htdocs\Projects\PHP\projectPHP\library\system\front\Controller.php:35
+#0 F:\xampp\htdocs\projects\projectphp\library\main.php(109): callHook()
+#1 F:\xampp\htdocs\projects\projectphp\library\bootstrap.php(5): require_once('F:\\xampp\\htdocs...')
+#2 F:\xampp\htdocs\projects\projectphp\index.php(4): require_once('F:\\xampp\\htdocs...')
+#3 {main}
+  thrown in F:\xampp\htdocs\projects\projectphp\library\main.php on line 97
+[09-Jun-2019 09:13:23 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class 'front\controller\app\AssetsController' not found in F:\xampp\htdocs\projects\projectphp\library\main.php:97
 Stack trace:
-#0 C:\xampp\htdocs\Projects\PHP\projectPHP\library\shared.php(100): system\front\Controller->__construct('index', 'index', 'index')
-#1 C:\xampp\htdocs\Projects\PHP\projectPHP\library\shared.php(144): callHook()
-#2 C:\xampp\htdocs\Projects\PHP\projectPHP\library\bootstrap.php(4): require_once('C:\\xampp\\htdocs...')
-#3 C:\xampp\htdocs\Projects\PHP\projectPHP\index.php(4): require_once('C:\\xampp\\htdocs...')
-#4 {main}
-  thrown in C:\xampp\htdocs\Projects\PHP\projectPHP\library\system\front\Controller.php on line 35
-[23-Feb-2018 07:07:48 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class 'system\front\PPHP' not found in C:\xampp\htdocs\Projects\PHP\projectPHP\library\system\front\Controller.php:35
+#0 F:\xampp\htdocs\projects\projectphp\library\main.php(109): callHook()
+#1 F:\xampp\htdocs\projects\projectphp\library\bootstrap.php(5): require_once('F:\\xampp\\htdocs...')
+#2 F:\xampp\htdocs\projects\projectphp\index.php(4): require_once('F:\\xampp\\htdocs...')
+#3 {main}
+  thrown in F:\xampp\htdocs\projects\projectphp\library\main.php on line 97
+[09-Jun-2019 09:13:23 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class 'front\controller\app\AssetsController' not found in F:\xampp\htdocs\projects\projectphp\library\main.php:97
 Stack trace:
-#0 C:\xampp\htdocs\Projects\PHP\projectPHP\library\shared.php(100): system\front\Controller->__construct('index', 'index', 'index')
-#1 C:\xampp\htdocs\Projects\PHP\projectPHP\library\shared.php(144): callHook()
-#2 C:\xampp\htdocs\Projects\PHP\projectPHP\library\bootstrap.php(4): require_once('C:\\xampp\\htdocs...')
-#3 C:\xampp\htdocs\Projects\PHP\projectPHP\index.php(4): require_once('C:\\xampp\\htdocs...')
-#4 {main}
-  thrown in C:\xampp\htdocs\Projects\PHP\projectPHP\library\system\front\Controller.php on line 35
-[23-Feb-2018 07:08:59 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class 'system\front\PPHP' not found in C:\xampp\htdocs\Projects\PHP\projectPHP\library\system\front\Controller.php:35
+#0 F:\xampp\htdocs\projects\projectphp\library\main.php(109): callHook()
+#1 F:\xampp\htdocs\projects\projectphp\library\bootstrap.php(5): require_once('F:\\xampp\\htdocs...')
+#2 F:\xampp\htdocs\projects\projectphp\index.php(4): require_once('F:\\xampp\\htdocs...')
+#3 {main}
+  thrown in F:\xampp\htdocs\projects\projectphp\library\main.php on line 97
+[09-Jun-2019 09:13:23 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class 'front\controller\app\AssetsController' not found in F:\xampp\htdocs\projects\projectphp\library\main.php:97
 Stack trace:
-#0 C:\xampp\htdocs\Projects\PHP\projectPHP\library\shared.php(100): system\front\Controller->__construct('index', 'index', 'index')
-#1 C:\xampp\htdocs\Projects\PHP\projectPHP\library\shared.php(142): callHook()
-#2 C:\xampp\htdocs\Projects\PHP\projectPHP\library\bootstrap.php(4): require_once('C:\\xampp\\htdocs...')
-#3 C:\xampp\htdocs\Projects\PHP\projectPHP\index.php(4): require_once('C:\\xampp\\htdocs...')
-#4 {main}
-  thrown in C:\xampp\htdocs\Projects\PHP\projectPHP\library\system\front\Controller.php on line 35
-[23-Feb-2018 07:09:09 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class 'system\front\PPHP' not found in C:\xampp\htdocs\Projects\PHP\projectPHP\library\system\front\Controller.php:35
+#0 F:\xampp\htdocs\projects\projectphp\library\main.php(109): callHook()
+#1 F:\xampp\htdocs\projects\projectphp\library\bootstrap.php(5): require_once('F:\\xampp\\htdocs...')
+#2 F:\xampp\htdocs\projects\projectphp\index.php(4): require_once('F:\\xampp\\htdocs...')
+#3 {main}
+  thrown in F:\xampp\htdocs\projects\projectphp\library\main.php on line 97
+[09-Jun-2019 09:13:23 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class 'front\controller\app\AssetsController' not found in F:\xampp\htdocs\projects\projectphp\library\main.php:97
 Stack trace:
-#0 C:\xampp\htdocs\Projects\PHP\projectPHP\library\shared.php(100): system\front\Controller->__construct('index', 'index', 'index')
-#1 C:\xampp\htdocs\Projects\PHP\projectPHP\library\shared.php(142): callHook()
-#2 C:\xampp\htdocs\Projects\PHP\projectPHP\library\bootstrap.php(4): require_once('C:\\xampp\\htdocs...')
-#3 C:\xampp\htdocs\Projects\PHP\projectPHP\index.php(4): require_once('C:\\xampp\\htdocs...')
-#4 {main}
-  thrown in C:\xampp\htdocs\Projects\PHP\projectPHP\library\system\front\Controller.php on line 35
-[23-Feb-2018 07:09:54 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class 'system\front\PPHP' not found in C:\xampp\htdocs\Projects\PHP\projectPHP\library\system\front\Controller.php:35
+#0 F:\xampp\htdocs\projects\projectphp\library\main.php(109): callHook()
+#1 F:\xampp\htdocs\projects\projectphp\library\bootstrap.php(5): require_once('F:\\xampp\\htdocs...')
+#2 F:\xampp\htdocs\projects\projectphp\index.php(4): require_once('F:\\xampp\\htdocs...')
+#3 {main}
+  thrown in F:\xampp\htdocs\projects\projectphp\library\main.php on line 97
+[09-Jun-2019 09:14:46 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class 'front\controller\app\AssetsController' not found in F:\xampp\htdocs\projects\projectphp\library\main.php:97
 Stack trace:
-#0 C:\xampp\htdocs\Projects\PHP\projectPHP\library\shared.php(100): system\front\Controller->__construct('index', 'index', 'index')
-#1 C:\xampp\htdocs\Projects\PHP\projectPHP\library\shared.php(142): callHook()
-#2 C:\xampp\htdocs\Projects\PHP\projectPHP\library\bootstrap.php(4): require_once('C:\\xampp\\htdocs...')
-#3 C:\xampp\htdocs\Projects\PHP\projectPHP\index.php(4): require_once('C:\\xampp\\htdocs...')
-#4 {main}
-  thrown in C:\xampp\htdocs\Projects\PHP\projectPHP\library\system\front\Controller.php on line 35
-[23-Feb-2018 07:10:11 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class 'system\front\PPHP' not found in C:\xampp\htdocs\Projects\PHP\projectPHP\library\system\front\Controller.php:35
+#0 F:\xampp\htdocs\projects\projectphp\library\main.php(109): callHook()
+#1 F:\xampp\htdocs\projects\projectphp\library\bootstrap.php(5): require_once('F:\\xampp\\htdocs...')
+#2 F:\xampp\htdocs\projects\projectphp\index.php(4): require_once('F:\\xampp\\htdocs...')
+#3 {main}
+  thrown in F:\xampp\htdocs\projects\projectphp\library\main.php on line 97
+[09-Jun-2019 09:14:46 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class 'front\controller\app\AssetsController' not found in F:\xampp\htdocs\projects\projectphp\library\main.php:97
 Stack trace:
-#0 C:\xampp\htdocs\Projects\PHP\projectPHP\library\shared.php(100): system\front\Controller->__construct('index', 'index', 'index')
-#1 C:\xampp\htdocs\Projects\PHP\projectPHP\library\shared.php(142): callHook()
-#2 C:\xampp\htdocs\Projects\PHP\projectPHP\library\bootstrap.php(4): require_once('C:\\xampp\\htdocs...')
-#3 C:\xampp\htdocs\Projects\PHP\projectPHP\index.php(4): require_once('C:\\xampp\\htdocs...')
-#4 {main}
-  thrown in C:\xampp\htdocs\Projects\PHP\projectPHP\library\system\front\Controller.php on line 35
-[23-Feb-2018 07:20:09 Europe/Berlin] PHP Parse error:  syntax error, unexpected '\' (T_NS_SEPARATOR) in C:\xampp\htdocs\Projects\PHP\projectPHP\library\system\front\Controller.php on line 36
-[23-Feb-2018 07:27:42 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method front\controller\index\IndexController::layout() in C:\xampp\htdocs\Projects\PHP\projectPHP\app\code\front\default\controller\index\IndexController.php:6
+#0 F:\xampp\htdocs\projects\projectphp\library\main.php(109): callHook()
+#1 F:\xampp\htdocs\projects\projectphp\library\bootstrap.php(5): require_once('F:\\xampp\\htdocs...')
+#2 F:\xampp\htdocs\projects\projectphp\index.php(4): require_once('F:\\xampp\\htdocs...')
+#3 {main}
+  thrown in F:\xampp\htdocs\projects\projectphp\library\main.php on line 97
+[09-Jun-2019 09:14:47 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class 'front\controller\app\AssetsController' not found in F:\xampp\htdocs\projects\projectphp\library\main.php:97
 Stack trace:
-#0 C:\xampp\htdocs\Projects\PHP\projectPHP\library\shared.php(98): front\controller\index\IndexController->indexAction(Array)
-#1 C:\xampp\htdocs\Projects\PHP\projectPHP\library\shared.php(137): callHook()
-#2 C:\xampp\htdocs\Projects\PHP\projectPHP\library\bootstrap.php(4): require_once('C:\\xampp\\htdocs...')
-#3 C:\xampp\htdocs\Projects\PHP\projectPHP\index.php(4): require_once('C:\\xampp\\htdocs...')
-#4 {main}
-  thrown in C:\xampp\htdocs\Projects\PHP\projectPHP\app\code\front\default\controller\index\IndexController.php on line 6
-[23-Feb-2018 07:43:38 Europe/Berlin] PHP Notice:  Undefined variable: _page in C:\xampp\htdocs\Projects\PHP\projectPHP\library\system\front\Template.php on line 16
-[23-Feb-2018 07:43:38 Europe/Berlin] PHP Notice:  Undefined variable: _controller in C:\xampp\htdocs\Projects\PHP\projectPHP\library\system\front\Template.php on line 16
-[23-Feb-2018 07:43:38 Europe/Berlin] PHP Notice:  Undefined variable: _action in C:\xampp\htdocs\Projects\PHP\projectPHP\library\system\front\Template.php on line 16
-[23-Feb-2018 07:43:38 Europe/Berlin] PHP Notice:  Undefined variable: _page in C:\xampp\htdocs\Projects\PHP\projectPHP\library\system\front\Template.php on line 16
-[23-Feb-2018 07:43:38 Europe/Berlin] PHP Notice:  Undefined variable: _controller in C:\xampp\htdocs\Projects\PHP\projectPHP\library\system\front\Template.php on line 16
-[23-Feb-2018 07:43:38 Europe/Berlin] PHP Notice:  Undefined variable: _action in C:\xampp\htdocs\Projects\PHP\projectPHP\library\system\front\Template.php on line 16
-[23-Feb-2018 08:11:07 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\Projects\PHP\projectPHP\library\system\front\Template.php on line 155
-[23-Feb-2018 08:11:07 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\Projects\PHP\projectPHP\library\system\front\Template.php on line 155
-[23-Feb-2018 08:11:07 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\Projects\PHP\projectPHP\library\system\front\Template.php on line 155
-[23-Feb-2018 08:12:17 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\Projects\PHP\projectPHP\library\system\front\Template.php on line 156
-[23-Feb-2018 08:12:17 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\Projects\PHP\projectPHP\library\system\front\Template.php on line 156
-[23-Feb-2018 08:12:17 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\Projects\PHP\projectPHP\library\system\front\Template.php on line 156
-[23-Feb-2018 10:13:26 Europe/Berlin] PHP Parse error:  syntax error, unexpected 'getBlock' (T_STRING), expecting variable (T_VARIABLE) or '$' in C:\xampp\htdocs\Projects\PHP\projectPHP\library\system\front\Template.php on line 150
-[23-Feb-2018 10:20:39 Europe/Berlin] PHP Notice:  Trying to get property of non-object in C:\xampp\htdocs\Projects\PHP\projectPHP\app\design\front\default\layout\default.php on line 3
-[23-Feb-2018 10:20:52 Europe/Berlin] PHP Notice:  Undefined property: system\admin\Core::$toHtml in C:\xampp\htdocs\Projects\PHP\projectPHP\app\design\front\default\layout\default.php on line 3
-[23-Feb-2018 10:21:08 Europe/Berlin] PHP Notice:  Undefined property: system\admin\Block::$toHtml in C:\xampp\htdocs\Projects\PHP\projectPHP\app\design\front\default\layout\default.php on line 3
-[23-Feb-2018 10:22:17 Europe/Berlin] PHP Notice:  Undefined property: system\admin\Block::$toHtml in C:\xampp\htdocs\Projects\PHP\projectPHP\app\design\front\default\layout\default.php on line 3
-[23-Feb-2018 10:22:17 Europe/Berlin] PHP Notice:  Undefined property: system\admin\Block::$toHtml in C:\xampp\htdocs\Projects\PHP\projectPHP\app\design\front\default\layout\default.php on line 3
-[23-Feb-2018 10:22:18 Europe/Berlin] PHP Notice:  Undefined property: system\admin\Block::$toHtml in C:\xampp\htdocs\Projects\PHP\projectPHP\app\design\front\default\layout\default.php on line 3
-[23-Feb-2018 10:22:53 Europe/Berlin] PHP Notice:  Undefined property: system\admin\Block::$toHtml in C:\xampp\htdocs\Projects\PHP\projectPHP\app\design\front\default\layout\default.php on line 3
-[23-Feb-2018 10:23:49 Europe/Berlin] PHP Notice:  Undefined property: system\admin\Block::$toHtml in C:\xampp\htdocs\Projects\PHP\projectPHP\app\design\front\default\layout\default.php on line 3
-[23-Feb-2018 10:30:37 Europe/Berlin] PHP Notice:  Undefined index: class in C:\xampp\htdocs\Projects\PHP\projectPHP\library\system\admin\Block.php on line 10
-[23-Feb-2018 10:30:45 Europe/Berlin] PHP Notice:  Undefined index: class in C:\xampp\htdocs\Projects\PHP\projectPHP\library\system\admin\Block.php on line 10
-[23-Feb-2018 11:10:56 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function renderLayout() on array in C:\xampp\htdocs\Projects\PHP\projectPHP\app\code\front\default\controller\index\IndexController.php:9
+#0 F:\xampp\htdocs\projects\projectphp\library\main.php(109): callHook()
+#1 F:\xampp\htdocs\projects\projectphp\library\bootstrap.php(5): require_once('F:\\xampp\\htdocs...')
+#2 F:\xampp\htdocs\projects\projectphp\index.php(4): require_once('F:\\xampp\\htdocs...')
+#3 {main}
+  thrown in F:\xampp\htdocs\projects\projectphp\library\main.php on line 97
+[09-Jun-2019 09:14:47 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class 'front\controller\app\AssetsController' not found in F:\xampp\htdocs\projects\projectphp\library\main.php:97
 Stack trace:
-#0 C:\xampp\htdocs\Projects\PHP\projectPHP\library\shared.php(98): front\controller\index\IndexController->indexAction(Array)
-#1 C:\xampp\htdocs\Projects\PHP\projectPHP\library\shared.php(137): callHook()
-#2 C:\xampp\htdocs\Projects\PHP\projectPHP\library\bootstrap.php(4): require_once('C:\\xampp\\htdocs...')
-#3 C:\xampp\htdocs\Projects\PHP\projectPHP\index.php(4): require_once('C:\\xampp\\htdocs...')
-#4 {main}
-  thrown in C:\xampp\htdocs\Projects\PHP\projectPHP\app\code\front\default\controller\index\IndexController.php on line 9
-[23-Feb-2018 11:13:29 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method system\admin\Block::printTemplate() in C:\xampp\htdocs\Projects\PHP\projectPHP\app\design\front\default\template\index\index\Index.php:3
+#0 F:\xampp\htdocs\projects\projectphp\library\main.php(109): callHook()
+#1 F:\xampp\htdocs\projects\projectphp\library\bootstrap.php(5): require_once('F:\\xampp\\htdocs...')
+#2 F:\xampp\htdocs\projects\projectphp\index.php(4): require_once('F:\\xampp\\htdocs...')
+#3 {main}
+  thrown in F:\xampp\htdocs\projects\projectphp\library\main.php on line 97
+[09-Jun-2019 09:14:47 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class 'front\controller\app\AssetsController' not found in F:\xampp\htdocs\projects\projectphp\library\main.php:97
 Stack trace:
-#0 C:\xampp\htdocs\Projects\PHP\projectPHP\library\system\admin\Block.php(30): include()
-#1 C:\xampp\htdocs\Projects\PHP\projectPHP\library\system\front\Template.php(150): system\admin\Block->__construct(Array)
-#2 C:\xampp\htdocs\Projects\PHP\projectPHP\app\design\front\default\layout\default.php(3): system\front\Template->__call('header', Array)
-#3 C:\xampp\htdocs\Projects\PHP\projectPHP\library\system\front\Template.php(129): include('C:\\xampp\\htdocs...')
-#4 C:\xampp\htdocs\Projects\PHP\projectPHP\app\code\front\default\controller\index\IndexController.php(9): system\front\Template->renderLayout()
-#5 C:\xampp\htdocs\Projects\PHP\projectPHP\library\shared.php(98): front\controller\index\IndexController->indexAction(Array)
-#6 C:\xampp\htdocs\Projects\PHP\projectPHP\library\shared.php(137): callHook()
-#7 C:\xampp\htdocs\ in C:\xampp\htdocs\Projects\PHP\projectPHP\app\design\front\default\template\index\index\Index.php on line 3
-[23-Feb-2018 11:14:33 Europe/Berlin] PHP Notice:  Undefined property: system\admin\Block::$name in C:\xampp\htdocs\Projects\PHP\projectPHP\app\design\front\default\template\index\index\Index.php on line 5
-[23-Feb-2018 11:14:33 Europe/Berlin] PHP Notice:  Undefined property: system\admin\Block::$age in C:\xampp\htdocs\Projects\PHP\projectPHP\app\design\front\default\template\index\index\Index.php on line 7
-[23-Feb-2018 11:14:33 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method system\admin\Block::printPage() in C:\xampp\htdocs\Projects\PHP\projectPHP\app\design\front\default\template\index\index\Index.php:10
+#0 F:\xampp\htdocs\projects\projectphp\library\main.php(109): callHook()
+#1 F:\xampp\htdocs\projects\projectphp\library\bootstrap.php(5): require_once('F:\\xampp\\htdocs...')
+#2 F:\xampp\htdocs\projects\projectphp\index.php(4): require_once('F:\\xampp\\htdocs...')
+#3 {main}
+  thrown in F:\xampp\htdocs\projects\projectphp\library\main.php on line 97
+[09-Jun-2019 09:16:21 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class 'front\controller\app\AssetsController' not found in F:\xampp\htdocs\projects\projectphp\library\main.php:97
 Stack trace:
-#0 C:\xampp\htdocs\Projects\PHP\projectPHP\library\system\admin\Block.php(30): include()
-#1 C:\xampp\htdocs\Projects\PHP\projectPHP\library\system\front\Template.php(150): system\admin\Block->__construct(Array)
-#2 C:\xampp\htdocs\Projects\PHP\projectPHP\app\design\front\default\layout\default.php(3): system\front\Template->__call('header', Array)
-#3 C:\xampp\htdocs\Projects\PHP\projectPHP\library\system\front\Template.php(129): include('C:\\xampp\\htdocs...')
-#4 C:\xampp\htdocs\Projects\PHP\projectPHP\app\code\front\default\controller\index\IndexController.php(9): system\front\Template->renderLayout()
-#5 C:\xampp\htdocs\Projects\PHP\projectPHP\library\shared.php(98): front\controller\index\IndexController->indexAction(Array)
-#6 C:\xampp\htdocs\Projects\PHP\projectPHP\library\shared.php(137): callHook()
-#7 C:\xampp\htdocs\Pro in C:\xampp\htdocs\Projects\PHP\projectPHP\app\design\front\default\template\index\index\Index.php on line 10
-[23-Feb-2018 11:14:34 Europe/Berlin] PHP Notice:  Undefined property: system\admin\Block::$name in C:\xampp\htdocs\Projects\PHP\projectPHP\app\design\front\default\template\index\index\Index.php on line 5
-[23-Feb-2018 11:14:34 Europe/Berlin] PHP Notice:  Undefined property: system\admin\Block::$age in C:\xampp\htdocs\Projects\PHP\projectPHP\app\design\front\default\template\index\index\Index.php on line 7
-[23-Feb-2018 11:14:34 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method system\admin\Block::printPage() in C:\xampp\htdocs\Projects\PHP\projectPHP\app\design\front\default\template\index\index\Index.php:10
+#0 F:\xampp\htdocs\projects\projectphp\library\main.php(109): callHook()
+#1 F:\xampp\htdocs\projects\projectphp\library\bootstrap.php(5): require_once('F:\\xampp\\htdocs...')
+#2 F:\xampp\htdocs\projects\projectphp\index.php(4): require_once('F:\\xampp\\htdocs...')
+#3 {main}
+  thrown in F:\xampp\htdocs\projects\projectphp\library\main.php on line 97
+[09-Jun-2019 09:16:21 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class 'front\controller\app\AssetsController' not found in F:\xampp\htdocs\projects\projectphp\library\main.php:97
 Stack trace:
-#0 C:\xampp\htdocs\Projects\PHP\projectPHP\library\system\admin\Block.php(30): include()
-#1 C:\xampp\htdocs\Projects\PHP\projectPHP\library\system\front\Template.php(150): system\admin\Block->__construct(Array)
-#2 C:\xampp\htdocs\Projects\PHP\projectPHP\app\design\front\default\layout\default.php(3): system\front\Template->__call('header', Array)
-#3 C:\xampp\htdocs\Projects\PHP\projectPHP\library\system\front\Template.php(129): include('C:\\xampp\\htdocs...')
-#4 C:\xampp\htdocs\Projects\PHP\projectPHP\app\code\front\default\controller\index\IndexController.php(9): system\front\Template->renderLayout()
-#5 C:\xampp\htdocs\Projects\PHP\projectPHP\library\shared.php(98): front\controller\index\IndexController->indexAction(Array)
-#6 C:\xampp\htdocs\Projects\PHP\projectPHP\library\shared.php(137): callHook()
-#7 C:\xampp\htdocs\Pro in C:\xampp\htdocs\Projects\PHP\projectPHP\app\design\front\default\template\index\index\Index.php on line 10
-[23-Feb-2018 11:14:34 Europe/Berlin] PHP Notice:  Undefined property: system\admin\Block::$name in C:\xampp\htdocs\Projects\PHP\projectPHP\app\design\front\default\template\index\index\Index.php on line 5
-[23-Feb-2018 11:14:34 Europe/Berlin] PHP Notice:  Undefined property: system\admin\Block::$age in C:\xampp\htdocs\Projects\PHP\projectPHP\app\design\front\default\template\index\index\Index.php on line 7
-[23-Feb-2018 11:14:34 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method system\admin\Block::printPage() in C:\xampp\htdocs\Projects\PHP\projectPHP\app\design\front\default\template\index\index\Index.php:10
+#0 F:\xampp\htdocs\projects\projectphp\library\main.php(109): callHook()
+#1 F:\xampp\htdocs\projects\projectphp\library\bootstrap.php(5): require_once('F:\\xampp\\htdocs...')
+#2 F:\xampp\htdocs\projects\projectphp\index.php(4): require_once('F:\\xampp\\htdocs...')
+#3 {main}
+  thrown in F:\xampp\htdocs\projects\projectphp\library\main.php on line 97
+[09-Jun-2019 09:16:21 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class 'front\controller\app\AssetsController' not found in F:\xampp\htdocs\projects\projectphp\library\main.php:97
 Stack trace:
-#0 C:\xampp\htdocs\Projects\PHP\projectPHP\library\system\admin\Block.php(30): include()
-#1 C:\xampp\htdocs\Projects\PHP\projectPHP\library\system\front\Template.php(150): system\admin\Block->__construct(Array)
-#2 C:\xampp\htdocs\Projects\PHP\projectPHP\app\design\front\default\layout\default.php(3): system\front\Template->__call('header', Array)
-#3 C:\xampp\htdocs\Projects\PHP\projectPHP\library\system\front\Template.php(129): include('C:\\xampp\\htdocs...')
-#4 C:\xampp\htdocs\Projects\PHP\projectPHP\app\code\front\default\controller\index\IndexController.php(9): system\front\Template->renderLayout()
-#5 C:\xampp\htdocs\Projects\PHP\projectPHP\library\shared.php(98): front\controller\index\IndexController->indexAction(Array)
-#6 C:\xampp\htdocs\Projects\PHP\projectPHP\library\shared.php(137): callHook()
-#7 C:\xampp\htdocs\Pro in C:\xampp\htdocs\Projects\PHP\projectPHP\app\design\front\default\template\index\index\Index.php on line 10
-[14-Oct-2018 10:05:42 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class 'system\front\Layout' not found in F:\xampp\htdocs\projectPHP\library\system\front\Controller.php:44
+#0 F:\xampp\htdocs\projects\projectphp\library\main.php(109): callHook()
+#1 F:\xampp\htdocs\projects\projectphp\library\bootstrap.php(5): require_once('F:\\xampp\\htdocs...')
+#2 F:\xampp\htdocs\projects\projectphp\index.php(4): require_once('F:\\xampp\\htdocs...')
+#3 {main}
+  thrown in F:\xampp\htdocs\projects\projectphp\library\main.php on line 97
+[09-Jun-2019 09:16:21 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class 'front\controller\app\AssetsController' not found in F:\xampp\htdocs\projects\projectphp\library\main.php:97
 Stack trace:
-#0 F:\xampp\htdocs\projectPHP\library\system\front\Controller.php(41): system\front\Controller->createLayout()
-#1 F:\xampp\htdocs\projectPHP\library\shared.php(95): system\front\Controller->__construct('index', 'index', 'index')
-#2 F:\xampp\htdocs\projectPHP\library\shared.php(137): callHook()
-#3 F:\xampp\htdocs\projectPHP\library\bootstrap.php(4): require_once('F:\\xampp\\htdocs...')
-#4 F:\xampp\htdocs\projectPHP\index.php(4): require_once('F:\\xampp\\htdocs...')
-#5 {main}
-  thrown in F:\xampp\htdocs\projectPHP\library\system\front\Controller.php on line 44
-[14-Oct-2018 12:37:56 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method system\front\Block::renderLayout() in F:\xampp\htdocs\projectPHP\library\system\front\Block.php:110
+#0 F:\xampp\htdocs\projects\projectphp\library\main.php(109): callHook()
+#1 F:\xampp\htdocs\projects\projectphp\library\bootstrap.php(5): require_once('F:\\xampp\\htdocs...')
+#2 F:\xampp\htdocs\projects\projectphp\index.php(4): require_once('F:\\xampp\\htdocs...')
+#3 {main}
+  thrown in F:\xampp\htdocs\projects\projectphp\library\main.php on line 97
+[09-Jun-2019 09:16:21 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class 'front\controller\app\AssetsController' not found in F:\xampp\htdocs\projects\projectphp\library\main.php:97
 Stack trace:
-#0 F:\xampp\htdocs\projectPHP\library\system\front\Block.php(76): system\front\Block->getHtml()
-#1 F:\xampp\htdocs\projectPHP\app\design\front\default\layout\new\alternative.php(9): system\front\Block->toHtml()
-#2 F:\xampp\htdocs\projectPHP\library\system\front\Layout.php(62): include('F:\\xampp\\htdocs...')
-#3 F:\xampp\htdocs\projectPHP\library\system\front\Block.php(110): system\front\Layout->renderLayout()
-#4 F:\xampp\htdocs\projectPHP\library\system\front\Block.php(76): system\front\Block->getHtml()
-#5 F:\xampp\htdocs\projectPHP\app\design\front\default\layout\html\page.php(7): system\front\Block->toHtml()
-#6 F:\xampp\htdocs\projectPHP\library\system\front\Layout.php(62): include('F:\\xampp\\htdocs...')
-#7 F:\xampp\htdocs\projectPHP\app\design\front\default\layout\default.php(5): system\front\Layout->renderLayout('html\\page')
-#8 F:\xampp\htdocs\projectP in F:\xampp\htdocs\projectPHP\library\system\front\Block.php on line 110
-[14-Oct-2018 12:52:37 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method system\front\Block::renderLayout() in F:\xampp\htdocs\projectPHP\library\system\front\Block.php:110
+#0 F:\xampp\htdocs\projects\projectphp\library\main.php(109): callHook()
+#1 F:\xampp\htdocs\projects\projectphp\library\bootstrap.php(5): require_once('F:\\xampp\\htdocs...')
+#2 F:\xampp\htdocs\projects\projectphp\index.php(4): require_once('F:\\xampp\\htdocs...')
+#3 {main}
+  thrown in F:\xampp\htdocs\projects\projectphp\library\main.php on line 97
+[09-Jun-2019 09:17:42 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class 'front\controller\app\AssetsController' not found in F:\xampp\htdocs\projects\projectphp\library\main.php:97
 Stack trace:
-#0 F:\xampp\htdocs\projectPHP\library\system\front\Block.php(76): system\front\Block->getHtml()
-#1 F:\xampp\htdocs\projectPHP\app\design\front\default\layout\new\alternative.php(9): system\front\Block->toHtml()
-#2 F:\xampp\htdocs\projectPHP\library\system\front\Layout.php(62): include('F:\\xampp\\htdocs...')
-#3 F:\xampp\htdocs\projectPHP\library\system\front\Block.php(110): system\front\Layout->renderLayout()
-#4 F:\xampp\htdocs\projectPHP\library\system\front\Block.php(76): system\front\Block->getHtml()
-#5 F:\xampp\htdocs\projectPHP\app\design\front\default\layout\html\page.php(7): system\front\Block->toHtml()
-#6 F:\xampp\htdocs\projectPHP\library\system\front\Layout.php(62): include('F:\\xampp\\htdocs...')
-#7 F:\xampp\htdocs\projectPHP\app\design\front\default\layout\default.php(5): system\front\Layout->renderLayout('html\\page')
-#8 F:\xampp\htdocs\projectP in F:\xampp\htdocs\projectPHP\library\system\front\Block.php on line 110
-[14-Oct-2018 12:52:49 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method system\front\Block::renderLayout() in F:\xampp\htdocs\projectPHP\library\system\front\Block.php:110
+#0 F:\xampp\htdocs\projects\projectphp\library\main.php(109): callHook()
+#1 F:\xampp\htdocs\projects\projectphp\library\bootstrap.php(5): require_once('F:\\xampp\\htdocs...')
+#2 F:\xampp\htdocs\projects\projectphp\index.php(4): require_once('F:\\xampp\\htdocs...')
+#3 {main}
+  thrown in F:\xampp\htdocs\projects\projectphp\library\main.php on line 97
+[09-Jun-2019 09:17:42 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class 'front\controller\app\AssetsController' not found in F:\xampp\htdocs\projects\projectphp\library\main.php:97
 Stack trace:
-#0 F:\xampp\htdocs\projectPHP\library\system\front\Block.php(76): system\front\Block->getHtml()
-#1 F:\xampp\htdocs\projectPHP\app\design\front\default\layout\new\alternative.php(9): system\front\Block->toHtml()
-#2 F:\xampp\htdocs\projectPHP\library\system\front\Layout.php(62): include('F:\\xampp\\htdocs...')
-#3 F:\xampp\htdocs\projectPHP\library\system\front\Block.php(110): system\front\Layout->renderLayout()
-#4 F:\xampp\htdocs\projectPHP\library\system\front\Block.php(76): system\front\Block->getHtml()
-#5 F:\xampp\htdocs\projectPHP\app\design\front\default\layout\html\page.php(7): system\front\Block->toHtml()
-#6 F:\xampp\htdocs\projectPHP\library\system\front\Layout.php(62): include('F:\\xampp\\htdocs...')
-#7 F:\xampp\htdocs\projectPHP\app\design\front\default\layout\default.php(5): system\front\Layout->renderLayout('html\\page')
-#8 F:\xampp\htdocs\projectP in F:\xampp\htdocs\projectPHP\library\system\front\Block.php on line 110
-[14-Oct-2018 13:08:09 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method system\front\Block::renderLayout() in F:\xampp\htdocs\projectPHP\library\system\front\Block.php:110
+#0 F:\xampp\htdocs\projects\projectphp\library\main.php(109): callHook()
+#1 F:\xampp\htdocs\projects\projectphp\library\bootstrap.php(5): require_once('F:\\xampp\\htdocs...')
+#2 F:\xampp\htdocs\projects\projectphp\index.php(4): require_once('F:\\xampp\\htdocs...')
+#3 {main}
+  thrown in F:\xampp\htdocs\projects\projectphp\library\main.php on line 97
+[09-Jun-2019 09:17:42 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class 'front\controller\app\AssetsController' not found in F:\xampp\htdocs\projects\projectphp\library\main.php:97
 Stack trace:
-#0 F:\xampp\htdocs\projectPHP\library\system\front\Block.php(76): system\front\Block->getHtml()
-#1 F:\xampp\htdocs\projectPHP\app\design\front\default\layout\new\alternative.php(9): system\front\Block->toHtml()
-#2 F:\xampp\htdocs\projectPHP\library\system\front\Layout.php(62): include('F:\\xampp\\htdocs...')
-#3 F:\xampp\htdocs\projectPHP\library\system\front\Block.php(110): system\front\Layout->renderLayout()
-#4 F:\xampp\htdocs\projectPHP\library\system\front\Block.php(76): system\front\Block->getHtml()
-#5 F:\xampp\htdocs\projectPHP\app\design\front\default\layout\html\page.php(7): system\front\Block->toHtml()
-#6 F:\xampp\htdocs\projectPHP\library\system\front\Layout.php(62): include('F:\\xampp\\htdocs...')
-#7 F:\xampp\htdocs\projectPHP\app\design\front\default\layout\default.php(5): system\front\Layout->renderLayout('html\\page')
-#8 F:\xampp\htdocs\projectP in F:\xampp\htdocs\projectPHP\library\system\front\Block.php on line 110
-[14-Oct-2018 13:08:10 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method system\front\Block::renderLayout() in F:\xampp\htdocs\projectPHP\library\system\front\Block.php:110
+#0 F:\xampp\htdocs\projects\projectphp\library\main.php(109): callHook()
+#1 F:\xampp\htdocs\projects\projectphp\library\bootstrap.php(5): require_once('F:\\xampp\\htdocs...')
+#2 F:\xampp\htdocs\projects\projectphp\index.php(4): require_once('F:\\xampp\\htdocs...')
+#3 {main}
+  thrown in F:\xampp\htdocs\projects\projectphp\library\main.php on line 97
+[09-Jun-2019 09:17:42 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class 'front\controller\app\AssetsController' not found in F:\xampp\htdocs\projects\projectphp\library\main.php:97
 Stack trace:
-#0 F:\xampp\htdocs\projectPHP\library\system\front\Block.php(76): system\front\Block->getHtml()
-#1 F:\xampp\htdocs\projectPHP\app\design\front\default\layout\new\alternative.php(9): system\front\Block->toHtml()
-#2 F:\xampp\htdocs\projectPHP\library\system\front\Layout.php(62): include('F:\\xampp\\htdocs...')
-#3 F:\xampp\htdocs\projectPHP\library\system\front\Block.php(110): system\front\Layout->renderLayout()
-#4 F:\xampp\htdocs\projectPHP\library\system\front\Block.php(76): system\front\Block->getHtml()
-#5 F:\xampp\htdocs\projectPHP\app\design\front\default\layout\html\page.php(7): system\front\Block->toHtml()
-#6 F:\xampp\htdocs\projectPHP\library\system\front\Layout.php(62): include('F:\\xampp\\htdocs...')
-#7 F:\xampp\htdocs\projectPHP\app\design\front\default\layout\default.php(5): system\front\Layout->renderLayout('html\\page')
-#8 F:\xampp\htdocs\projectP in F:\xampp\htdocs\projectPHP\library\system\front\Block.php on line 110
-[14-Oct-2018 13:08:10 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method system\front\Block::renderLayout() in F:\xampp\htdocs\projectPHP\library\system\front\Block.php:110
+#0 F:\xampp\htdocs\projects\projectphp\library\main.php(109): callHook()
+#1 F:\xampp\htdocs\projects\projectphp\library\bootstrap.php(5): require_once('F:\\xampp\\htdocs...')
+#2 F:\xampp\htdocs\projects\projectphp\index.php(4): require_once('F:\\xampp\\htdocs...')
+#3 {main}
+  thrown in F:\xampp\htdocs\projects\projectphp\library\main.php on line 97
+[09-Jun-2019 09:17:42 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class 'front\controller\app\AssetsController' not found in F:\xampp\htdocs\projects\projectphp\library\main.php:97
 Stack trace:
-#0 F:\xampp\htdocs\projectPHP\library\system\front\Block.php(76): system\front\Block->getHtml()
-#1 F:\xampp\htdocs\projectPHP\app\design\front\default\layout\new\alternative.php(9): system\front\Block->toHtml()
-#2 F:\xampp\htdocs\projectPHP\library\system\front\Layout.php(62): include('F:\\xampp\\htdocs...')
-#3 F:\xampp\htdocs\projectPHP\library\system\front\Block.php(110): system\front\Layout->renderLayout()
-#4 F:\xampp\htdocs\projectPHP\library\system\front\Block.php(76): system\front\Block->getHtml()
-#5 F:\xampp\htdocs\projectPHP\app\design\front\default\layout\html\page.php(7): system\front\Block->toHtml()
-#6 F:\xampp\htdocs\projectPHP\library\system\front\Layout.php(62): include('F:\\xampp\\htdocs...')
-#7 F:\xampp\htdocs\projectPHP\app\design\front\default\layout\default.php(5): system\front\Layout->renderLayout('html\\page')
-#8 F:\xampp\htdocs\projectP in F:\xampp\htdocs\projectPHP\library\system\front\Block.php on line 110
-[14-Oct-2018 13:47:19 Europe/Berlin] PHP Warning:  require_once(F:\xampp\htdocs\projectPHP\library\dbconnect.php): failed to open stream: No such file or directory in F:\xampp\htdocs\projectPHP\library\bootstrap.php on line 6
-[14-Oct-2018 13:47:19 Europe/Berlin] PHP Fatal error:  require_once(): Failed opening required 'F:\xampp\htdocs\projectPHP\library\dbconnect.php' (include_path='F:\xampp\php\PEAR') in F:\xampp\htdocs\projectPHP\library\bootstrap.php on line 6
-[14-Oct-2018 13:47:19 Europe/Berlin] PHP Warning:  require_once(F:\xampp\htdocs\projectPHP\library\dbconnect.php): failed to open stream: No such file or directory in F:\xampp\htdocs\projectPHP\library\bootstrap.php on line 6
-[14-Oct-2018 13:47:19 Europe/Berlin] PHP Fatal error:  require_once(): Failed opening required 'F:\xampp\htdocs\projectPHP\library\dbconnect.php' (include_path='F:\xampp\php\PEAR') in F:\xampp\htdocs\projectPHP\library\bootstrap.php on line 6
-[14-Oct-2018 13:47:19 Europe/Berlin] PHP Warning:  require_once(F:\xampp\htdocs\projectPHP\library\dbconnect.php): failed to open stream: No such file or directory in F:\xampp\htdocs\projectPHP\library\bootstrap.php on line 6
-[14-Oct-2018 13:47:19 Europe/Berlin] PHP Fatal error:  require_once(): Failed opening required 'F:\xampp\htdocs\projectPHP\library\dbconnect.php' (include_path='F:\xampp\php\PEAR') in F:\xampp\htdocs\projectPHP\library\bootstrap.php on line 6
-[14-Oct-2018 13:47:20 Europe/Berlin] PHP Warning:  require_once(F:\xampp\htdocs\projectPHP\library\dbconnect.php): failed to open stream: No such file or directory in F:\xampp\htdocs\projectPHP\library\bootstrap.php on line 6
-[14-Oct-2018 13:47:20 Europe/Berlin] PHP Fatal error:  require_once(): Failed opening required 'F:\xampp\htdocs\projectPHP\library\dbconnect.php' (include_path='F:\xampp\php\PEAR') in F:\xampp\htdocs\projectPHP\library\bootstrap.php on line 6
-[14-Oct-2018 13:53:13 Europe/Berlin] PHP Notice:  Undefined variable: DBCONNECTION in F:\xampp\htdocs\projectPHP\library\system\front\Controller.php on line 142
-[14-Oct-2018 13:53:13 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function close() on null in F:\xampp\htdocs\projectPHP\library\system\front\Controller.php:142
+#0 F:\xampp\htdocs\projects\projectphp\library\main.php(109): callHook()
+#1 F:\xampp\htdocs\projects\projectphp\library\bootstrap.php(5): require_once('F:\\xampp\\htdocs...')
+#2 F:\xampp\htdocs\projects\projectphp\index.php(4): require_once('F:\\xampp\\htdocs...')
+#3 {main}
+  thrown in F:\xampp\htdocs\projects\projectphp\library\main.php on line 97
+[09-Jun-2019 10:05:11 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class 'system\admin\PPHP' not found in F:\xampp\htdocs\projects\projectphp\library\system\admin\Block.php:116
 Stack trace:
-#0 F:\xampp\htdocs\projectPHP\library\main.php(103): system\front\Controller->__destruct()
-#1 F:\xampp\htdocs\projectPHP\library\main.php(108): callHook()
-#2 F:\xampp\htdocs\projectPHP\library\bootstrap.php(5): require_once('F:\\xampp\\htdocs...')
-#3 F:\xampp\htdocs\projectPHP\index.php(4): require_once('F:\\xampp\\htdocs...')
-#4 {main}
-  thrown in F:\xampp\htdocs\projectPHP\library\system\front\Controller.php on line 142
-[14-Oct-2018 13:53:13 Europe/Berlin] PHP Notice:  Undefined variable: DBCONNECTION in F:\xampp\htdocs\projectPHP\library\system\front\Controller.php on line 142
-[14-Oct-2018 13:53:13 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function close() on null in F:\xampp\htdocs\projectPHP\library\system\front\Controller.php:142
-Stack trace:
-#0 F:\xampp\htdocs\projectPHP\library\main.php(103): system\front\Controller->__destruct()
-#1 F:\xampp\htdocs\projectPHP\library\main.php(108): callHook()
-#2 F:\xampp\htdocs\projectPHP\library\bootstrap.php(5): require_once('F:\\xampp\\htdocs...')
-#3 F:\xampp\htdocs\projectPHP\index.php(4): require_once('F:\\xampp\\htdocs...')
-#4 {main}
-  thrown in F:\xampp\htdocs\projectPHP\library\system\front\Controller.php on line 142
-[14-Oct-2018 13:53:14 Europe/Berlin] PHP Notice:  Undefined variable: DBCONNECTION in F:\xampp\htdocs\projectPHP\library\system\front\Controller.php on line 142
-[14-Oct-2018 13:53:14 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function close() on null in F:\xampp\htdocs\projectPHP\library\system\front\Controller.php:142
-Stack trace:
-#0 F:\xampp\htdocs\projectPHP\library\main.php(103): system\front\Controller->__destruct()
-#1 F:\xampp\htdocs\projectPHP\library\main.php(108): callHook()
-#2 F:\xampp\htdocs\projectPHP\library\bootstrap.php(5): require_once('F:\\xampp\\htdocs...')
-#3 F:\xampp\htdocs\projectPHP\index.php(4): require_once('F:\\xampp\\htdocs...')
-#4 {main}
-  thrown in F:\xampp\htdocs\projectPHP\library\system\front\Controller.php on line 142
-[14-Oct-2018 13:53:14 Europe/Berlin] PHP Notice:  Undefined variable: DBCONNECTION in F:\xampp\htdocs\projectPHP\library\system\front\Controller.php on line 142
-[14-Oct-2018 13:53:14 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function close() on null in F:\xampp\htdocs\projectPHP\library\system\front\Controller.php:142
-Stack trace:
-#0 F:\xampp\htdocs\projectPHP\library\main.php(103): system\front\Controller->__destruct()
-#1 F:\xampp\htdocs\projectPHP\library\main.php(108): callHook()
-#2 F:\xampp\htdocs\projectPHP\library\bootstrap.php(5): require_once('F:\\xampp\\htdocs...')
-#3 F:\xampp\htdocs\projectPHP\index.php(4): require_once('F:\\xampp\\htdocs...')
-#4 {main}
-  thrown in F:\xampp\htdocs\projectPHP\library\system\front\Controller.php on line 142
-[14-Oct-2018 13:53:34 Europe/Berlin] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting ',' or ';' in F:\xampp\htdocs\projectPHP\library\system\front\Controller.php on line 142
-[28-May-2019 19:13:35 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 115
-[28-May-2019 19:13:35 Europe/Berlin] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 117
-[28-May-2019 19:13:35 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\system\common\TableModel.php on line 128
-[31-May-2019 17:51:05 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 115
-[31-May-2019 17:51:05 Europe/Berlin] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 117
-[31-May-2019 17:51:05 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\system\common\TableModel.php on line 128
-[31-May-2019 18:39:48 Europe/Berlin] PHP Parse error:  syntax error, unexpected 'die' (T_EXIT) in F:\xampp\htdocs\projects\projectphp\library\system\common\dbconnect\Mysqli.php on line 15
-[31-May-2019 18:40:20 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 115
-[31-May-2019 18:40:20 Europe/Berlin] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 117
-[31-May-2019 18:40:20 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\system\common\TableModel.php on line 128
-[31-May-2019 18:41:14 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 115
-[31-May-2019 18:41:14 Europe/Berlin] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 117
-[31-May-2019 18:41:14 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\system\common\TableModel.php on line 128
-[31-May-2019 18:41:14 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 115
-[31-May-2019 18:41:14 Europe/Berlin] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 117
-[31-May-2019 18:41:14 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\system\common\TableModel.php on line 128
-[31-May-2019 18:41:15 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 115
-[31-May-2019 18:41:15 Europe/Berlin] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 117
-[31-May-2019 18:41:15 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\system\common\TableModel.php on line 128
-[31-May-2019 18:41:15 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 115
-[31-May-2019 18:41:15 Europe/Berlin] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 117
-[31-May-2019 18:41:15 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\system\common\TableModel.php on line 128
-[31-May-2019 18:41:17 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 115
-[31-May-2019 18:41:17 Europe/Berlin] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 117
-[31-May-2019 18:41:17 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\system\common\TableModel.php on line 128
-[31-May-2019 18:41:17 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 115
-[31-May-2019 18:41:17 Europe/Berlin] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 117
-[31-May-2019 18:41:17 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\system\common\TableModel.php on line 128
-[31-May-2019 18:41:17 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 115
-[31-May-2019 18:41:17 Europe/Berlin] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 117
-[31-May-2019 18:41:17 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\system\common\TableModel.php on line 128
-[31-May-2019 18:41:17 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 115
-[31-May-2019 18:41:17 Europe/Berlin] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 117
-[31-May-2019 18:41:17 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\system\common\TableModel.php on line 128
-[31-May-2019 18:41:18 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 115
-[31-May-2019 18:41:18 Europe/Berlin] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 117
-[31-May-2019 18:41:18 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\system\common\TableModel.php on line 128
-[31-May-2019 18:41:18 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 115
-[31-May-2019 18:41:18 Europe/Berlin] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 117
-[31-May-2019 18:41:18 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\system\common\TableModel.php on line 128
-[31-May-2019 18:41:18 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 115
-[31-May-2019 18:41:18 Europe/Berlin] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 117
-[31-May-2019 18:41:18 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\system\common\TableModel.php on line 128
-[31-May-2019 18:41:18 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 115
-[31-May-2019 18:41:18 Europe/Berlin] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 117
-[31-May-2019 18:41:18 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\system\common\TableModel.php on line 128
-[31-May-2019 18:41:18 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 115
-[31-May-2019 18:41:18 Europe/Berlin] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 117
-[31-May-2019 18:41:18 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\system\common\TableModel.php on line 128
-[31-May-2019 18:41:19 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 115
-[31-May-2019 18:41:19 Europe/Berlin] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 117
-[31-May-2019 18:41:19 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\system\common\TableModel.php on line 128
-[31-May-2019 18:41:19 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 115
-[31-May-2019 18:41:19 Europe/Berlin] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 117
-[31-May-2019 18:41:19 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\system\common\TableModel.php on line 128
-[31-May-2019 18:41:19 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 115
-[31-May-2019 18:41:19 Europe/Berlin] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 117
-[31-May-2019 18:41:19 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\system\common\TableModel.php on line 128
-[31-May-2019 18:41:20 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 115
-[31-May-2019 18:41:20 Europe/Berlin] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 117
-[31-May-2019 18:41:20 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\system\common\TableModel.php on line 128
-[31-May-2019 18:41:20 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 115
-[31-May-2019 18:41:20 Europe/Berlin] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 117
-[31-May-2019 18:41:20 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\system\common\TableModel.php on line 128
-[31-May-2019 18:41:20 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 115
-[31-May-2019 18:41:20 Europe/Berlin] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 117
-[31-May-2019 18:41:20 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\system\common\TableModel.php on line 128
-[31-May-2019 18:41:21 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 115
-[31-May-2019 18:41:21 Europe/Berlin] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 117
-[31-May-2019 18:41:21 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\system\common\TableModel.php on line 128
-[31-May-2019 18:41:21 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 115
-[31-May-2019 18:41:21 Europe/Berlin] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 117
-[31-May-2019 18:41:21 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\system\common\TableModel.php on line 128
-[31-May-2019 18:41:21 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 115
-[31-May-2019 18:41:21 Europe/Berlin] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 117
-[31-May-2019 18:41:21 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\system\common\TableModel.php on line 128
-[31-May-2019 18:41:21 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 115
-[31-May-2019 18:41:21 Europe/Berlin] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 117
-[31-May-2019 18:41:21 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\system\common\TableModel.php on line 128
-[31-May-2019 18:42:06 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 116
-[31-May-2019 18:42:06 Europe/Berlin] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 118
-[31-May-2019 18:42:06 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\system\common\TableModel.php on line 128
-[31-May-2019 18:42:07 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 116
-[31-May-2019 18:42:07 Europe/Berlin] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 118
-[31-May-2019 18:42:07 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\system\common\TableModel.php on line 128
-[31-May-2019 18:42:07 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 116
-[31-May-2019 18:42:07 Europe/Berlin] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 118
-[31-May-2019 18:42:07 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\system\common\TableModel.php on line 128
-[31-May-2019 18:42:07 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 116
-[31-May-2019 18:42:07 Europe/Berlin] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 118
-[31-May-2019 18:42:07 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\system\common\TableModel.php on line 128
-[31-May-2019 18:42:13 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 116
-[31-May-2019 18:42:13 Europe/Berlin] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 118
-[31-May-2019 18:42:13 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\system\common\TableModel.php on line 128
-[31-May-2019 18:42:13 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 116
-[31-May-2019 18:42:13 Europe/Berlin] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 118
-[31-May-2019 18:42:13 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\system\common\TableModel.php on line 128
-[31-May-2019 18:42:14 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 116
-[31-May-2019 18:42:14 Europe/Berlin] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 118
-[31-May-2019 18:42:14 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\system\common\TableModel.php on line 128
-[31-May-2019 18:42:14 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 116
-[31-May-2019 18:42:14 Europe/Berlin] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 118
-[31-May-2019 18:42:14 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\system\common\TableModel.php on line 128
-[31-May-2019 18:42:14 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 116
-[31-May-2019 18:42:14 Europe/Berlin] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 118
-[31-May-2019 18:42:14 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\system\common\TableModel.php on line 128
-[31-May-2019 18:42:14 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 116
-[31-May-2019 18:42:14 Europe/Berlin] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 118
-[31-May-2019 18:42:14 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\system\common\TableModel.php on line 128
-[31-May-2019 18:42:14 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 116
-[31-May-2019 18:42:14 Europe/Berlin] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 118
-[31-May-2019 18:42:14 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\system\common\TableModel.php on line 128
-[31-May-2019 18:42:15 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 116
-[31-May-2019 18:42:15 Europe/Berlin] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 118
-[31-May-2019 18:42:15 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\system\common\TableModel.php on line 128
-[31-May-2019 18:42:15 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 116
-[31-May-2019 18:42:15 Europe/Berlin] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 118
-[31-May-2019 18:42:15 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\system\common\TableModel.php on line 128
-[31-May-2019 18:42:15 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 116
-[31-May-2019 18:42:15 Europe/Berlin] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 118
-[31-May-2019 18:42:15 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\system\common\TableModel.php on line 128
-[31-May-2019 18:42:15 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 116
-[31-May-2019 18:42:15 Europe/Berlin] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 118
-[31-May-2019 18:42:15 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\system\common\TableModel.php on line 128
-[31-May-2019 18:42:16 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 116
-[31-May-2019 18:42:16 Europe/Berlin] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 118
-[31-May-2019 18:42:16 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\system\common\TableModel.php on line 128
-[31-May-2019 18:42:16 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 116
-[31-May-2019 18:42:16 Europe/Berlin] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 118
-[31-May-2019 18:42:16 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\system\common\TableModel.php on line 128
-[31-May-2019 18:42:16 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 116
-[31-May-2019 18:42:16 Europe/Berlin] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 118
-[31-May-2019 18:42:16 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\system\common\TableModel.php on line 128
-[31-May-2019 18:42:16 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 116
-[31-May-2019 18:42:16 Europe/Berlin] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 118
-[31-May-2019 18:42:16 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\system\common\TableModel.php on line 128
-[31-May-2019 18:42:17 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 116
-[31-May-2019 18:42:17 Europe/Berlin] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 118
-[31-May-2019 18:42:17 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\system\common\TableModel.php on line 128
-[31-May-2019 18:42:28 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 116
-[31-May-2019 18:42:28 Europe/Berlin] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 118
-[31-May-2019 18:42:28 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\system\common\TableModel.php on line 128
-[31-May-2019 18:42:29 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 116
-[31-May-2019 18:42:29 Europe/Berlin] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 118
-[31-May-2019 18:42:29 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\system\common\TableModel.php on line 128
-[31-May-2019 18:42:29 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 116
-[31-May-2019 18:42:29 Europe/Berlin] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 118
-[31-May-2019 18:42:29 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\system\common\TableModel.php on line 128
-[31-May-2019 18:42:29 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 116
-[31-May-2019 18:42:29 Europe/Berlin] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 118
-[31-May-2019 18:42:29 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\system\common\TableModel.php on line 128
-[31-May-2019 18:42:30 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 116
-[31-May-2019 18:42:30 Europe/Berlin] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 118
-[31-May-2019 18:42:30 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\system\common\TableModel.php on line 128
-[31-May-2019 18:42:30 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 116
-[31-May-2019 18:42:30 Europe/Berlin] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 118
-[31-May-2019 18:42:30 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\system\common\TableModel.php on line 128
-[31-May-2019 18:42:30 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 116
-[31-May-2019 18:42:30 Europe/Berlin] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 118
-[31-May-2019 18:42:30 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\system\common\TableModel.php on line 128
-[31-May-2019 18:42:30 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 116
-[31-May-2019 18:42:30 Europe/Berlin] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 118
-[31-May-2019 18:42:30 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\system\common\TableModel.php on line 128
-[31-May-2019 18:42:31 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 116
-[31-May-2019 18:42:31 Europe/Berlin] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 118
-[31-May-2019 18:42:31 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\system\common\TableModel.php on line 128
-[31-May-2019 18:42:31 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 116
-[31-May-2019 18:42:31 Europe/Berlin] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 118
-[31-May-2019 18:42:31 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\system\common\TableModel.php on line 128
-[31-May-2019 18:42:31 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 116
-[31-May-2019 18:42:31 Europe/Berlin] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 118
-[31-May-2019 18:42:31 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\system\common\TableModel.php on line 128
-[31-May-2019 18:42:31 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 116
-[31-May-2019 18:42:31 Europe/Berlin] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 118
-[31-May-2019 18:42:31 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\system\common\TableModel.php on line 128
-[31-May-2019 18:42:32 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 116
-[31-May-2019 18:42:32 Europe/Berlin] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 118
-[31-May-2019 18:42:32 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\system\common\TableModel.php on line 128
-[31-May-2019 18:42:32 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 116
-[31-May-2019 18:42:32 Europe/Berlin] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 118
-[31-May-2019 18:42:32 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\system\common\TableModel.php on line 128
-[31-May-2019 18:42:32 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 116
-[31-May-2019 18:42:32 Europe/Berlin] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 118
-[31-May-2019 18:42:32 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\system\common\TableModel.php on line 128
-[31-May-2019 18:42:33 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 116
-[31-May-2019 18:42:33 Europe/Berlin] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 118
-[31-May-2019 18:42:33 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\system\common\TableModel.php on line 128
-[31-May-2019 18:42:33 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 116
-[31-May-2019 18:42:33 Europe/Berlin] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 118
-[31-May-2019 18:42:33 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\system\common\TableModel.php on line 128
-[31-May-2019 18:42:33 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 116
-[31-May-2019 18:42:33 Europe/Berlin] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 118
-[31-May-2019 18:42:33 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\system\common\TableModel.php on line 128
-[31-May-2019 18:42:33 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 116
-[31-May-2019 18:42:33 Europe/Berlin] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 118
-[31-May-2019 18:42:33 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\system\common\TableModel.php on line 128
-[31-May-2019 18:42:34 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 116
-[31-May-2019 18:42:34 Europe/Berlin] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 118
-[31-May-2019 18:42:34 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\system\common\TableModel.php on line 128
-[31-May-2019 18:42:34 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 116
-[31-May-2019 18:42:34 Europe/Berlin] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 118
-[31-May-2019 18:42:34 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\system\common\TableModel.php on line 128
-[31-May-2019 18:42:34 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 116
-[31-May-2019 18:42:34 Europe/Berlin] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 118
-[31-May-2019 18:42:34 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\system\common\TableModel.php on line 128
-[31-May-2019 18:42:34 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 116
-[31-May-2019 18:42:34 Europe/Berlin] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 118
-[31-May-2019 18:42:34 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\system\common\TableModel.php on line 128
-[31-May-2019 18:42:35 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 116
-[31-May-2019 18:42:35 Europe/Berlin] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 118
-[31-May-2019 18:42:35 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\system\common\TableModel.php on line 128
-[31-May-2019 18:42:35 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 116
-[31-May-2019 18:42:35 Europe/Berlin] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 118
-[31-May-2019 18:42:35 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\system\common\TableModel.php on line 128
-[31-May-2019 18:42:35 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 116
-[31-May-2019 18:42:35 Europe/Berlin] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 118
-[31-May-2019 18:42:35 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\system\common\TableModel.php on line 128
-[31-May-2019 18:42:35 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 116
-[31-May-2019 18:42:35 Europe/Berlin] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 118
-[31-May-2019 18:42:35 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\system\common\TableModel.php on line 128
-[31-May-2019 18:42:36 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 116
-[31-May-2019 18:42:36 Europe/Berlin] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 118
-[31-May-2019 18:42:36 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\system\common\TableModel.php on line 128
-[31-May-2019 18:42:36 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 116
-[31-May-2019 18:42:36 Europe/Berlin] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 118
-[31-May-2019 18:42:36 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\system\common\TableModel.php on line 128
-[31-May-2019 18:42:36 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 116
-[31-May-2019 18:42:36 Europe/Berlin] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 118
-[31-May-2019 18:42:36 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\system\common\TableModel.php on line 128
-[31-May-2019 18:42:37 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 116
-[31-May-2019 18:42:37 Europe/Berlin] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 118
-[31-May-2019 18:42:37 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\system\common\TableModel.php on line 128
-[31-May-2019 18:42:37 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 116
-[31-May-2019 18:42:37 Europe/Berlin] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 118
-[31-May-2019 18:42:37 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\system\common\TableModel.php on line 128
-[31-May-2019 18:42:37 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 116
-[31-May-2019 18:42:37 Europe/Berlin] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 118
-[31-May-2019 18:42:37 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\system\common\TableModel.php on line 128
-[31-May-2019 18:42:37 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 116
-[31-May-2019 18:42:37 Europe/Berlin] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 118
-[31-May-2019 18:42:37 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\system\common\TableModel.php on line 128
-[31-May-2019 18:42:38 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 116
-[31-May-2019 18:42:38 Europe/Berlin] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 118
-[31-May-2019 18:42:38 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\system\common\TableModel.php on line 128
-[31-May-2019 18:42:38 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 116
-[31-May-2019 18:42:38 Europe/Berlin] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 118
-[31-May-2019 18:42:38 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\system\common\TableModel.php on line 128
-[31-May-2019 18:42:38 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 116
-[31-May-2019 18:42:38 Europe/Berlin] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 118
-[31-May-2019 18:42:38 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\system\common\TableModel.php on line 128
-[31-May-2019 18:42:38 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 116
-[31-May-2019 18:42:38 Europe/Berlin] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 118
-[31-May-2019 18:42:38 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\system\common\TableModel.php on line 128
-[31-May-2019 18:42:39 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 116
-[31-May-2019 18:42:39 Europe/Berlin] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 118
-[31-May-2019 18:42:39 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\system\common\TableModel.php on line 128
-[31-May-2019 18:42:39 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 116
-[31-May-2019 18:42:39 Europe/Berlin] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 118
-[31-May-2019 18:42:39 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\system\common\TableModel.php on line 128
-[31-May-2019 18:42:39 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 116
-[31-May-2019 18:42:39 Europe/Berlin] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 118
-[31-May-2019 18:42:39 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\system\common\TableModel.php on line 128
-[31-May-2019 18:42:39 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 116
-[31-May-2019 18:42:39 Europe/Berlin] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 118
-[31-May-2019 18:42:39 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\system\common\TableModel.php on line 128
-[31-May-2019 18:42:40 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 116
-[31-May-2019 18:42:40 Europe/Berlin] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 118
-[31-May-2019 18:42:40 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\system\common\TableModel.php on line 128
-[31-May-2019 18:42:40 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 116
-[31-May-2019 18:42:40 Europe/Berlin] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 118
-[31-May-2019 18:42:40 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\system\common\TableModel.php on line 128
-[31-May-2019 18:42:40 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 116
-[31-May-2019 18:42:40 Europe/Berlin] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 118
-[31-May-2019 18:42:40 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\system\common\TableModel.php on line 128
-[31-May-2019 18:42:40 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 116
-[31-May-2019 18:42:40 Europe/Berlin] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 118
-[31-May-2019 18:42:40 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\system\common\TableModel.php on line 128
-[31-May-2019 18:42:41 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 116
-[31-May-2019 18:42:41 Europe/Berlin] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 118
-[31-May-2019 18:42:41 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\system\common\TableModel.php on line 128
-[31-May-2019 18:42:41 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 116
-[31-May-2019 18:42:41 Europe/Berlin] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 118
-[31-May-2019 18:42:41 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\system\common\TableModel.php on line 128
-[31-May-2019 18:42:41 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 116
-[31-May-2019 18:42:41 Europe/Berlin] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 118
-[31-May-2019 18:42:41 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\system\common\TableModel.php on line 128
-[31-May-2019 18:42:41 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 116
-[31-May-2019 18:42:41 Europe/Berlin] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 118
-[31-May-2019 18:42:41 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\system\common\TableModel.php on line 128
-[31-May-2019 18:42:42 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 116
-[31-May-2019 18:42:42 Europe/Berlin] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 118
-[31-May-2019 18:42:42 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\system\common\TableModel.php on line 128
-[31-May-2019 18:42:42 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 116
-[31-May-2019 18:42:42 Europe/Berlin] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 118
-[31-May-2019 18:42:42 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\system\common\TableModel.php on line 128
-[31-May-2019 19:16:37 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 116
-[31-May-2019 19:16:37 Europe/Berlin] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 118
-[31-May-2019 19:16:37 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\system\common\TableModel.php on line 128
-[31-May-2019 19:16:39 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 116
-[31-May-2019 19:16:39 Europe/Berlin] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 118
-[31-May-2019 19:16:39 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\system\common\TableModel.php on line 128
-[31-May-2019 19:16:39 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 116
-[31-May-2019 19:16:39 Europe/Berlin] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 118
-[31-May-2019 19:16:39 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\system\common\TableModel.php on line 128
-[31-May-2019 19:16:40 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 116
-[31-May-2019 19:16:40 Europe/Berlin] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 118
-[31-May-2019 19:16:40 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\system\common\TableModel.php on line 128
-[31-May-2019 19:16:40 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 116
-[31-May-2019 19:16:40 Europe/Berlin] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\main.php on line 118
-[31-May-2019 19:16:40 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in F:\xampp\htdocs\projects\projectphp\library\system\common\TableModel.php on line 128
-[02-Jun-2019 07:49:16 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class '\admin\model\html\head' not found in F:\xampp\htdocs\projects\projectphp\library\system\admin\Block.php:90
-Stack trace:
-#0 F:\xampp\htdocs\projects\projectphp\library\system\admin\Block.php(76): system\admin\Block->getHtml()
-#1 F:\xampp\htdocs\projects\projectphp\app\design\admin\default\layout\html\page.php(3): system\admin\Block->toHtml()
+#0 F:\xampp\htdocs\projects\projectphp\library\system\admin\Block.php(81): system\admin\Block->getHtml()
+#1 F:\xampp\htdocs\projects\projectphp\app\design\admin\default\layout\html\page.php(5): system\admin\Block->toHtml()
 #2 F:\xampp\htdocs\projects\projectphp\library\system\admin\Layout.php(59): include('F:\\xampp\\htdocs...')
-#3 F:\xampp\htdocs\projects\projectphp\app\design\admin\default\layout\default.php(5): system\admin\Layout->renderLayout('html\\page')
+#3 F:\xampp\htdocs\projects\projectphp\app\design\admin\default\layout\login.php(6): system\admin\Layout->renderLayout('html\\page')
 #4 F:\xampp\htdocs\projects\projectphp\library\system\admin\Layout.php(59): include('F:\\xampp\\htdocs...')
-#5 F:\xampp\htdocs\projects\projectphp\app\code\admin\default\controller\index\IndexController.php(8): system\admin\Layout->renderLayout()
-#6 F:\xampp\htdocs\projects\projectphp\library\main.php(100): admin\controller\index\IndexController->indexAction(Array)
-#7 F:\xampp\htdocs\projects\projectphp\library\ in F:\xampp\htdocs\projects\projectphp\library\system\admin\Block.php on line 90
-[02-Jun-2019 07:51:03 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class '\admin\model\html\head' not found in F:\xampp\htdocs\projects\projectphp\library\system\admin\Block.php:90
+#5 F:\xampp\htdocs\projects\projectphp\app\code\admin\default\controller\login\IndexController.php(7): system\admin\Layout->renderLayout('login')
+#6 F:\xampp\htdocs\projects\projectphp\library\main.php(100): admin\controller\login\IndexController->indexAction(Array)
+#7 F:\xampp\htdocs\projects\projectphp\library in F:\xampp\htdocs\projects\projectphp\library\system\admin\Block.php on line 116
+[09-Jun-2019 10:05:29 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class 'front\controller\app\AssetsController' not found in F:\xampp\htdocs\projects\projectphp\library\main.php:97
 Stack trace:
-#0 F:\xampp\htdocs\projects\projectphp\library\system\admin\Block.php(76): system\admin\Block->getHtml()
-#1 F:\xampp\htdocs\projects\projectphp\app\design\admin\default\layout\html\page.php(3): system\admin\Block->toHtml()
-#2 F:\xampp\htdocs\projects\projectphp\library\system\admin\Layout.php(59): include('F:\\xampp\\htdocs...')
-#3 F:\xampp\htdocs\projects\projectphp\app\design\admin\default\layout\default.php(5): system\admin\Layout->renderLayout('html\\page')
-#4 F:\xampp\htdocs\projects\projectphp\library\system\admin\Layout.php(59): include('F:\\xampp\\htdocs...')
-#5 F:\xampp\htdocs\projects\projectphp\app\code\admin\default\controller\index\IndexController.php(8): system\admin\Layout->renderLayout()
-#6 F:\xampp\htdocs\projects\projectphp\library\main.php(100): admin\controller\index\IndexController->indexAction(Array)
-#7 F:\xampp\htdocs\projects\projectphp\library\ in F:\xampp\htdocs\projects\projectphp\library\system\admin\Block.php on line 90
-[02-Jun-2019 07:51:04 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class '\admin\model\html\head' not found in F:\xampp\htdocs\projects\projectphp\library\system\admin\Block.php:90
-Stack trace:
-#0 F:\xampp\htdocs\projects\projectphp\library\system\admin\Block.php(76): system\admin\Block->getHtml()
-#1 F:\xampp\htdocs\projects\projectphp\app\design\admin\default\layout\html\page.php(3): system\admin\Block->toHtml()
-#2 F:\xampp\htdocs\projects\projectphp\library\system\admin\Layout.php(59): include('F:\\xampp\\htdocs...')
-#3 F:\xampp\htdocs\projects\projectphp\app\design\admin\default\layout\default.php(5): system\admin\Layout->renderLayout('html\\page')
-#4 F:\xampp\htdocs\projects\projectphp\library\system\admin\Layout.php(59): include('F:\\xampp\\htdocs...')
-#5 F:\xampp\htdocs\projects\projectphp\app\code\admin\default\controller\index\IndexController.php(8): system\admin\Layout->renderLayout()
-#6 F:\xampp\htdocs\projects\projectphp\library\main.php(100): admin\controller\index\IndexController->indexAction(Array)
-#7 F:\xampp\htdocs\projects\projectphp\library\ in F:\xampp\htdocs\projects\projectphp\library\system\admin\Block.php on line 90
-[02-Jun-2019 07:51:04 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class '\admin\model\html\head' not found in F:\xampp\htdocs\projects\projectphp\library\system\admin\Block.php:90
-Stack trace:
-#0 F:\xampp\htdocs\projects\projectphp\library\system\admin\Block.php(76): system\admin\Block->getHtml()
-#1 F:\xampp\htdocs\projects\projectphp\app\design\admin\default\layout\html\page.php(3): system\admin\Block->toHtml()
-#2 F:\xampp\htdocs\projects\projectphp\library\system\admin\Layout.php(59): include('F:\\xampp\\htdocs...')
-#3 F:\xampp\htdocs\projects\projectphp\app\design\admin\default\layout\default.php(5): system\admin\Layout->renderLayout('html\\page')
-#4 F:\xampp\htdocs\projects\projectphp\library\system\admin\Layout.php(59): include('F:\\xampp\\htdocs...')
-#5 F:\xampp\htdocs\projects\projectphp\app\code\admin\default\controller\index\IndexController.php(8): system\admin\Layout->renderLayout()
-#6 F:\xampp\htdocs\projects\projectphp\library\main.php(100): admin\controller\index\IndexController->indexAction(Array)
-#7 F:\xampp\htdocs\projects\projectphp\library\ in F:\xampp\htdocs\projects\projectphp\library\system\admin\Block.php on line 90
-[02-Jun-2019 07:51:04 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class '\admin\model\html\head' not found in F:\xampp\htdocs\projects\projectphp\library\system\admin\Block.php:90
-Stack trace:
-#0 F:\xampp\htdocs\projects\projectphp\library\system\admin\Block.php(76): system\admin\Block->getHtml()
-#1 F:\xampp\htdocs\projects\projectphp\app\design\admin\default\layout\html\page.php(3): system\admin\Block->toHtml()
-#2 F:\xampp\htdocs\projects\projectphp\library\system\admin\Layout.php(59): include('F:\\xampp\\htdocs...')
-#3 F:\xampp\htdocs\projects\projectphp\app\design\admin\default\layout\default.php(5): system\admin\Layout->renderLayout('html\\page')
-#4 F:\xampp\htdocs\projects\projectphp\library\system\admin\Layout.php(59): include('F:\\xampp\\htdocs...')
-#5 F:\xampp\htdocs\projects\projectphp\app\code\admin\default\controller\index\IndexController.php(8): system\admin\Layout->renderLayout()
-#6 F:\xampp\htdocs\projects\projectphp\library\main.php(100): admin\controller\index\IndexController->indexAction(Array)
-#7 F:\xampp\htdocs\projects\projectphp\library\ in F:\xampp\htdocs\projects\projectphp\library\system\admin\Block.php on line 90
-[02-Jun-2019 07:51:57 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class '\admin\model\html\head' not found in F:\xampp\htdocs\projects\projectphp\library\system\admin\Block.php:90
-Stack trace:
-#0 F:\xampp\htdocs\projects\projectphp\library\system\admin\Block.php(76): system\admin\Block->getHtml()
-#1 F:\xampp\htdocs\projects\projectphp\app\design\admin\default\layout\html\page.php(3): system\admin\Block->toHtml()
-#2 F:\xampp\htdocs\projects\projectphp\library\system\admin\Layout.php(59): include('F:\\xampp\\htdocs...')
-#3 F:\xampp\htdocs\projects\projectphp\app\design\admin\default\layout\default.php(5): system\admin\Layout->renderLayout('html\\page')
-#4 F:\xampp\htdocs\projects\projectphp\library\system\admin\Layout.php(59): include('F:\\xampp\\htdocs...')
-#5 F:\xampp\htdocs\projects\projectphp\app\code\admin\default\controller\index\IndexController.php(8): system\admin\Layout->renderLayout()
-#6 F:\xampp\htdocs\projects\projectphp\library\main.php(100): admin\controller\index\IndexController->indexAction(Array)
-#7 F:\xampp\htdocs\projects\projectphp\library\ in F:\xampp\htdocs\projects\projectphp\library\system\admin\Block.php on line 90
-[02-Jun-2019 07:54:23 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function setModel() on null in F:\xampp\htdocs\projects\projectphp\library\system\admin\Layout.php:20
-Stack trace:
-#0 F:\xampp\htdocs\projects\projectphp\library\system\admin\Controller.php(40): system\admin\Layout->__construct('default')
-#1 F:\xampp\htdocs\projects\projectphp\library\system\admin\Controller.php(37): system\admin\Controller->createLayout()
-#2 F:\xampp\htdocs\projects\projectphp\library\main.php(97): system\admin\Controller->__construct('index', 'index', 'index')
-#3 F:\xampp\htdocs\projects\projectphp\library\main.php(109): callHook()
-#4 F:\xampp\htdocs\projects\projectphp\library\bootstrap.php(5): require_once('F:\\xampp\\htdocs...')
-#5 F:\xampp\htdocs\projects\projectphp\index.php(4): require_once('F:\\xampp\\htdocs...')
-#6 {main}
-  thrown in F:\xampp\htdocs\projects\projectphp\library\system\admin\Layout.php on line 20
-[02-Jun-2019 07:54:30 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class '\admin\model\html\head' not found in F:\xampp\htdocs\projects\projectphp\library\system\admin\Block.php:90
-Stack trace:
-#0 F:\xampp\htdocs\projects\projectphp\library\system\admin\Block.php(76): system\admin\Block->getHtml()
-#1 F:\xampp\htdocs\projects\projectphp\app\design\admin\default\layout\html\page.php(3): system\admin\Block->toHtml()
-#2 F:\xampp\htdocs\projects\projectphp\library\system\admin\Layout.php(59): include('F:\\xampp\\htdocs...')
-#3 F:\xampp\htdocs\projects\projectphp\app\design\admin\default\layout\default.php(5): system\admin\Layout->renderLayout('html\\page')
-#4 F:\xampp\htdocs\projects\projectphp\library\system\admin\Layout.php(59): include('F:\\xampp\\htdocs...')
-#5 F:\xampp\htdocs\projects\projectphp\app\code\admin\default\controller\index\IndexController.php(8): system\admin\Layout->renderLayout()
-#6 F:\xampp\htdocs\projects\projectphp\library\main.php(100): admin\controller\index\IndexController->indexAction(Array)
-#7 F:\xampp\htdocs\projects\projectphp\library\ in F:\xampp\htdocs\projects\projectphp\library\system\admin\Block.php on line 90
-[02-Jun-2019 08:00:37 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class '\admin\model\html\head' not found in F:\xampp\htdocs\projects\projectphp\library\system\admin\Block.php:90
-Stack trace:
-#0 F:\xampp\htdocs\projects\projectphp\library\system\admin\Block.php(76): system\admin\Block->getHtml()
-#1 F:\xampp\htdocs\projects\projectphp\app\design\admin\default\layout\html\page.php(3): system\admin\Block->toHtml()
-#2 F:\xampp\htdocs\projects\projectphp\library\system\admin\Layout.php(59): include('F:\\xampp\\htdocs...')
-#3 F:\xampp\htdocs\projects\projectphp\app\design\admin\default\layout\default.php(5): system\admin\Layout->renderLayout('html\\page')
-#4 F:\xampp\htdocs\projects\projectphp\library\system\admin\Layout.php(59): include('F:\\xampp\\htdocs...')
-#5 F:\xampp\htdocs\projects\projectphp\app\code\admin\default\controller\index\IndexController.php(8): system\admin\Layout->renderLayout()
-#6 F:\xampp\htdocs\projects\projectphp\library\main.php(100): admin\controller\index\IndexController->indexAction(Array)
-#7 F:\xampp\htdocs\projects\projectphp\library\ in F:\xampp\htdocs\projects\projectphp\library\system\admin\Block.php on line 90
-[02-Jun-2019 08:00:39 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class '\admin\model\html\head' not found in F:\xampp\htdocs\projects\projectphp\library\system\admin\Block.php:90
-Stack trace:
-#0 F:\xampp\htdocs\projects\projectphp\library\system\admin\Block.php(76): system\admin\Block->getHtml()
-#1 F:\xampp\htdocs\projects\projectphp\app\design\admin\default\layout\html\page.php(3): system\admin\Block->toHtml()
-#2 F:\xampp\htdocs\projects\projectphp\library\system\admin\Layout.php(59): include('F:\\xampp\\htdocs...')
-#3 F:\xampp\htdocs\projects\projectphp\app\design\admin\default\layout\default.php(5): system\admin\Layout->renderLayout('html\\page')
-#4 F:\xampp\htdocs\projects\projectphp\library\system\admin\Layout.php(59): include('F:\\xampp\\htdocs...')
-#5 F:\xampp\htdocs\projects\projectphp\app\code\admin\default\controller\index\IndexController.php(8): system\admin\Layout->renderLayout()
-#6 F:\xampp\htdocs\projects\projectphp\library\main.php(100): admin\controller\index\IndexController->indexAction(Array)
-#7 F:\xampp\htdocs\projects\projectphp\library\ in F:\xampp\htdocs\projects\projectphp\library\system\admin\Block.php on line 90
-[02-Jun-2019 08:00:39 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class '\admin\model\html\head' not found in F:\xampp\htdocs\projects\projectphp\library\system\admin\Block.php:90
-Stack trace:
-#0 F:\xampp\htdocs\projects\projectphp\library\system\admin\Block.php(76): system\admin\Block->getHtml()
-#1 F:\xampp\htdocs\projects\projectphp\app\design\admin\default\layout\html\page.php(3): system\admin\Block->toHtml()
-#2 F:\xampp\htdocs\projects\projectphp\library\system\admin\Layout.php(59): include('F:\\xampp\\htdocs...')
-#3 F:\xampp\htdocs\projects\projectphp\app\design\admin\default\layout\default.php(5): system\admin\Layout->renderLayout('html\\page')
-#4 F:\xampp\htdocs\projects\projectphp\library\system\admin\Layout.php(59): include('F:\\xampp\\htdocs...')
-#5 F:\xampp\htdocs\projects\projectphp\app\code\admin\default\controller\index\IndexController.php(8): system\admin\Layout->renderLayout()
-#6 F:\xampp\htdocs\projects\projectphp\library\main.php(100): admin\controller\index\IndexController->indexAction(Array)
-#7 F:\xampp\htdocs\projects\projectphp\library\ in F:\xampp\htdocs\projects\projectphp\library\system\admin\Block.php on line 90
-[02-Jun-2019 08:00:39 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class '\admin\model\html\head' not found in F:\xampp\htdocs\projects\projectphp\library\system\admin\Block.php:90
-Stack trace:
-#0 F:\xampp\htdocs\projects\projectphp\library\system\admin\Block.php(76): system\admin\Block->getHtml()
-#1 F:\xampp\htdocs\projects\projectphp\app\design\admin\default\layout\html\page.php(3): system\admin\Block->toHtml()
-#2 F:\xampp\htdocs\projects\projectphp\library\system\admin\Layout.php(59): include('F:\\xampp\\htdocs...')
-#3 F:\xampp\htdocs\projects\projectphp\app\design\admin\default\layout\default.php(5): system\admin\Layout->renderLayout('html\\page')
-#4 F:\xampp\htdocs\projects\projectphp\library\system\admin\Layout.php(59): include('F:\\xampp\\htdocs...')
-#5 F:\xampp\htdocs\projects\projectphp\app\code\admin\default\controller\index\IndexController.php(8): system\admin\Layout->renderLayout()
-#6 F:\xampp\htdocs\projects\projectphp\library\main.php(100): admin\controller\index\IndexController->indexAction(Array)
-#7 F:\xampp\htdocs\projects\projectphp\library\ in F:\xampp\htdocs\projects\projectphp\library\system\admin\Block.php on line 90
-[02-Jun-2019 08:01:39 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class '\admin\model\html\head' not found in F:\xampp\htdocs\projects\projectphp\library\system\admin\Block.php:90
-Stack trace:
-#0 F:\xampp\htdocs\projects\projectphp\library\system\admin\Block.php(76): system\admin\Block->getHtml()
-#1 F:\xampp\htdocs\projects\projectphp\app\design\admin\default\layout\html\page.php(3): system\admin\Block->toHtml()
-#2 F:\xampp\htdocs\projects\projectphp\library\system\admin\Layout.php(59): include('F:\\xampp\\htdocs...')
-#3 F:\xampp\htdocs\projects\projectphp\app\design\admin\default\layout\default.php(5): system\admin\Layout->renderLayout('html\\page')
-#4 F:\xampp\htdocs\projects\projectphp\library\system\admin\Layout.php(59): include('F:\\xampp\\htdocs...')
-#5 F:\xampp\htdocs\projects\projectphp\app\code\admin\default\controller\index\IndexController.php(8): system\admin\Layout->renderLayout()
-#6 F:\xampp\htdocs\projects\projectphp\library\main.php(100): admin\controller\index\IndexController->indexAction(Array)
-#7 F:\xampp\htdocs\projects\projectphp\library\ in F:\xampp\htdocs\projects\projectphp\library\system\admin\Block.php on line 90
-[02-Jun-2019 08:02:09 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class '\admin\model\index\index' not found in F:\xampp\htdocs\projects\projectphp\library\system\admin\Block.php:90
-Stack trace:
-#0 F:\xampp\htdocs\projects\projectphp\library\system\admin\Block.php(76): system\admin\Block->getHtml()
-#1 F:\xampp\htdocs\projects\projectphp\app\design\admin\default\layout\new\alternative1.php(2): system\admin\Block->toHtml()
-#2 F:\xampp\htdocs\projects\projectphp\library\system\admin\Layout.php(59): include('F:\\xampp\\htdocs...')
-#3 F:\xampp\htdocs\projects\projectphp\library\system\admin\Block.php(111): system\admin\Layout->renderLayout()
-#4 F:\xampp\htdocs\projects\projectphp\library\system\admin\Block.php(76): system\admin\Block->getHtml()
-#5 F:\xampp\htdocs\projects\projectphp\app\design\admin\default\layout\new\alternative.php(9): system\admin\Block->toHtml()
-#6 F:\xampp\htdocs\projects\projectphp\library\system\admin\Layout.php(59): include('F:\\xampp\\htdocs...')
-#7 F:\xampp\htdocs\projects\projectphp\library\system\admin\Block.php(111): system\admin\Lay in F:\xampp\htdocs\projects\projectphp\library\system\admin\Block.php on line 90
-[02-Jun-2019 08:02:15 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class '\admin\model\index\index' not found in F:\xampp\htdocs\projects\projectphp\library\system\admin\Block.php:90
-Stack trace:
-#0 F:\xampp\htdocs\projects\projectphp\library\system\admin\Block.php(76): system\admin\Block->getHtml()
-#1 F:\xampp\htdocs\projects\projectphp\app\design\admin\default\layout\new\alternative1.php(2): system\admin\Block->toHtml()
-#2 F:\xampp\htdocs\projects\projectphp\library\system\admin\Layout.php(59): include('F:\\xampp\\htdocs...')
-#3 F:\xampp\htdocs\projects\projectphp\library\system\admin\Block.php(111): system\admin\Layout->renderLayout()
-#4 F:\xampp\htdocs\projects\projectphp\library\system\admin\Block.php(76): system\admin\Block->getHtml()
-#5 F:\xampp\htdocs\projects\projectphp\app\design\admin\default\layout\new\alternative.php(9): system\admin\Block->toHtml()
-#6 F:\xampp\htdocs\projects\projectphp\library\system\admin\Layout.php(59): include('F:\\xampp\\htdocs...')
-#7 F:\xampp\htdocs\projects\projectphp\library\system\admin\Block.php(111): system\admin\Lay in F:\xampp\htdocs\projects\projectphp\library\system\admin\Block.php on line 90
-[02-Jun-2019 08:02:49 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class '\admin\model\index\index' not found in F:\xampp\htdocs\projects\projectphp\library\system\admin\Block.php:90
-Stack trace:
-#0 F:\xampp\htdocs\projects\projectphp\library\system\admin\Block.php(76): system\admin\Block->getHtml()
-#1 F:\xampp\htdocs\projects\projectphp\app\design\admin\default\layout\new\alternative1.php(2): system\admin\Block->toHtml()
-#2 F:\xampp\htdocs\projects\projectphp\library\system\admin\Layout.php(59): include('F:\\xampp\\htdocs...')
-#3 F:\xampp\htdocs\projects\projectphp\library\system\admin\Block.php(111): system\admin\Layout->renderLayout()
-#4 F:\xampp\htdocs\projects\projectphp\library\system\admin\Block.php(76): system\admin\Block->getHtml()
-#5 F:\xampp\htdocs\projects\projectphp\app\design\admin\default\layout\new\alternative.php(9): system\admin\Block->toHtml()
-#6 F:\xampp\htdocs\projects\projectphp\library\system\admin\Layout.php(59): include('F:\\xampp\\htdocs...')
-#7 F:\xampp\htdocs\projects\projectphp\library\system\admin\Block.php(111): system\admin\Lay in F:\xampp\htdocs\projects\projectphp\library\system\admin\Block.php on line 90
-[02-Jun-2019 08:03:40 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class '\admin\model\index\index' not found in F:\xampp\htdocs\projects\projectphp\library\system\admin\Block.php:90
-Stack trace:
-#0 F:\xampp\htdocs\projects\projectphp\library\system\admin\Block.php(76): system\admin\Block->getHtml()
-#1 F:\xampp\htdocs\projects\projectphp\app\design\admin\default\layout\html\page.php(7): system\admin\Block->toHtml()
-#2 F:\xampp\htdocs\projects\projectphp\library\system\admin\Layout.php(59): include('F:\\xampp\\htdocs...')
-#3 F:\xampp\htdocs\projects\projectphp\app\design\admin\default\layout\default.php(5): system\admin\Layout->renderLayout('html\\page')
-#4 F:\xampp\htdocs\projects\projectphp\library\system\admin\Layout.php(59): include('F:\\xampp\\htdocs...')
-#5 F:\xampp\htdocs\projects\projectphp\app\code\admin\default\controller\index\IndexController.php(8): system\admin\Layout->renderLayout()
-#6 F:\xampp\htdocs\projects\projectphp\library\main.php(100): admin\controller\index\IndexController->indexAction(Array)
-#7 F:\xampp\htdocs\projects\projectphp\librar in F:\xampp\htdocs\projects\projectphp\library\system\admin\Block.php on line 90
-[02-Jun-2019 08:03:41 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class '\admin\model\index\index' not found in F:\xampp\htdocs\projects\projectphp\library\system\admin\Block.php:90
-Stack trace:
-#0 F:\xampp\htdocs\projects\projectphp\library\system\admin\Block.php(76): system\admin\Block->getHtml()
-#1 F:\xampp\htdocs\projects\projectphp\app\design\admin\default\layout\html\page.php(7): system\admin\Block->toHtml()
-#2 F:\xampp\htdocs\projects\projectphp\library\system\admin\Layout.php(59): include('F:\\xampp\\htdocs...')
-#3 F:\xampp\htdocs\projects\projectphp\app\design\admin\default\layout\default.php(5): system\admin\Layout->renderLayout('html\\page')
-#4 F:\xampp\htdocs\projects\projectphp\library\system\admin\Layout.php(59): include('F:\\xampp\\htdocs...')
-#5 F:\xampp\htdocs\projects\projectphp\app\code\admin\default\controller\index\IndexController.php(8): system\admin\Layout->renderLayout()
-#6 F:\xampp\htdocs\projects\projectphp\library\main.php(100): admin\controller\index\IndexController->indexAction(Array)
-#7 F:\xampp\htdocs\projects\projectphp\librar in F:\xampp\htdocs\projects\projectphp\library\system\admin\Block.php on line 90
-[02-Jun-2019 08:03:41 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class '\admin\model\index\index' not found in F:\xampp\htdocs\projects\projectphp\library\system\admin\Block.php:90
-Stack trace:
-#0 F:\xampp\htdocs\projects\projectphp\library\system\admin\Block.php(76): system\admin\Block->getHtml()
-#1 F:\xampp\htdocs\projects\projectphp\app\design\admin\default\layout\html\page.php(7): system\admin\Block->toHtml()
-#2 F:\xampp\htdocs\projects\projectphp\library\system\admin\Layout.php(59): include('F:\\xampp\\htdocs...')
-#3 F:\xampp\htdocs\projects\projectphp\app\design\admin\default\layout\default.php(5): system\admin\Layout->renderLayout('html\\page')
-#4 F:\xampp\htdocs\projects\projectphp\library\system\admin\Layout.php(59): include('F:\\xampp\\htdocs...')
-#5 F:\xampp\htdocs\projects\projectphp\app\code\admin\default\controller\index\IndexController.php(8): system\admin\Layout->renderLayout()
-#6 F:\xampp\htdocs\projects\projectphp\library\main.php(100): admin\controller\index\IndexController->indexAction(Array)
-#7 F:\xampp\htdocs\projects\projectphp\librar in F:\xampp\htdocs\projects\projectphp\library\system\admin\Block.php on line 90
-[02-Jun-2019 08:03:41 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class '\admin\model\index\index' not found in F:\xampp\htdocs\projects\projectphp\library\system\admin\Block.php:90
-Stack trace:
-#0 F:\xampp\htdocs\projects\projectphp\library\system\admin\Block.php(76): system\admin\Block->getHtml()
-#1 F:\xampp\htdocs\projects\projectphp\app\design\admin\default\layout\html\page.php(7): system\admin\Block->toHtml()
-#2 F:\xampp\htdocs\projects\projectphp\library\system\admin\Layout.php(59): include('F:\\xampp\\htdocs...')
-#3 F:\xampp\htdocs\projects\projectphp\app\design\admin\default\layout\default.php(5): system\admin\Layout->renderLayout('html\\page')
-#4 F:\xampp\htdocs\projects\projectphp\library\system\admin\Layout.php(59): include('F:\\xampp\\htdocs...')
-#5 F:\xampp\htdocs\projects\projectphp\app\code\admin\default\controller\index\IndexController.php(8): system\admin\Layout->renderLayout()
-#6 F:\xampp\htdocs\projects\projectphp\library\main.php(100): admin\controller\index\IndexController->indexAction(Array)
-#7 F:\xampp\htdocs\projects\projectphp\librar in F:\xampp\htdocs\projects\projectphp\library\system\admin\Block.php on line 90
-[02-Jun-2019 08:03:41 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class '\admin\model\index\index' not found in F:\xampp\htdocs\projects\projectphp\library\system\admin\Block.php:90
-Stack trace:
-#0 F:\xampp\htdocs\projects\projectphp\library\system\admin\Block.php(76): system\admin\Block->getHtml()
-#1 F:\xampp\htdocs\projects\projectphp\app\design\admin\default\layout\html\page.php(7): system\admin\Block->toHtml()
-#2 F:\xampp\htdocs\projects\projectphp\library\system\admin\Layout.php(59): include('F:\\xampp\\htdocs...')
-#3 F:\xampp\htdocs\projects\projectphp\app\design\admin\default\layout\default.php(5): system\admin\Layout->renderLayout('html\\page')
-#4 F:\xampp\htdocs\projects\projectphp\library\system\admin\Layout.php(59): include('F:\\xampp\\htdocs...')
-#5 F:\xampp\htdocs\projects\projectphp\app\code\admin\default\controller\index\IndexController.php(8): system\admin\Layout->renderLayout()
-#6 F:\xampp\htdocs\projects\projectphp\library\main.php(100): admin\controller\index\IndexController->indexAction(Array)
-#7 F:\xampp\htdocs\projects\projectphp\librar in F:\xampp\htdocs\projects\projectphp\library\system\admin\Block.php on line 90
-[02-Jun-2019 08:03:42 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class '\admin\model\index\index' not found in F:\xampp\htdocs\projects\projectphp\library\system\admin\Block.php:90
-Stack trace:
-#0 F:\xampp\htdocs\projects\projectphp\library\system\admin\Block.php(76): system\admin\Block->getHtml()
-#1 F:\xampp\htdocs\projects\projectphp\app\design\admin\default\layout\html\page.php(7): system\admin\Block->toHtml()
-#2 F:\xampp\htdocs\projects\projectphp\library\system\admin\Layout.php(59): include('F:\\xampp\\htdocs...')
-#3 F:\xampp\htdocs\projects\projectphp\app\design\admin\default\layout\default.php(5): system\admin\Layout->renderLayout('html\\page')
-#4 F:\xampp\htdocs\projects\projectphp\library\system\admin\Layout.php(59): include('F:\\xampp\\htdocs...')
-#5 F:\xampp\htdocs\projects\projectphp\app\code\admin\default\controller\index\IndexController.php(8): system\admin\Layout->renderLayout()
-#6 F:\xampp\htdocs\projects\projectphp\library\main.php(100): admin\controller\index\IndexController->indexAction(Array)
-#7 F:\xampp\htdocs\projects\projectphp\librar in F:\xampp\htdocs\projects\projectphp\library\system\admin\Block.php on line 90
-[02-Jun-2019 08:03:42 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class '\admin\model\index\index' not found in F:\xampp\htdocs\projects\projectphp\library\system\admin\Block.php:90
-Stack trace:
-#0 F:\xampp\htdocs\projects\projectphp\library\system\admin\Block.php(76): system\admin\Block->getHtml()
-#1 F:\xampp\htdocs\projects\projectphp\app\design\admin\default\layout\html\page.php(7): system\admin\Block->toHtml()
-#2 F:\xampp\htdocs\projects\projectphp\library\system\admin\Layout.php(59): include('F:\\xampp\\htdocs...')
-#3 F:\xampp\htdocs\projects\projectphp\app\design\admin\default\layout\default.php(5): system\admin\Layout->renderLayout('html\\page')
-#4 F:\xampp\htdocs\projects\projectphp\library\system\admin\Layout.php(59): include('F:\\xampp\\htdocs...')
-#5 F:\xampp\htdocs\projects\projectphp\app\code\admin\default\controller\index\IndexController.php(8): system\admin\Layout->renderLayout()
-#6 F:\xampp\htdocs\projects\projectphp\library\main.php(100): admin\controller\index\IndexController->indexAction(Array)
-#7 F:\xampp\htdocs\projects\projectphp\librar in F:\xampp\htdocs\projects\projectphp\library\system\admin\Block.php on line 90
-[02-Jun-2019 08:03:42 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class '\admin\model\index\index' not found in F:\xampp\htdocs\projects\projectphp\library\system\admin\Block.php:90
-Stack trace:
-#0 F:\xampp\htdocs\projects\projectphp\library\system\admin\Block.php(76): system\admin\Block->getHtml()
-#1 F:\xampp\htdocs\projects\projectphp\app\design\admin\default\layout\html\page.php(7): system\admin\Block->toHtml()
-#2 F:\xampp\htdocs\projects\projectphp\library\system\admin\Layout.php(59): include('F:\\xampp\\htdocs...')
-#3 F:\xampp\htdocs\projects\projectphp\app\design\admin\default\layout\default.php(5): system\admin\Layout->renderLayout('html\\page')
-#4 F:\xampp\htdocs\projects\projectphp\library\system\admin\Layout.php(59): include('F:\\xampp\\htdocs...')
-#5 F:\xampp\htdocs\projects\projectphp\app\code\admin\default\controller\index\IndexController.php(8): system\admin\Layout->renderLayout()
-#6 F:\xampp\htdocs\projects\projectphp\library\main.php(100): admin\controller\index\IndexController->indexAction(Array)
-#7 F:\xampp\htdocs\projects\projectphp\librar in F:\xampp\htdocs\projects\projectphp\library\system\admin\Block.php on line 90
-[02-Jun-2019 08:03:42 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class '\admin\model\index\index' not found in F:\xampp\htdocs\projects\projectphp\library\system\admin\Block.php:90
-Stack trace:
-#0 F:\xampp\htdocs\projects\projectphp\library\system\admin\Block.php(76): system\admin\Block->getHtml()
-#1 F:\xampp\htdocs\projects\projectphp\app\design\admin\default\layout\html\page.php(7): system\admin\Block->toHtml()
-#2 F:\xampp\htdocs\projects\projectphp\library\system\admin\Layout.php(59): include('F:\\xampp\\htdocs...')
-#3 F:\xampp\htdocs\projects\projectphp\app\design\admin\default\layout\default.php(5): system\admin\Layout->renderLayout('html\\page')
-#4 F:\xampp\htdocs\projects\projectphp\library\system\admin\Layout.php(59): include('F:\\xampp\\htdocs...')
-#5 F:\xampp\htdocs\projects\projectphp\app\code\admin\default\controller\index\IndexController.php(8): system\admin\Layout->renderLayout()
-#6 F:\xampp\htdocs\projects\projectphp\library\main.php(100): admin\controller\index\IndexController->indexAction(Array)
-#7 F:\xampp\htdocs\projects\projectphp\librar in F:\xampp\htdocs\projects\projectphp\library\system\admin\Block.php on line 90
-[02-Jun-2019 08:03:42 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class '\admin\model\index\index' not found in F:\xampp\htdocs\projects\projectphp\library\system\admin\Block.php:90
-Stack trace:
-#0 F:\xampp\htdocs\projects\projectphp\library\system\admin\Block.php(76): system\admin\Block->getHtml()
-#1 F:\xampp\htdocs\projects\projectphp\app\design\admin\default\layout\html\page.php(7): system\admin\Block->toHtml()
-#2 F:\xampp\htdocs\projects\projectphp\library\system\admin\Layout.php(59): include('F:\\xampp\\htdocs...')
-#3 F:\xampp\htdocs\projects\projectphp\app\design\admin\default\layout\default.php(5): system\admin\Layout->renderLayout('html\\page')
-#4 F:\xampp\htdocs\projects\projectphp\library\system\admin\Layout.php(59): include('F:\\xampp\\htdocs...')
-#5 F:\xampp\htdocs\projects\projectphp\app\code\admin\default\controller\index\IndexController.php(8): system\admin\Layout->renderLayout()
-#6 F:\xampp\htdocs\projects\projectphp\library\main.php(100): admin\controller\index\IndexController->indexAction(Array)
-#7 F:\xampp\htdocs\projects\projectphp\librar in F:\xampp\htdocs\projects\projectphp\library\system\admin\Block.php on line 90
-[02-Jun-2019 08:04:03 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class '\admin\model\index\index' not found in F:\xampp\htdocs\projects\projectphp\library\system\admin\Block.php:90
-Stack trace:
-#0 F:\xampp\htdocs\projects\projectphp\library\system\admin\Block.php(76): system\admin\Block->getHtml()
-#1 F:\xampp\htdocs\projects\projectphp\app\design\admin\default\layout\html\page.php(7): system\admin\Block->toHtml()
-#2 F:\xampp\htdocs\projects\projectphp\library\system\admin\Layout.php(59): include('F:\\xampp\\htdocs...')
-#3 F:\xampp\htdocs\projects\projectphp\app\design\admin\default\layout\default.php(5): system\admin\Layout->renderLayout('html\\page')
-#4 F:\xampp\htdocs\projects\projectphp\library\system\admin\Layout.php(59): include('F:\\xampp\\htdocs...')
-#5 F:\xampp\htdocs\projects\projectphp\app\code\admin\default\controller\index\IndexController.php(8): system\admin\Layout->renderLayout()
-#6 F:\xampp\htdocs\projects\projectphp\library\main.php(100): admin\controller\index\IndexController->indexAction(Array)
-#7 F:\xampp\htdocs\projects\projectphp\librar in F:\xampp\htdocs\projects\projectphp\library\system\admin\Block.php on line 90
-[02-Jun-2019 08:04:38 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class '\admin\model\index\index' not found in F:\xampp\htdocs\projects\projectphp\library\system\admin\Block.php:90
-Stack trace:
-#0 F:\xampp\htdocs\projects\projectphp\library\system\admin\Block.php(76): system\admin\Block->getHtml()
-#1 F:\xampp\htdocs\projects\projectphp\app\design\admin\default\layout\new\alternative1.php(2): system\admin\Block->toHtml()
-#2 F:\xampp\htdocs\projects\projectphp\library\system\admin\Layout.php(59): include('F:\\xampp\\htdocs...')
-#3 F:\xampp\htdocs\projects\projectphp\library\system\admin\Block.php(111): system\admin\Layout->renderLayout()
-#4 F:\xampp\htdocs\projects\projectphp\library\system\admin\Block.php(76): system\admin\Block->getHtml()
-#5 F:\xampp\htdocs\projects\projectphp\app\design\admin\default\layout\new\alternative.php(9): system\admin\Block->toHtml()
-#6 F:\xampp\htdocs\projects\projectphp\library\system\admin\Layout.php(59): include('F:\\xampp\\htdocs...')
-#7 F:\xampp\htdocs\projects\projectphp\library\system\admin\Block.php(111): system\admin\Lay in F:\xampp\htdocs\projects\projectphp\library\system\admin\Block.php on line 90
-[02-Jun-2019 08:05:14 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class '\admin\model\index\index' not found in F:\xampp\htdocs\projects\projectphp\library\system\admin\Block.php:90
-Stack trace:
-#0 F:\xampp\htdocs\projects\projectphp\library\system\admin\Block.php(76): system\admin\Block->getHtml()
-#1 F:\xampp\htdocs\projects\projectphp\app\design\admin\default\layout\new\alternative1.php(2): system\admin\Block->toHtml()
-#2 F:\xampp\htdocs\projects\projectphp\library\system\admin\Layout.php(59): include('F:\\xampp\\htdocs...')
-#3 F:\xampp\htdocs\projects\projectphp\library\system\admin\Block.php(111): system\admin\Layout->renderLayout()
-#4 F:\xampp\htdocs\projects\projectphp\library\system\admin\Block.php(76): system\admin\Block->getHtml()
-#5 F:\xampp\htdocs\projects\projectphp\app\design\admin\default\layout\html\page.php(7): system\admin\Block->toHtml()
-#6 F:\xampp\htdocs\projects\projectphp\library\system\admin\Layout.php(59): include('F:\\xampp\\htdocs...')
-#7 F:\xampp\htdocs\projects\projectphp\app\design\admin\default\layout\default.php(5): system\admi in F:\xampp\htdocs\projects\projectphp\library\system\admin\Block.php on line 90
-[02-Jun-2019 08:05:20 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class '\admin\model\index\index' not found in F:\xampp\htdocs\projects\projectphp\library\system\admin\Block.php:90
-Stack trace:
-#0 F:\xampp\htdocs\projects\projectphp\library\system\admin\Block.php(76): system\admin\Block->getHtml()
-#1 F:\xampp\htdocs\projects\projectphp\app\design\admin\default\layout\new\alternative1.php(2): system\admin\Block->toHtml()
-#2 F:\xampp\htdocs\projects\projectphp\library\system\admin\Layout.php(59): include('F:\\xampp\\htdocs...')
-#3 F:\xampp\htdocs\projects\projectphp\library\system\admin\Block.php(111): system\admin\Layout->renderLayout()
-#4 F:\xampp\htdocs\projects\projectphp\library\system\admin\Block.php(76): system\admin\Block->getHtml()
-#5 F:\xampp\htdocs\projects\projectphp\app\design\admin\default\layout\new\alternative.php(9): system\admin\Block->toHtml()
-#6 F:\xampp\htdocs\projects\projectphp\library\system\admin\Layout.php(59): include('F:\\xampp\\htdocs...')
-#7 F:\xampp\htdocs\projects\projectphp\library\system\admin\Block.php(111): system\admin\Lay in F:\xampp\htdocs\projects\projectphp\library\system\admin\Block.php on line 90
-[02-Jun-2019 08:06:29 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class '\admin\model\index\index' not found in F:\xampp\htdocs\projects\projectphp\library\system\admin\Block.php:90
-Stack trace:
-#0 F:\xampp\htdocs\projects\projectphp\library\system\admin\Block.php(76): system\admin\Block->getHtml()
-#1 F:\xampp\htdocs\projects\projectphp\app\design\admin\default\layout\new\alternative1.php(2): system\admin\Block->toHtml()
-#2 F:\xampp\htdocs\projects\projectphp\library\system\admin\Layout.php(59): include('F:\\xampp\\htdocs...')
-#3 F:\xampp\htdocs\projects\projectphp\library\system\admin\Block.php(111): system\admin\Layout->renderLayout()
-#4 F:\xampp\htdocs\projects\projectphp\library\system\admin\Block.php(76): system\admin\Block->getHtml()
-#5 F:\xampp\htdocs\projects\projectphp\app\design\admin\default\layout\new\alternative.php(9): system\admin\Block->toHtml()
-#6 F:\xampp\htdocs\projects\projectphp\library\system\admin\Layout.php(59): include('F:\\xampp\\htdocs...')
-#7 F:\xampp\htdocs\projects\projectphp\library\system\admin\Block.php(111): system\admin\Lay in F:\xampp\htdocs\projects\projectphp\library\system\admin\Block.php on line 90
-[02-Jun-2019 08:06:29 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class '\admin\model\index\index' not found in F:\xampp\htdocs\projects\projectphp\library\system\admin\Block.php:90
-Stack trace:
-#0 F:\xampp\htdocs\projects\projectphp\library\system\admin\Block.php(76): system\admin\Block->getHtml()
-#1 F:\xampp\htdocs\projects\projectphp\app\design\admin\default\layout\new\alternative1.php(2): system\admin\Block->toHtml()
-#2 F:\xampp\htdocs\projects\projectphp\library\system\admin\Layout.php(59): include('F:\\xampp\\htdocs...')
-#3 F:\xampp\htdocs\projects\projectphp\library\system\admin\Block.php(111): system\admin\Layout->renderLayout()
-#4 F:\xampp\htdocs\projects\projectphp\library\system\admin\Block.php(76): system\admin\Block->getHtml()
-#5 F:\xampp\htdocs\projects\projectphp\app\design\admin\default\layout\new\alternative.php(9): system\admin\Block->toHtml()
-#6 F:\xampp\htdocs\projects\projectphp\library\system\admin\Layout.php(59): include('F:\\xampp\\htdocs...')
-#7 F:\xampp\htdocs\projects\projectphp\library\system\admin\Block.php(111): system\admin\Lay in F:\xampp\htdocs\projects\projectphp\library\system\admin\Block.php on line 90
+#0 F:\xampp\htdocs\projects\projectphp\library\main.php(109): callHook()
+#1 F:\xampp\htdocs\projects\projectphp\library\bootstrap.php(5): require_once('F:\\xampp\\htdocs...')
+#2 F:\xampp\htdocs\projects\projectphp\index.php(4): require_once('F:\\xampp\\htdocs...')
+#3 {main}
+  thrown in F:\xampp\htdocs\projects\projectphp\library\main.php on line 97

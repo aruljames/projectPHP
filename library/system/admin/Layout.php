@@ -79,6 +79,12 @@ class Layout {
         }
     }
 
+    function includeAsset($sorce,$path){
+        if($sorce == 'css'){
+            
+        }
+    }
+
     public function getLayout($layout = null){
         if(!$layout){
             $layout = $this->_layout;

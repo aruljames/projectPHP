@@ -9,6 +9,7 @@ class Block {
     protected $_controller;
     protected $_action;
     protected $_template_path;
+    protected $_assets = array();
     protected $_model = null;
     protected $_template = null;
     protected $_modelData = null;
@@ -20,7 +21,7 @@ class Block {
 		$this->_blockname = $block;
 		$this->_layoutName = $layout;
 	    if(is_array($block) && !empty($block)){
-	        if(isset($block['class'])){
+	        /*if(isset($block['class'])){
 	            
 	        }else if(isset($block['template'])){
 	            $codePools = array('default');
@@ -37,7 +38,7 @@ class Block {
 	                    include($file_path);return;
 	                }
 	            }
-	        }
+                }*/
 	        $this->_blockData = $block;
 	    }else if((is_array($block) && empty($block)) || !is_array($block)){
 	        $this->_blockData = $block;
@@ -70,7 +71,11 @@ class Block {
             }
             $this->_template_path = implode(DS,$templatePathArray);
             return $this;
-	}
+        }
+        
+    public function includeAsset($sorce,$path){
+            $this->_assets[$sorce] = $path;
+    }
 	
 	public function toHtml(){
 	    print_r($this->getHtml());
@@ -105,8 +110,14 @@ class Block {
                             $includePath = $file_path;break;
                     }
             }
-            if($includePath)
-                    return $obj->renderTemplate($includePath);
+            if($includePath){
+                $includels = '';
+                foreach($this->_assets as $sorce => $path){
+                    $includels = \PPHP::getAsset2($sorce,$path);
+                }
+                return  $includels.$obj->renderTemplate($includePath);
+            }
+                    
         }else{
                 $this ->_layout->renderLayout();
         }
