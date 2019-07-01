@@ -191,3 +191,69 @@ Stack trace:
 #2 F:\xampp\htdocs\projects\projectphp\index.php(4): require_once('F:\\xampp\\htdocs...')
 #3 {main}
   thrown in F:\xampp\htdocs\projects\projectphp\library\main.php on line 97
+[27-Jun-2019 17:23:06 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class 'front\controller\login\IndexController' not found in F:\xampp\htdocs\projects\projectphp\library\main.php:97
+Stack trace:
+#0 F:\xampp\htdocs\projects\projectphp\library\main.php(109): callHook()
+#1 F:\xampp\htdocs\projects\projectphp\library\bootstrap.php(5): require_once('F:\\xampp\\htdocs...')
+#2 F:\xampp\htdocs\projects\projectphp\index.php(4): require_once('F:\\xampp\\htdocs...')
+#3 {main}
+  thrown in F:\xampp\htdocs\projects\projectphp\library\main.php on line 97
+[30-Jun-2019 12:12:29 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method system\common\TableModel::load() in F:\xampp\htdocs\projects\projectphp\library\main.php:112
+Stack trace:
+#0 F:\xampp\htdocs\projects\projectphp\library\bootstrap.php(5): require_once()
+#1 F:\xampp\htdocs\projects\projectphp\index.php(4): require_once('F:\\xampp\\htdocs...')
+#2 {main}
+  thrown in F:\xampp\htdocs\projects\projectphp\library\main.php on line 112
+[30-Jun-2019 12:42:30 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function save() on null in F:\xampp\htdocs\projects\projectphp\library\main.php:113
+Stack trace:
+#0 F:\xampp\htdocs\projects\projectphp\library\bootstrap.php(5): require_once()
+#1 F:\xampp\htdocs\projects\projectphp\index.php(4): require_once('F:\\xampp\\htdocs...')
+#2 {main}
+  thrown in F:\xampp\htdocs\projects\projectphp\library\main.php on line 113
+[30-Jun-2019 12:42:42 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function save() on null in F:\xampp\htdocs\projects\projectphp\library\main.php:113
+Stack trace:
+#0 F:\xampp\htdocs\projects\projectphp\library\bootstrap.php(5): require_once()
+#1 F:\xampp\htdocs\projects\projectphp\index.php(4): require_once('F:\\xampp\\htdocs...')
+#2 {main}
+  thrown in F:\xampp\htdocs\projects\projectphp\library\main.php on line 113
+[30-Jun-2019 12:50:14 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Number of variables doesn't match number of parameters in prepared statement in F:\xampp\htdocs\projects\projectphp\library\system\common\TableModel.php on line 29
+[30-Jun-2019 12:50:14 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Number of variables doesn't match number of parameters in prepared statement in F:\xampp\htdocs\projects\projectphp\library\system\common\TableModel.php on line 29
+[30-Jun-2019 13:26:58 Europe/Berlin] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 4194304 bytes) in F:\xampp\htdocs\projects\projectphp\library\system\common\dbconnect\Pdo.php on line 7
+[30-Jun-2019 13:27:39 Europe/Berlin] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 262144 bytes) in F:\xampp\htdocs\projects\projectphp\library\system\common\dbconnect\Pdo.php on line 7
+[30-Jun-2019 13:27:40 Europe/Berlin] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 4096 bytes) in F:\xampp\htdocs\projects\projectphp\library\system\common\dbconnect\Pdo.php on line 7
+[30-Jun-2019 13:27:41 Europe/Berlin] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 8388608 bytes) in F:\xampp\htdocs\projects\projectphp\library\system\common\dbconnect\Pdo.php on line 7
+[30-Jun-2019 13:27:42 Europe/Berlin] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 4096 bytes) in F:\xampp\htdocs\projects\projectphp\library\system\common\dbconnect\Pdo.php on line 7
+[30-Jun-2019 13:27:43 Europe/Berlin] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 262144 bytes) in F:\xampp\htdocs\projects\projectphp\library\system\common\dbconnect\Pdo.php on line 7
+[30-Jun-2019 13:27:44 Europe/Berlin] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 262144 bytes) in F:\xampp\htdocs\projects\projectphp\library\system\common\dbconnect\Pdo.php on line 7
+[30-Jun-2019 13:28:25 Europe/Berlin] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 4096 bytes) in F:\xampp\htdocs\projects\projectphp\library\system\common\dbconnect\Pdo.php on line 7
+[30-Jun-2019 13:28:27 Europe/Berlin] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 8388608 bytes) in F:\xampp\htdocs\projects\projectphp\library\system\common\dbconnect\Pdo.php on line 7
+[30-Jun-2019 16:48:47 Europe/Berlin] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 4194304 bytes) in F:\xampp\htdocs\projects\projectphp\library\system\common\dbconnect\Pdo.php on line 7
+[30-Jun-2019 16:48:54 Europe/Berlin] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 4194304 bytes) in F:\xampp\htdocs\projects\projectphp\library\system\common\dbconnect\Pdo.php on line 7
+[30-Jun-2019 16:48:59 Europe/Berlin] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 4096 bytes) in F:\xampp\htdocs\projects\projectphp\library\system\common\dbconnect\Pdo.php on line 7
+[01-Jul-2019 04:07:55 Europe/Berlin] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 262144 bytes) in F:\xampp\htdocs\projects\projectphp\library\system\common\dbconnect\Pdo.php on line 7
+[01-Jul-2019 04:07:56 Europe/Berlin] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 4096 bytes) in F:\xampp\htdocs\projects\projectphp\library\system\common\dbconnect\Pdo.php on line 7
+[01-Jul-2019 04:07:57 Europe/Berlin] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 262144 bytes) in F:\xampp\htdocs\projects\projectphp\library\system\common\dbconnect\Pdo.php on line 7
+[01-Jul-2019 04:08:14 Europe/Berlin] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 262144 bytes) in F:\xampp\htdocs\projects\projectphp\library\system\common\dbconnect\Pdo.php on line 7
+[01-Jul-2019 04:12:21 Europe/Berlin] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 262144 bytes) in F:\xampp\htdocs\projects\projectphp\library\system\common\dbconnect\Pdo.php on line 7
+[01-Jul-2019 04:12:40 Europe/Berlin] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 4096 bytes) in F:\xampp\htdocs\projects\projectphp\library\system\common\dbconnect\Pdo.php on line 7
+[01-Jul-2019 04:16:36 Europe/Berlin] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 262144 bytes) in F:\xampp\htdocs\projects\projectphp\library\system\common\dbconnect\Pdo.php on line 7
+[01-Jul-2019 04:18:04 Europe/Berlin] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 262144 bytes) in F:\xampp\htdocs\projects\projectphp\library\system\common\dbconnect\Pdo.php on line 7
+[01-Jul-2019 04:18:05 Europe/Berlin] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 262144 bytes) in F:\xampp\htdocs\projects\projectphp\library\system\common\dbconnect\Pdo.php on line 7
+[01-Jul-2019 04:19:46 Europe/Berlin] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 16777216 bytes) in F:\xampp\htdocs\projects\projectphp\library\system\common\dbconnect\Pdo.php on line 8
+[01-Jul-2019 04:20:21 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function close() on null in F:\xampp\htdocs\projects\projectphp\library\system\common\Dbconnect.php:20
+Stack trace:
+#0 F:\xampp\htdocs\projects\projectphp\library\main.php(151): system\common\Dbconnect->close()
+#1 F:\xampp\htdocs\projects\projectphp\library\bootstrap.php(5): require_once('F:\\xampp\\htdocs...')
+#2 F:\xampp\htdocs\projects\projectphp\index.php(4): require_once('F:\\xampp\\htdocs...')
+#3 {main}
+  thrown in F:\xampp\htdocs\projects\projectphp\library\system\common\Dbconnect.php on line 20
+[01-Jul-2019 04:20:53 Europe/Berlin] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 262144 bytes) in F:\xampp\htdocs\projects\projectphp\library\system\common\dbconnect\Pdo.php on line 8
+[01-Jul-2019 04:23:12 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class 'system\common\PDO' not found in F:\xampp\htdocs\projects\projectphp\library\system\common\Dbconnect.php:12
+Stack trace:
+#0 F:\xampp\htdocs\projects\projectphp\library\system\common\Dbconnect.php(6): system\common\Dbconnect->start()
+#1 F:\xampp\htdocs\projects\projectphp\library\system\PPHP.php(11): system\common\Dbconnect->__construct()
+#2 F:\xampp\htdocs\projects\projectphp\library\main.php(104): PPHP::DB()
+#3 F:\xampp\htdocs\projects\projectphp\library\bootstrap.php(5): require_once('F:\\xampp\\htdocs...')
+#4 F:\xampp\htdocs\projects\projectphp\index.php(4): require_once('F:\\xampp\\htdocs...')
+#5 {main}
+  thrown in F:\xampp\htdocs\projects\projectphp\library\system\common\Dbconnect.php on line 12

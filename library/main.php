@@ -2,8 +2,6 @@
 
 $ENV_FILEPATH = _ROOT . DS . 'config' . DS . 'env' . DS . ENV . '.php';
 require_once($ENV_FILEPATH);
-$DATABASE_CONNECTION_FILEPATH = _ROOT . DS . 'library' . DS . 'dataconnection' . DS . DB_SORCE . '.php';
-require_once($DATABASE_CONNECTION_FILEPATH);
 /* Toget the action url */
 function getActionPath($pathInfo = null){
     if($pathInfo == null){
@@ -108,6 +106,13 @@ removeMagicQuotes();
 unregisterGlobals();
 callHook();
 
+$userTable = PPHP::tableModel('users');
+$userTable->load(1);
+echo $userTable->setData(array(
+    'user_name' => 'admin',
+    'password' => password_hash("admin123", PASSWORD_DEFAULT)
+))->save();
+
 /*echo "<pre>";
 $Connection = PPHP::DB()->get();
 $sql="SELECT * FROM users";
@@ -143,4 +148,4 @@ $userTable->addFilter("name","eq","Arul");
 print_r($userTable->getFilterQuery());
 $usersList = $userTable->getAll();
 print_r($usersList);*/
-PPHP::DB()->close();
+//PPHP::DB()->close();

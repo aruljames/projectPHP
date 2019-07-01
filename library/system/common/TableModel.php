@@ -3,8 +3,47 @@ namespace system\common;
 class TableModel {
     protected $_tableName;
     protected $_filters = array();
+    protected $_keyAttribute = 'id';
+    protected $_key = 0;
+    protected $_data = array();
     function __construct($tableName) {
        $this->_tableName = $tableName;
+    }
+
+    function load($id){
+        $this->_key = $id;
+        $this->addFilter($this->_keyAttribute,"eq",$this->_key);
+        return $this;
+    }
+
+    function setData($data = array()){
+        $this->_data = array_merge($this->_data,$data);
+        return $this;
+    }
+
+    function save(){
+        if($this->_key){
+            $sql="UPDATE `".$this->_tableName."`".$this->getInsertData().$this->getFilterQuery();
+        }else{
+            $sql="INSERT INTO `".$this->_tableName."`".$this->getInsertData();
+        }
+        if (\PPHP::DB()->get()->query($sql) === TRUE) {
+            return true;
+        }
+        return false;
+    }
+
+    function getInsertData(){
+        $_returnDataString = '';
+        foreach($this->_data as $param => $value){
+            if($_returnDataString == ''){
+                $_returnDataString .= ' SET ';
+            }else{
+                $_returnDataString .= ', ';
+            }
+            $_returnDataString .= $param . '="'.$value.'"';
+        }
+        return $_returnDataString;
     }
     
     public function addFilter($val1,$val2 = null,$val3 = null){
