@@ -15,6 +15,9 @@ class TableModel {
         $this->addFilter($this->_keyAttribute,"eq",$this->_key);
         return $this;
     }
+    function loadByField($field,$value){
+        $this->addFilter($field,"eq",$value);
+    }
 
     function setData($data = array()){
         $this->_data = array_merge($this->_data,$data);
@@ -163,8 +166,9 @@ class TableModel {
 
     public function getAll(){
         $sql="SELECT * FROM `".$this->_tableName."` ".$this->getFilterQuery();
-        $result = mysqli_query(\PPHP::DB()->get(),$sql);
-        return mysqli_fetch_all($result,MYSQLI_ASSOC);
+        $result = \PPHP::DB()->get()->query($sql);
+        $result->setFetchMode(\PDO::FETCH_ASSOC);
+        return $result->fetch();
     }
     
     public function getFilterQuery(){

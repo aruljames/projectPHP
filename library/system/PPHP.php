@@ -17,12 +17,30 @@ class PPHP
     }
     public static function session($group='_default'){
         if(!isset(self::$_session[$group]) || !is_object(self::$_session[$group])){
-            self::$_session[$group] = new \system\front\Session($group);
+            self::$_session[$group] = new \system\common\Session($group);
         }
         return self::$_session[$group];
     }
+    public static function setMessage($message,$type='default'){
+        $group = 'session_message';
+        if(!isset(self::$_session[$group]) || !is_object(self::$_session[$group])){
+            self::$_session[$group] = new \system\common\Session($group);
+        }
+        return self::$_session[$group]->set($type,$message);
+    }
+    public static function getMessage($type='default'){
+        $group = 'session_message';
+        if(!isset(self::$_session[$group]) || !is_object(self::$_session[$group])){
+            self::$_session[$group] = new \system\Session($group);
+        }
+        return self::$_session[$group]->get($type);
+    }
     public static function tableModel($tableName){
         return new \system\common\TableModel($tableName);
+    }
+    public static function redirect($path){
+        header("Location: ".SITE_URL."/".$path);
+        exit;
     }
     public static function getAsset($path){
         return SITE_URL."/app/assets/".$path;

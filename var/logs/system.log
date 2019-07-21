@@ -257,3 +257,54 @@ Stack trace:
 #4 F:\xampp\htdocs\projects\projectphp\index.php(4): require_once('F:\\xampp\\htdocs...')
 #5 {main}
   thrown in F:\xampp\htdocs\projects\projectphp\library\system\common\Dbconnect.php on line 12
+[21-Jul-2019 18:33:29 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method PPHP::redirect() in F:\xampp\htdocs\projects\projectphp\app\code\admin\default\controller\login\IndexController.php:7
+Stack trace:
+#0 F:\xampp\htdocs\projects\projectphp\library\main.php(98): admin\controller\login\IndexController->indexAction(Array)
+#1 F:\xampp\htdocs\projects\projectphp\library\main.php(107): callHook()
+#2 F:\xampp\htdocs\projects\projectphp\library\bootstrap.php(5): require_once('F:\\xampp\\htdocs...')
+#3 F:\xampp\htdocs\projects\projectphp\index.php(4): require_once('F:\\xampp\\htdocs...')
+#4 {main}
+  thrown in F:\xampp\htdocs\projects\projectphp\app\code\admin\default\controller\login\IndexController.php on line 7
+[21-Jul-2019 18:34:33 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method PPHP::redirect() in F:\xampp\htdocs\projects\projectphp\app\code\admin\default\controller\login\IndexController.php:7
+Stack trace:
+#0 F:\xampp\htdocs\projects\projectphp\library\main.php(98): admin\controller\login\IndexController->indexAction(Array)
+#1 F:\xampp\htdocs\projects\projectphp\library\main.php(107): callHook()
+#2 F:\xampp\htdocs\projects\projectphp\library\bootstrap.php(5): require_once('F:\\xampp\\htdocs...')
+#3 F:\xampp\htdocs\projects\projectphp\index.php(4): require_once('F:\\xampp\\htdocs...')
+#4 {main}
+  thrown in F:\xampp\htdocs\projects\projectphp\app\code\admin\default\controller\login\IndexController.php on line 7
+[21-Jul-2019 18:47:56 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class 'front\controller\admin.login\IndexController' not found in F:\xampp\htdocs\projects\projectphp\library\main.php:95
+Stack trace:
+#0 F:\xampp\htdocs\projects\projectphp\library\main.php(107): callHook()
+#1 F:\xampp\htdocs\projects\projectphp\library\bootstrap.php(5): require_once('F:\\xampp\\htdocs...')
+#2 F:\xampp\htdocs\projects\projectphp\index.php(4): require_once('F:\\xampp\\htdocs...')
+#3 {main}
+  thrown in F:\xampp\htdocs\projects\projectphp\library\main.php on line 95
+[21-Jul-2019 19:16:38 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class 'admin\controller\login\PPHP' not found in F:\xampp\htdocs\projects\projectphp\app\code\admin\default\controller\login\IndexController.php:7
+Stack trace:
+#0 F:\xampp\htdocs\projects\projectphp\library\main.php(98): admin\controller\login\IndexController->indexAction(Array)
+#1 F:\xampp\htdocs\projects\projectphp\library\main.php(107): callHook()
+#2 F:\xampp\htdocs\projects\projectphp\library\bootstrap.php(5): require_once('F:\\xampp\\htdocs...')
+#3 F:\xampp\htdocs\projects\projectphp\index.php(4): require_once('F:\\xampp\\htdocs...')
+#4 {main}
+  thrown in F:\xampp\htdocs\projects\projectphp\app\code\admin\default\controller\login\IndexController.php on line 7
+[21-Jul-2019 19:17:05 Europe/Berlin] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, object given in F:\xampp\htdocs\projects\projectphp\library\system\common\TableModel.php on line 169
+[21-Jul-2019 19:17:05 Europe/Berlin] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, null given in F:\xampp\htdocs\projects\projectphp\library\system\common\TableModel.php on line 170
+[21-Jul-2019 19:42:07 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class 'system\common\PDO' not found in F:\xampp\htdocs\projects\projectphp\library\system\common\TableModel.php:170
+Stack trace:
+#0 F:\xampp\htdocs\projects\projectphp\app\code\admin\default\controller\login\IndexController.php(10): system\common\TableModel->getAll()
+#1 F:\xampp\htdocs\projects\projectphp\library\main.php(98): admin\controller\login\IndexController->indexAction(Array)
+#2 F:\xampp\htdocs\projects\projectphp\library\main.php(107): callHook()
+#3 F:\xampp\htdocs\projects\projectphp\library\bootstrap.php(5): require_once('F:\\xampp\\htdocs...')
+#4 F:\xampp\htdocs\projects\projectphp\index.php(4): require_once('F:\\xampp\\htdocs...')
+#5 {main}
+  thrown in F:\xampp\htdocs\projects\projectphp\library\system\common\TableModel.php on line 170
+[21-Jul-2019 20:50:56 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class 'system\Session' not found in F:\xampp\htdocs\projects\projectphp\library\system\PPHP.php:20
+Stack trace:
+#0 F:\xampp\htdocs\projects\projectphp\library\system\admin\Controller.php(31): PPHP::session('core')
+#1 F:\xampp\htdocs\projects\projectphp\library\main.php(95): system\admin\Controller->__construct('index', 'index', 'index')
+#2 F:\xampp\htdocs\projects\projectphp\library\main.php(107): callHook()
+#3 F:\xampp\htdocs\projects\projectphp\library\bootstrap.php(5): require_once('F:\\xampp\\htdocs...')
+#4 F:\xampp\htdocs\projects\projectphp\index.php(4): require_once('F:\\xampp\\htdocs...')
+#5 {main}
+  thrown in F:\xampp\htdocs\projects\projectphp\library\system\PPHP.php on line 20
